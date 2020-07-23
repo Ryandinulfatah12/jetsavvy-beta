@@ -1,0 +1,15 @@
+<svg id="Icon:" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.338" height="19.338" viewBox="0 0 19.338 19.338">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M.235,11.044a.807.807,0,0,1,0-1.139L6.279,3.862a.807.807,0,0,1,1.139,0l3.459,3.459,5.709-5.709H13.7A.806.806,0,1,1,13.7,0h4.835a.806.806,0,0,1,.806.806V5.64a.806.806,0,0,1-1.612,0V2.751L11.447,9.03a.806.806,0,0,1-1.14,0L6.848,5.571,1.375,11.044a.806.806,0,0,1-1.14,0Z"/>
+    </clipPath>
+  </defs>
+  <g id="Group_36" data-name="Group 36" transform="translate(0 4.029)">
+    <path id="Combined_Shape-2" data-name="Combined Shape" d="M.235,11.044a.807.807,0,0,1,0-1.139L6.279,3.862a.807.807,0,0,1,1.139,0l3.459,3.459,5.709-5.709H13.7A.806.806,0,1,1,13.7,0h4.835a.806.806,0,0,1,.806.806V5.64a.806.806,0,0,1-1.612,0V2.751L11.447,9.03a.806.806,0,0,1-1.14,0L6.848,5.571,1.375,11.044a.806.806,0,0,1-1.14,0Z"/>
+    <g id="Mask_Group_36" data-name="Mask Group 36" clip-path="url(#clip-path)">
+      <g id="_Color" data-name="🎨Color" transform="translate(0 -4.029)">
+        <rect id="Rectangle" width="19.338" height="19.338" fill="#222"/>
+      </g>
+    </g>
+  </g>
+</svg>

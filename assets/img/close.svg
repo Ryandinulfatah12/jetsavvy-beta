@@ -1,0 +1,15 @@
+<svg id="Close_Icon" data-name="Close Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="9" viewBox="0 0 9 9">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M7.9,8.811l-3.4-3.4-3.4,3.4A.643.643,0,0,1,.188,7.9l3.4-3.4L.188,1.1A.643.643,0,0,1,1.1.188l3.4,3.4L7.9.188a.643.643,0,0,1,.909.91l-3.4,3.4,3.4,3.4a.643.643,0,1,1-.909.909Z" transform="translate(0 0)" fill="#7f7f7f"/>
+    </clipPath>
+  </defs>
+  <g id="Group_23" data-name="Group 23" transform="translate(0 0)">
+    <path id="Combined_Shape-2" data-name="Combined Shape" d="M7.9,8.811l-3.4-3.4-3.4,3.4A.643.643,0,0,1,.188,7.9l3.4-3.4L.188,1.1A.643.643,0,0,1,1.1.188l3.4,3.4L7.9.188a.643.643,0,0,1,.909.91l-3.4,3.4,3.4,3.4a.643.643,0,1,1-.909.909Z" transform="translate(0 0)" fill="#7f7f7f"/>
+    <g id="Mask_Group_23" data-name="Mask Group 23" clip-path="url(#clip-path)">
+      <g id="COLOR_black" data-name="COLOR/ black" transform="translate(-3.214 -3.214)">
+        <rect id="Rectangle" width="15.428" height="15.428" fill="#7f7f7f"/>
+      </g>
+    </g>
+  </g>
+</svg>

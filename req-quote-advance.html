@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/admin.css">
+  <!-- <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon"> -->
+  <title>Home | Website</title>
+</head>
+<body>
+  <nav class="navbar navbar-header navbar-expand navbar-dark bg-dark">
+    <div class="container">
+
+        <a href="#" type="button" id="sidebarCollapse"><span class="navbar-toggler-icon"></span></a>
+
+        <img src="assets/img/logo.png" class="pl-5 brandlogo">
+        <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
+                <li class="dropdown">
+                    <a href="profile-page.html"class="nav-link nav-link-lg nav-link-user">
+                        <div class="avatar-nav">
+                            <img src="assets/img/profile.png" alt="avatar">
+                        </div>
+                        <div class="d-none d-md-block d-lg-inline-block text-white text-left">John Doe <br><span class="text-muted">BROKER ADMIN</span></div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item"><i data-feather="log-out"></i> Logout</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M7.854 4.646a.5.5 0 0 1 0 .708L5.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z"/>
+          <path fill-rule="evenodd" d="M4.5 8a.5.5 0 0 1 .5-.5h6.5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </button> -->
+      
+    
+  </nav>
+  <div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar" class="active">
+
+      <ul class="list-unstyled components">
+        <li>
+          <div>
+            <a href="#">
+              <img src="assets/img/search-white.svg" class="icon-sidebar active_sidebar">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="assets/img/calender.svg" class="icon-sidebar">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="assets/img/chat.svg" class="icon-sidebar">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="assets/img/users.svg" class="icon-sidebar">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="assets/img/setmenu.svg" class="icon-sidebar">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="assets/img/user.svg" class="icon-sidebar">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="assets/img/trending.svg" class="icon-sidebar">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="assets/img/note.svg" class="icon-sidebar">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div>
+            <a href="#">
+              <img src="assets/img/logout.svg" class="icon-sidebar">
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Page Content Holder -->
+    <div id="content">
+      
+      <h2 class="mb-3 text-dark pl-5">REQUEST A QUOTE</h2>
+      <div class="row px-5 justify-content-start">
+        <div class="col-md-5 py-2">
+
+            <div class="form-group row float-left">
+
+                <div class="col-md-4">
+                    <div style="margin-top: 14px;">
+                      <img src="assets/img/settings-menu.png" width="19px" alt="">
+                      <span class="label">customer</span>
+                    </div>
+                </div>
+                <div class="col-md-4 py-2">
+                    <select class="form-select" id="basicSelect">
+                        <option>John Doe</option>
+                        <option>Blade Runner</option>
+                        <option>Thor Ragnarok</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4 text-warning" style="margin-top:14px;">
+                  <a href=""><u>Add a Customer</u></a>
+                </div>
+              
+            </div>
+        </div>
+
+      </div>  
+      
+      <div class="row px-5 no-gutters">
+        <div class="col-md-4 pb-3">
+          <button onclick="advanceSearch()" class="btn btn-warning text-white float-left text-uppercase">Advance Search</button>
+        </div>
+        
+          <div class="card ml-2">
+            <div class="card-content">
+                <div class="card-body">
+                    <div class="row">
+                      <div class="col-lg-2 border-right-custom m-0">
+                        <div class="form-group">
+                          <label for="first-name-vertical">From</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled="">Destination</option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+                      
+                      <div class="col-lg-2 border-right-custom m-0">
+                        <div class="form-group">
+                          <label for="first-name-vertical">To</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled="">Destination</option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+                      
+                      <div class="col-lg-2 border-right-custom m-0">
+                        <div class="form-group">
+                          <label for="first-name-vertical">Date</label>
+                          <input type="date" class="form-control no-border">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-2 border-right-custom m-0">
+                        <div class="form-group">
+                          <label for="first-name-vertical">Time</label>
+                          <input type="date" class="form-control no-border">
+                        </div>
+                      </div>
+
+                      <div class="col-lg-2 m-0">
+                        <div class="form-group">
+                          <label for="first-name-vertical">Trip</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled=""></option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-2 no-padding" style="padding: 0; margin: 0;">
+                        <button class="btn btn-warning text-uppercase btn-block input-block-level" style="width: 100%; height: 100%;"><i data-feather="search"></i> Search</button>
+                      </div>
+
+                    </div>
+
+                </div>
+            </div>
+          </div>
+
+      </div>
+        
+      <!-- IF Click Advance Seacrh -->
+      <div class="row px-5">
+          <div class="card">
+            <div class="card-content">
+                <div class="card-body">
+                    <div class="row">
+
+                      <div class="col-md border-right-custom">
+                        <div class="form-group">
+                          <label for="first-name-vertical">Jet Type</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled=""></option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-md border-right-custom">
+                        <div class="form-group">
+                          <label for="first-name-vertical">make/model</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled=""></option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-md border-right-custom">
+                        <div class="form-group">
+                          <label for="first-name-vertical">amenities</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled=""></option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-md border-right-custom">
+                        <div class="form-group">
+                          <label for="first-name-vertical">pricing</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled=""></option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-md border-right-custom">
+                        <div class="form-group">
+                          <label for="first-name-vertical">passengers</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled=""></option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-md border-right-custom">
+                        <div class="form-group">
+                          <label for="first-name-vertical">operator</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled=""></option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-md border-right-custom">
+                        <div class="form-group">
+                          <label for="first-name-vertical">tail numbers</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled=""></option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="col-md">
+                        <div class="form-group">
+                          <label for="first-name-vertical">Search radius</label>
+                          <select class="form-select no-border" id="basicSelect">
+                              <option selected="" disabled=""></option>
+                              <option>Blade Runner</option>
+                              <option>Thor Ragnarok</option>
+                          </select>
+                        </div>
+                      </div>
+
+                    </div>
+
+                </div>
+            </div>
+          </div>
+
+      </div>
+      
+      <!-- widget -->
+      <div class="row">
+
+        <div class="col-md-2">
+          <div class="card">
+            <div class="card-body d-flex">
+              <div class="form-group">
+                <label for="first-name-vertical">depart</label>
+                <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled="">12 Aug</option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="first-name-vertical">depart</label>
+                <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled="">12 jan</option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="card">
+            <div class="card-body d-flex">
+              <div class="form-group border-right-0">
+                <label for="first-name-vertical">depart</label>
+                <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled="">12.08</option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="first-name-vertical">return</label>
+                <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled="">12.48</option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <div class="form-group">
+                <label for="" class="label pb-2">search operators</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control form-border" placeholder="Enter operator name" aria-describedby="button-addon2">
+                    <button class="btn btn-warning btn-sm" type="button" id="button-addon2">SEARCH</button>
+                </div>
+              </div>
+
+              <div class="accordion" id="accordionExample">
+                  <a href="#" class="text-light" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <b><span>+</span> Flightpath</b>
+                  </a>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <ul class="list-unstyled">
+                      <li><span>-</span> Select all</li>
+                      <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                      <li><span>-</span> Premier 2</li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="accordion" id="accordionExample">
+                  <a href="#" class="text-light" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                    <b><span>+</span> Private air</b>
+                  </a>
+
+                  <div id="collapsetwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <ul class="list-unstyled">
+                      <li><span>-</span> Select all</li>
+                      <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                      <li><span>-</span> Premier 2</li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="accordion" id="accordionExample">
+                  <a href="#" class="text-light" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    <b><span>+</span> Jet Select</b>
+                  </a>
+
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <ul class="list-unstyled">
+                      <li><span>-</span> Select all</li>
+                      <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                      <li><span>-</span> Premier 2</li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="accordion" id="accordionExample">
+                  <a href="#" class="text-light" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    <b class="text-warning"><span>+</span> Sky Guest</b>
+                  </a>
+
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <ul class="list-unstyled">
+                      <li><span>-</span> Select all</li>
+                      <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                      <li><span>-</span> Premier 2</li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="accordion" id="accordionExample">
+                  <a href="#" class="text-light" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                    <b><span>+</span> Sky trek</b>
+                  </a>
+
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <ul class="list-unstyled">
+                      <li><span>-</span> Select all</li>
+                      <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                      <li><span>-</span> Premier 2</li>
+                    </ul>
+                  </div>
+              </div>
+              <div class="accordion" id="accordionExample">
+                  <a href="#" class="text-light" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                    <b><span>+</span> Fly Private</b>
+                  </a>
+
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <ul class="list-unstyled">
+                      <li><span>-</span> Select all</li>
+                      <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                      <li><span>-</span> Premier 2</li>
+                    </ul>
+                  </div>
+              </div>
+
+              <a href="" class="pt-3 text-uppercase text-warning float-right">clear</a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="form-group">
+                <label for="" class="label pb-2">search tail number</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control form-border" placeholder="Enter tail number" aria-describedby="button-addon2">
+                    <button class="btn btn-warning btn-sm" type="button" id="button-addon2">SEARCH</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body">
+                  <div class="accordion" id="accordionExample">
+                      <a href="#" class="text-light" data-toggle="collapse" data-target="#panelTwo-3" aria-expanded="true" aria-controls="panelTwo-3">
+                        <b><span>+</span> Beech Craft</b>
+                      </a>
+
+                      <div id="panelTwo-3" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <ul class="list-unstyled">
+                          <li><span>-</span> Select all</li>
+                          <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                          <li><span>-</span> Premier 2</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                      <a href="#" class="text-light" data-toggle="collapse" data-target="#panelTwo-2" aria-expanded="true" aria-controls="panelTwo-2">
+                        <b><span>+</span> Boeing</b>
+                      </a>
+
+                      <div id="panelTwo-2" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <ul class="list-unstyled">
+                          <li><span>-</span> Select all</li>
+                          <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                          <li><span>-</span> Premier 2</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                      <a href="#" class="text-light" data-toggle="collapse" data-target="#panelTwo-3" aria-expanded="true" aria-controls="panelTwo-3">
+                        <b><span>+</span> Bombardien</b>
+                      </a>
+
+                      <div id="panelTwo-3" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <ul class="list-unstyled">
+                          <li><span>-</span> Select all</li>
+                          <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                          <li><span>-</span> Premier 2</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                      <a href="#" class="text-light" data-toggle="collapse" data-target="#panelTwo-4" aria-expanded="true" aria-controls="panelTwo-4">
+                        <b class="text-warning"><span>+</span> Cessna</b>
+                      </a>
+
+                      <div id="panelTwo-4" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <ul class="list-unstyled">
+                          <li><span>-</span> Select all</li>
+                          <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                          <li><span>-</span> Premier 2</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                      <a href="#" class="text-light" data-toggle="collapse" data-target="#panelTwo-5" aria-expanded="true" aria-controls="panelTwo-5">
+                        <b><span>+</span> Dassault</b>
+                      </a>
+
+                      <div id="panelTwo-5" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <ul class="list-unstyled">
+                          <li><span>-</span> Select all</li>
+                          <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                          <li><span>-</span> Premier 2</li>
+                        </ul>
+                      </div>
+                  </div>
+
+                  <a href="" class="pt-3 text-uppercase text-warning float-right">clear</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card">
+                <div class="card-body">
+
+                  <div class="accordion" id="accordionExample">
+                      <a href="#" class="text-light" data-toggle="collapse show" data-target="#panelThree-1" aria-expanded="true" aria-controls="panelThree-1">
+                        <b><img src="assets/img/icon/person.svg" alt=""> Flight Adendant</b>
+                      </a>
+
+                      <div id="panelThree-1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <ul class="list-unstyled">
+                          <li><span>-</span> Select all</li>
+                          <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                          <li><span>-</span> Premier 2</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                      <a href="#" class="text-light" data-toggle="collapse" data-target="#panelThree-2" aria-expanded="true" aria-controls="panelThree-2">
+                        <b class="text-warning"><img src="assets/img/icon/person.svg" alt=""> Bathroom</b>
+                      </a>
+
+                      <div id="panelThree-2" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <ul class="list-unstyled">
+                          <li><span>-</span> Select all</li>
+                          <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                          <li><span>-</span> Premier 2</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                      <a href="#" class="text-light" data-toggle="collapse" data-target="#panelThree-3" aria-expanded="true" aria-controls="panelThree-3">
+                        <b><img src="assets/img/icon/satisfied.svg" alt=""> Reclyner style</b>
+                      </a>
+
+                      <div id="panelThree-3" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <ul class="list-unstyled">
+                          <li><span>-</span> Select all</li>
+                          <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                          <li><span>-</span> Premier 2</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                      <a href="#" class="text-light" data-toggle="collapse" data-target="#panelThree-4" aria-expanded="true" aria-controls="panelThree-4">
+                        <b><img src="assets/img/icon/person.svg" alt=""> Seats</b>
+                      </a>
+
+                      <div id="panelThree-4" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <ul class="list-unstyled">
+                          <li><span>-</span> Select all</li>
+                          <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                          <li><span>-</span> Premier 2</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                      <a href="#" class="text-light" data-toggle="collapse" data-target="#panelThree-5" aria-expanded="true" aria-controls="panelThree-5">
+                        <b class="text-warning"><img src="assets/img/icon/wifi.svg" alt=""> Wifi</b>
+                      </a>
+
+                      <div id="panelThree-5" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <ul class="list-unstyled">
+                          <li><span>-</span> Select all</li>
+                          <li class="font-weight-bold text-warning"><span>-</span> Premier 1A</li>
+                          <li><span>-</span> Premier 2</li>
+                        </ul>
+                      </div>
+                  </div>
+
+                  <a href="" class="pt-3 text-uppercase text-warning float-right">clear</a>
+
+                </div>
+              </div>
+            </div>
+
+            
+
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <div class="form-group">
+                <label for="" class="label pb-2">search radius</label>
+                <div class="input-group mb-3">
+                    <label for="" class="label pb-3"><b><span class="value">0</span> Kilometer</b></label>
+                    <input type="range">
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <h6 class="label text-uppercase text-inline" style="font-size: 10px;">distance in</h6>
+                  </div>
+                  <div class="col">
+                    <h6 class="label text-uppercase" style="font-size: 10px;">usd | <span class="text-warning">miles</span></h6>
+                  </div>
+                  <div class="col">
+                    <a href="" class="pt-3 text-uppercase text-warning float-right">clear</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <div class="form-group">
+                <h5 for="" class=" pb-2">$17,234 - $67,100</h5>
+                <p class="text-light">The average price of a flight from Toronto to New York is $21,246.</p>
+                <div class="input-group mb-3">
+                    <input type="range">
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <h6 class="label text-uppercase text-inline" style="font-size: 10px;">price in</h6>
+                  </div>
+                  <div class="col">
+                    <h6 class="label text-uppercase" style="font-size: 10px;">usd | <span class="text-warning">miles</span></h6>
+                  </div>
+                  <div class="col">
+                    <a href="" class="pt-3 text-uppercase text-warning float-right">clear</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- end widget -->
+
+      <!-- End -->
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="assets/js/jquery-3.5.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <script type="text/javascript">
+
+    var elem = document.querySelector('input[type="range"]');
+
+    var rangeValue = function(){
+      var newValue = elem.value;
+      var target = document.querySelector('.value');
+      target.innerHTML = newValue;
+    }
+
+    elem.addEventListener("input", rangeValue);
+
+    $(document).ready(function() {
+      console.log('DOM Fully Loaded')
+
+      $(document).ready(function(){
+        feather.replace()
+        $('#sidebarCollapse').on('click',function(){
+          $('#sidebar').toggleClass('active');
+        });
+      });
+
+    })
+  </script>
+</body>
+</html>

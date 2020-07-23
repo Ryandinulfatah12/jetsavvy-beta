@@ -1,0 +1,70 @@
+@font-face {
+    src: url("assets/fonts/SF-Pro-Display-Bold.otf") format("opentype"),
+        url("assets/fonts/SF-Pro-Display-Regular.otf") format("opentype"),
+        url("assets/fonts/SF-Pro-Display-Light.otf") format("opentype"),
+        url("assets/fonts/DINEngschriftStd.otf.otf") format("opentype");
+  font-family: "SFProDisplay", "DINEngschriftStd";
+}
+.navbar {
+	position: relative;
+	z-index: 2;
+}
+.jumbotron {
+	background-image: url('../img/landingpage.png');
+	background-size: cover;
+	margin-top: -105px;
+	height: 640px;
+	text-align: center;
+	position: relative;
+}
+
+.jumbotron .container {
+	position: relative;
+	z-index: 1;
+}
+.filter {
+	padding-top: 170px;
+}
+
+.display-4 {
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 60px;
+}
+
+.gallery {
+	margin: 44px;
+}
+
+.figure-caption {
+	margin-top: -80px;
+	padding-left: 30px;
+	color: #fff;
+}
+
+/* DEKSTOP VER */
+@media (min-width: 992px) {
+
+	.nav-link {
+		text-transform: uppercase;
+		margin-right: 30px;
+		transition: all 1s;
+	}
+
+	.nav-link:hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid #F8AB3A;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+		transition: all 1s;
+	}
+	.border-right-custom {
+        padding-right: 20px;
+        border-right: 2px solid #f0f0f0;
+    }
+
+}		
+/* END DEKSTOP */

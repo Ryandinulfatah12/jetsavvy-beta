@@ -1,0 +1,15 @@
+<svg id="map-pin_copy_5" data-name="map-pin copy 5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Preview" d="M3.063,8.75a.437.437,0,1,1,0-.875H7.438a.437.437,0,0,1,0,.875ZM.875,7.438A.875.875,0,0,1,0,6.562V.875A.875.875,0,0,1,.875,0h8.75A.875.875,0,0,1,10.5.875V6.562a.875.875,0,0,1-.875.875Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_24" data-name="Group 24" transform="translate(1.752 3.067)">
+    <path id="Preview-2" data-name="Preview" d="M3.063,8.75a.437.437,0,1,1,0-.875H7.438a.437.437,0,0,1,0,.875ZM.875,7.438A.875.875,0,0,1,0,6.562V.875A.875.875,0,0,1,.875,0h8.75A.875.875,0,0,1,10.5.875V6.562a.875.875,0,0,1-.875.875Z" fill="none"/>
+    <g id="Mask_Group_24" data-name="Mask Group 24" clip-path="url(#clip-path)">
+      <g id="_color" data-name="🎨 color" transform="translate(-1.752 -3.067)">
+        <rect id="Rectangle" width="14" height="14" fill="#7f7f7f"/>
+      </g>
+    </g>
+  </g>
+</svg>

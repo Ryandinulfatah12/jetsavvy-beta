@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="20" viewBox="0 0 10 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M10,3.32H8.188c-1.421,0-1.7.7-1.7,1.73v2.27h3.39l-.442,3.556H6.491V20H2.956V10.877H0V7.321H2.956V4.7c0-3.044,1.79-4.7,4.4-4.7A23.269,23.269,0,0,1,10,.14Z" transform="translate(11 6)" fill="#b2b2b2"/>
+    </clipPath>
+  </defs>
+  <g id="Group_52" data-name="Group 52" transform="translate(-11 -6)">
+    <path id="Combined_Shape-2" data-name="Combined Shape" d="M10,3.32H8.188c-1.421,0-1.7.7-1.7,1.73v2.27h3.39l-.442,3.556H6.491V20H2.956V10.877H0V7.321H2.956V4.7c0-3.044,1.79-4.7,4.4-4.7A23.269,23.269,0,0,1,10,.14Z" transform="translate(11 6)" fill="#b2b2b2"/>
+    <g id="Mask_Group_58" data-name="Mask Group 58" clip-path="url(#clip-path)">
+      <g id="Color:">
+        <rect id="Rectangle" width="32" height="32" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
