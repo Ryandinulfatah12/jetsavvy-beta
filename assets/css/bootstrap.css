@@ -3036,8 +3036,8 @@ progress {
 
 .btn-secondary {
   color: #fff;
-  background-color: #475F7B;
-  border-color: #475F7B;
+  background-color: #707070;
+  border-color: #707070;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -3768,13 +3768,13 @@ progress {
   border: 0;
 }
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
-  background-color: #f8f9fa;
+  color: #fff;
+  background-color: #F8AB3A;
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #5A8DEE;
+  background-color: #F8AB3A;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;

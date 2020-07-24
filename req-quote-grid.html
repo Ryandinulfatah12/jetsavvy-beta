@@ -132,7 +132,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 py-2">
-                    <select class="form-select" id="basicSelect">
+                    <select class="form-select border-select-light" id="basicSelect">
                         <option>John Doe</option>
                         <option>Blade Runner</option>
                         <option>Thor Ragnarok</option>
@@ -266,7 +266,20 @@
           <h6 class="text-uppercase label"><img src="assets/img/plane.svg" width="20px"> Aircrafts selected</h6>
           <div class="col-md-8">
               <div class="form-group">
-                <div class="choices" data-type="select-multiple" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-expanded="false"><div class="choices__inner"><select class="choices form-select multiple-remove choices__input" multiple="multiple" hidden="" tabindex="-1" data-choice="active"><option value="polygon">Polygon</option><option value="purple">Purple</option><option value="trapeze">Trapeze</option></select><div class="choices__list choices__list--multiple"><div class="choices__item choices__item--selectable" data-item="" data-id="6" data-value="polygon" data-custom-properties="null" aria-selected="true" data-deletable="">Polygon<button type="button" class="choices__button" aria-label="Remove item: 'polygon'" data-button="">Remove item</button></div><div class="choices__item choices__item--selectable" data-item="" data-id="7" data-value="purple" data-custom-properties="null" aria-selected="true" data-deletable="">Purple<button type="button" class="choices__button" aria-label="Remove item: 'purple'" data-button="">Remove item</button></div><div class="choices__item choices__item--selectable" data-item="" data-id="8" data-value="trapeze" data-custom-properties="null" aria-selected="true" data-deletable="">Trapeze<button type="button" class="choices__button" aria-label="Remove item: 'trapeze'" data-button="">Remove item</button></div></div><input type="text" class="choices__input choices__input--cloned" autocomplete="off" autocapitalize="off" spellcheck="false" role="textbox" aria-autocomplete="list" aria-label="false" aria-activedescendant="choices--z5m5-item-choice-6" style="min-width: 1ch; width: 1ch;"></div><div class="choices__list choices__list--dropdown" aria-expanded="false"><div class="choices__list" aria-multiselectable="true" role="listbox"><div class="choices__group " role="group" data-group="" data-id="960968927581" data-value="Colors"><div class="choices__heading">Colors</div></div><div id="choices--z5m5-item-choice-7" class="choices__item choices__item--choice choices__item--selectable" role="treeitem" data-choice="" data-id="7" data-value="blue" data-select-text="Press to select" data-choice-selectable="">Blue</div><div id="choices--z5m5-item-choice-6" class="choices__item choices__item--choice choices__item--selectable is-highlighted" role="treeitem" data-choice="" data-id="6" data-value="green" data-select-text="Press to select" data-choice-selectable="" aria-selected="true">Green</div><div id="choices--z5m5-item-choice-5" class="choices__item choices__item--choice choices__item--selectable" role="treeitem" data-choice="" data-id="5" data-value="red" data-select-text="Press to select" data-choice-selectable="">Red</div><div class="choices__group " role="group" data-group="" data-id="955796511515" data-value="Figures"><div class="choices__heading">Figures</div></div><div id="choices--z5m5-item-choice-1" class="choices__item choices__item--choice choices__item--selectable" role="treeitem" data-choice="" data-id="1" data-value="romboid" data-select-text="Press to select" data-choice-selectable="">Romboid</div><div id="choices--z5m5-item-choice-3" class="choices__item choices__item--choice choices__item--selectable" role="treeitem" data-choice="" data-id="3" data-value="triangle" data-select-text="Press to select" data-choice-selectable="">Triangle</div></div></div></div>
+                <select class="choices form-select multiple-remove" multiple="multiple">
+                    <optgroup label="Figures">
+                        <option value="romboid">Romboid</option>
+                        <option value="trapeze" selected>Trapeze</option>
+                        <option value="triangle">Triangle</option>
+                        <option value="polygon">Polygon</option>
+                    </optgroup>
+                    <optgroup label="Colors">
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue" selected>Blue</option>
+                        <option value="purple">Purple</option>
+                    </optgroup>
+                </select>
             </div>
           </div>
 

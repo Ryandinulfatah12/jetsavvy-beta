@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4.066" height="16.266" viewBox="0 0 4.066 16.266">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Oval" d="M0,1.728A1.728,1.728,0,1,1,1.728,3.456,1.728,1.728,0,0,1,0,1.728Z" fill="#a8a8a8"/>
+    </clipPath>
+  </defs>
+  <g id="Group_266" data-name="Group 266" transform="translate(0 16.266) rotate(-90)">
+    <g id="Icon:" transform="translate(0 0)">
+      <g id="Group_30" data-name="Group 30" transform="translate(0.305 0.305)">
+        <path id="Oval-4" data-name="Oval" d="M0,1.728A1.728,1.728,0,1,1,1.728,3.456,1.728,1.728,0,0,1,0,1.728Z" fill="#a8a8a8"/>
+        <g id="Mask_Group_30" data-name="Mask Group 30" clip-path="url(#clip-path)">
+          <g id="COLOR_black" data-name="COLOR/ black" transform="translate(-0.157 -0.157)">
+            <rect id="Rectangle" width="3.771" height="3.771" fill="#a8a8a8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Icon:-2" data-name="Icon:" transform="translate(6.1 0)">
+      <g id="Group_30-2" data-name="Group 30" transform="translate(0.305 0.305)">
+        <path id="Oval-5" data-name="Oval" d="M0,1.728A1.728,1.728,0,1,1,1.728,3.456,1.728,1.728,0,0,1,0,1.728Z" fill="#a8a8a8"/>
+        <g id="Mask_Group_30-2" data-name="Mask Group 30" clip-path="url(#clip-path)">
+          <g id="COLOR_black-2" data-name="COLOR/ black" transform="translate(-0.157 -0.157)">
+            <rect id="Rectangle-2" data-name="Rectangle" width="3.771" height="3.771" fill="#a8a8a8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Icon:-3" data-name="Icon:" transform="translate(12.199 0)">
+      <g id="Group_30-3" data-name="Group 30" transform="translate(0.305 0.305)">
+        <path id="Oval-6" data-name="Oval" d="M0,1.728A1.728,1.728,0,1,1,1.728,3.456,1.728,1.728,0,0,1,0,1.728Z" fill="#a8a8a8"/>
+        <g id="Mask_Group_30-3" data-name="Mask Group 30" clip-path="url(#clip-path)">
+          <g id="COLOR_black-3" data-name="COLOR/ black" transform="translate(-0.157 -0.157)">
+            <rect id="Rectangle-3" data-name="Rectangle" width="3.771" height="3.771" fill="#a8a8a8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

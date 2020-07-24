@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Cafe" d="M2.25,10.687C1.562,10.687,0,10.3,0,9.839a.282.282,0,0,1,.283-.276H15.467a.282.282,0,0,1,.283.276c0,.466-1.562.849-2.25.849ZM6.469,9C4.2,9,2.813,7.852,2.813,4.5V.562A.563.563,0,0,1,3.376,0H14.625a.563.563,0,0,1,.562.562V2.325c0,2.459-1,3.3-2.64,3.3h-.233C12.024,8.113,10.71,9,8.719,9Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Toilet" opacity="0.5">
+    <g id="Group_29" data-name="Group 29" transform="translate(1.125 3.938)">
+      <path id="Cafe-2" data-name="Cafe" d="M2.25,10.687C1.562,10.687,0,10.3,0,9.839a.282.282,0,0,1,.283-.276H15.467a.282.282,0,0,1,.283.276c0,.466-1.562.849-2.25.849ZM6.469,9C4.2,9,2.813,7.852,2.813,4.5V.562A.563.563,0,0,1,3.376,0H14.625a.563.563,0,0,1,.562.562V2.325c0,2.459-1,3.3-2.64,3.3h-.233C12.024,8.113,10.71,9,8.719,9Z" fill="none"/>
+      <g id="Mask_Group_29" data-name="Mask Group 29" clip-path="url(#clip-path)">
+        <g id="_color" data-name="🎨 color" transform="translate(-1.125 -3.938)">
+          <rect id="Rectangle" width="18" height="18"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

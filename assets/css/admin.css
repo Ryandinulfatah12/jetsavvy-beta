@@ -19,6 +19,7 @@ h1, h2, h3, h4 {
     font-weight: 400;
     font-size: 38px;
     color: #222222;
+    text-transform: uppercase;
 }
 
 p {
@@ -91,7 +92,14 @@ a, a:hover, a:focus {
 }
 
 .form-control {
-    border: none;
+    border: 1px solid #e5e5e5;
+}
+.border-bottom {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.border-select-light {
+    border: 1px solid #DFE3E7;
 }
 
 .label {
