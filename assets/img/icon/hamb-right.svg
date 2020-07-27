@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="14" viewBox="0 0 16 14">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M5.586,7,.293,12.293a1,1,0,0,0,1.414,1.414l6-6a1,1,0,0,0,0-1.414l-6-6A1,1,0,0,0,.293,1.707Z" transform="translate(8 5)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_798" data-name="Group 798" transform="translate(23401 -4553)">
+    <g id="chevron-right" transform="translate(-23401 4553)">
+      <g id="Group_3" data-name="Group 3" transform="translate(-8 -5)">
+        <path id="Shape-3" data-name="Shape" d="M5.586,7,.293,12.293a1,1,0,0,0,1.414,1.414l6-6a1,1,0,0,0,0-1.414l-6-6A1,1,0,0,0,.293,1.707Z" transform="translate(8 5)" fill="#fff"/>
+        <g id="Mask_Group_3" data-name="Mask Group 3" clip-path="url(#clip-path)">
+          <g id="COLOR_black" data-name="COLOR/ black">
+            <rect id="Rectangle" width="24" height="24" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="chevron-right-2" data-name="chevron-right" transform="translate(-23393 4553)">
+      <g id="Group_3-2" data-name="Group 3" transform="translate(-8 -5)">
+        <path id="Shape-4" data-name="Shape" d="M5.586,7,.293,12.293a1,1,0,0,0,1.414,1.414l6-6a1,1,0,0,0,0-1.414l-6-6A1,1,0,0,0,.293,1.707Z" transform="translate(8 5)" fill="#fff"/>
+        <g id="Mask_Group_3-2" data-name="Mask Group 3" clip-path="url(#clip-path)">
+          <g id="COLOR_black-2" data-name="COLOR/ black">
+            <rect id="Rectangle-2" data-name="Rectangle" width="24" height="24" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

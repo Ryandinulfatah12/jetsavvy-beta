@@ -7,22 +7,24 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/leftMenu.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/admin.css">
   <!-- <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon"> -->
   <title>Profile User | Website</title>
 </head>
-<body>
+<body  class="SFproReg">
   <nav class="navbar navbar-header navbar-expand navbar-dark bg-dark">
     <div class="container">
 
-        <a href="#" type="button" id="sidebarCollapse"><span class="navbar-toggler-icon"></span></a>
+        <!-- <a href="#" type="button" id="sidebarCollapse"><span class="navbar-toggler-icon"></span></a> -->
 
-        <img src="assets/img/logo.png" class="pl-5 brandlogo">
+        <img src="assets/img/logo.png" class="pl-4 brandlogo">
         <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
             <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
                 <li class="dropdown">
-                    <a href="profile-page.html"class="nav-link nav-link-lg nav-link-user">
+                    <a href="profile.html"class="nav-link nav-link-lg nav-link-user">
                         <div class="avatar-nav">
                             <img src="assets/img/profile.png" alt="avatar">
                         </div>
@@ -47,72 +49,37 @@
   <div class="wrapper">
     <!-- Sidebar Holder -->
     <nav id="sidebar" class="active">
-
-      <ul class="list-unstyled components">
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/search-white.svg" class="icon-sidebar active_sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/calender.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/chat.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/users.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/setmenu.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/user.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/trending.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/note.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/logout.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-      </ul>
+      <div class="leftMenu">
+            <div class="menuArea">
+                <div class="Menu">
+                    <div class="icons" id="searchIcon">&nbsp; <span class="side-link text-uppercase">Search</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="companionsIcon">&nbsp; <span class="side-link text-uppercase">companions</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="profileIcon">&nbsp; <span class="side-link text-uppercase">profile</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="graphIcon">&nbsp; <span class="side-link text-uppercase">graph</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="conciergeIcon">&nbsp; <span class="side-link text-uppercase">concierge</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="logOutIcon">&nbsp; <span class="side-link text-uppercase">logout</span></div>
+                </div>
+            </div>
+        </div>
     </nav>
 
     <!-- Page Content Holder -->

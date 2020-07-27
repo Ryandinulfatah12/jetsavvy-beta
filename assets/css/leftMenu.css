@@ -1,0 +1,125 @@
+.leftMenu {
+    /*position: fixed;*/
+    z-index: 1000;
+    width: 80px;
+    padding: 20px 0 20px 0;/*
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);*/
+}
+
+.menuArea {
+    width: 54px;
+    margin: -26px 13px 0 13px;
+}
+
+.Menu {
+    width: 54px;
+    height: 44px;
+    border-radius: 3px;
+    margin: 26px 0;
+    padding: 12px 17px;
+}
+
+.Menu .side-link {
+    display: none;
+}
+.Menu:hover .side-link {
+    display: inline;
+    color: #222222;
+    padding: 0 10px;
+    line-height: 44px;
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    top: -12px;
+    left: 38px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Menu:hover {
+    background-color: #222222;
+    -webkit-transition:width .2s linear;
+    transition: all 0.4s;
+}
+
+.icons {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+#searchIcon {
+    background-image: url(../icons/searchBlack.svg);
+}
+
+.Menu:hover>#searchIcon {
+    background-image: url(../icons/searchWhite.svg);
+}
+
+#bookingsIcon {
+    background-image: url(../icons/bookingsBlack.svg);
+}
+
+.Menu:hover>#bookingsIcon {
+    background-image: url(../icons/bookingsWhite.svg);
+}
+
+#messageIcon {
+    background-image: url(../icons/messageBlack.svg);
+}
+
+.Menu:hover>#messageIcon {
+    background-image: url(../icons/messageWhite.svg);
+}
+
+#proxyUsersIcon {
+    background-image: url(../icons/proxyUsersBlack.svg);
+}
+
+.Menu:hover>#proxyUsersIcon {
+    background-image: url(../icons/proxyUsersWhite.svg);
+}
+
+#companionsIcon {
+    background-image: url(../icons/companionsBlack.svg);
+}
+
+.Menu:hover>#companionsIcon {
+    background-image: url(../icons/companionsWhite.svg);
+}
+
+#profileIcon {
+    background-image: url(../icons/profileBlack.svg);
+}
+
+.Menu:hover>#profileIcon {
+    background-image: url(../icons/profileWhite.svg);
+}
+
+#graphIcon {
+    background-image: url(../icons/graphBlack.svg);
+}
+
+.Menu:hover>#graphIcon {
+    background-image: url(../icons/graphWhite.svg);
+}
+
+#conciergeIcon {
+    background-image: url(../icons/conciergeBlack.svg);
+}
+
+.Menu:hover>#conciergeIcon {
+    background-image: url(../icons/conciergeWhite.svg);
+}
+
+#logOutIcon {
+    background-image: url(../icons/logOutBlack.svg);
+}
+
+.Menu:hover>#logOutIcon {
+    background-image: url(../icons/logOutWhite.svg);
+}

@@ -1,0 +1,23 @@
+<svg id="Settings_Menu_Item-10" data-name="Settings Menu Item-10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.453" height="19.393" viewBox="0 0 17.453 19.393">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_1" data-name="Path 1" d="M1284.667,86.141a.971.971,0,0,1-.97-.97V83.232a2.913,2.913,0,0,0-2.909-2.909h-7.757a2.913,2.913,0,0,0-2.909,2.909v1.939a.97.97,0,0,1-1.939,0V83.232a4.855,4.855,0,0,1,4.848-4.848h7.757a4.855,4.855,0,0,1,4.848,4.848v1.939A.971.971,0,0,1,1284.667,86.141Zm-7.757-9.7a4.848,4.848,0,1,1,4.848-4.848A4.848,4.848,0,0,1,1276.91,76.445Zm0-7.757a2.909,2.909,0,1,0,2.909,2.909A2.909,2.909,0,0,0,1276.91,68.687Z" transform="translate(-1268.183 -66.748)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group-10" transform="translate(0 0)">
+    <g id="Icon:-10">
+      <g id="Group_6" data-name="Group 6">
+        <path id="Combined_Shape-16" data-name="Combined Shape-16" d="M1284.667,86.141a.971.971,0,0,1-.97-.97V83.232a2.913,2.913,0,0,0-2.909-2.909h-7.757a2.913,2.913,0,0,0-2.909,2.909v1.939a.97.97,0,0,1-1.939,0V83.232a4.855,4.855,0,0,1,4.848-4.848h7.757a4.855,4.855,0,0,1,4.848,4.848v1.939A.971.971,0,0,1,1284.667,86.141Zm-7.757-9.7a4.848,4.848,0,1,1,4.848-4.848A4.848,4.848,0,0,1,1276.91,76.445Zm0-7.757a2.909,2.909,0,1,0,2.909,2.909A2.909,2.909,0,0,0,1276.91,68.687Z" transform="translate(-1268.183 -66.748)"/>
+        <g id="Group_65" data-name="Group 65">
+          <g id="Group_64" data-name="Group 64" clip-path="url(#clip-path)">
+            <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(-2.909 -1.939)">
+              <g id="COLOR_black-9" data-name="COLOR black-9">
+                <rect id="Rectangle-10" width="23.272" height="23.272" fill="#222"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

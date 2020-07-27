@@ -7,223 +7,177 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/leftMenu.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/admin.css">
+  <link rel="stylesheet" href="assets/css/choices.min.css">
   <!-- <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon"> -->
   <title>Home | Website</title>
 </head>
-<body>
-  <nav class="navbar navbar-header navbar-expand navbar-dark bg-dark">
+<body class="SFproReg">
+  <header class="navbar navbar-header navbar-expand navbar-dark bg-dark">
     <div class="container">
-
-        <a href="#" type="button" id="sidebarCollapse"><span class="navbar-toggler-icon"></span></a>
-
-        <img src="assets/img/logo.png" class="pl-5 brandlogo">
-        <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
-            <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
-                <li class="dropdown">
-                    <a href="profile-page.html"class="nav-link nav-link-lg nav-link-user">
-                        <div class="avatar-nav">
-                            <img src="assets/img/profile.png" alt="avatar">
-                        </div>
-                        <div class="d-none d-md-block d-lg-inline-block text-white text-left">John Doe <br><span class="text-muted">BROKER ADMIN</span></div>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <button class="dropdown-item"><i data-feather="log-out"></i> Logout</button>
-                    </div>
-                </li>
-            </ul>
-        </div>
+      <img src="assets/img/logo.png" class="pl-5 brandlogo">
+      <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
+          <li class="dropdown">
+            <a href="profile.html"class="nav-link nav-link-lg nav-link-user DinM">
+              <div class="avatar-nav">
+                <img src="assets/img/profile.png" alt="avatar">
+              </div>
+              <div class="d-none d-md-block d-lg-inline-block text-white text-left">John Doe <br><span class="text-muted">BROKER ADMIN</span></div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <button class="dropdown-item"><i data-feather="log-out"></i> Logout</button>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
-    <!-- <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M7.854 4.646a.5.5 0 0 1 0 .708L5.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z"/>
-          <path fill-rule="evenodd" d="M4.5 8a.5.5 0 0 1 .5-.5h6.5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z"/>
-        </svg>
-      </button> -->
-      
-    
-  </nav>
+  </header>
+
   <div class="wrapper">
-    <!-- Sidebar Holder -->
+    <!-- Sidebar Holder add class active to reduce-->
     <nav id="sidebar" class="active">
 
-      <ul class="list-unstyled components">
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/search-white.svg" class="icon-sidebar active_sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/calender.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/chat.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/users.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/setmenu.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/user.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/trending.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/note.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/logout.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-      </ul>
+      <div class="leftMenu">
+            <div class="menuArea">
+                <div class="Menu">
+                    <div class="icons" id="searchIcon">&nbsp; <span class="side-link text-uppercase">Search</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="companionsIcon">&nbsp; <span class="side-link text-uppercase">companions</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="profileIcon">&nbsp; <span class="side-link text-uppercase">profile</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="graphIcon">&nbsp; <span class="side-link text-uppercase">graph</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="conciergeIcon">&nbsp; <span class="side-link text-uppercase">concierge</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="logOutIcon">&nbsp; <span class="side-link text-uppercase">logout</span></div>
+                </div>
+            </div>
+        </div>
     </nav>
 
     <!-- Page Content Holder -->
-    <div id="content">
-      
-      <h2 class="mb-3 text-dark pl-5">REQUEST A QUOTE</h2>
-      <div class="row px-5 justify-content-start">
+    <div class="container-fluid" id="content">
+
+      <h2 class="mb-3 text-dark pl-4 DinE">REQUEST A QUOTE</h2>
+      <div class="row px-4 justify-content-start">
         <div class="col-md-5 py-2">
 
-            <div class="form-group row float-left">
+          <div class="form-group row float-left">
 
-                <div class="col-md-4">
-                    <div style="margin-top: 14px;">
-                      <img src="assets/img/settings-menu.png" width="19px" alt="">
-                      <span class="label">customer</span>
-                    </div>
-                </div>
-                <div class="col-md-4 py-2">
-                    <select class="form-select border-select-light" id="basicSelect">
-                        <option>John Doe</option>
-                        <option>Blade Runner</option>
-                        <option>Thor Ragnarok</option>
-                    </select>
-                </div>
-
-                <div class="col-md-4 text-warning" style="margin-top:14px;">
-                  <a href=""><u>Add a Customer</u></a>
-                </div>
-              
+            <div class="col-md-4">
+              <div style="margin-top: 14px;">
+                <img src="assets/img/settings-menu.png" width="19px" alt="">
+                <span class="label">customer</span>
+              </div>
             </div>
+            <div class="col-md-4 py-2">
+              <select class="form-select border-select-light" id="basicSelect">
+                <option>John Doe</option>
+                <option>Blade Runner</option>
+                <option>Thor Ragnarok</option>
+              </select>
+            </div>
+
+            <div class="col-md-4 text-warning" style="margin-top:14px;">
+              <a href=""><u>Add a Customer</u></a>
+            </div>
+
+          </div>
         </div>
 
       </div>  
       
-      <div class="row px-5 no-gutters">
+      <div class="row px-4 no-gutters">
         <div class="col-md-4 pb-3">
           <button onclick="advanceSearch()" class="btn btn-warning text-white float-left text-uppercase">Advance Search</button>
         </div>
         
-          <div class="card ml-2">
-            <div class="card-content">
-                <div class="card-body">
-                    <div class="row">
-                      <div class="col-lg-2 border-right-custom m-0">
-                        <div class="form-group">
-                          <label for="first-name-vertical">From</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled="">Destination</option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-                      
-                      <div class="col-lg-2 border-right-custom m-0">
-                        <div class="form-group">
-                          <label for="first-name-vertical">To</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled="">Destination</option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-                      
-                      <div class="col-lg-2 border-right-custom m-0">
-                        <div class="form-group">
-                          <label for="first-name-vertical">Date</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
 
-                      <div class="col-lg-2 border-right-custom m-0">
-                        <div class="form-group">
-                          <label for="first-name-vertical">Time of Departure</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-lg-2 m-0">
-                        <div class="form-group">
-                          <label for="first-name-vertical">Trip</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-lg-2 no-padding" style="padding: 0; margin: 0;">
-                        <button class="btn btn-warning btn-block input-block-level text-uppercase" style="width: 100%; height: 100%;"><i data-feather="search"></i> Search</button>
-                      </div>
-
-                    </div>
-
+              <div class="col-lg-2 border-right-custom m-0">
+                <div class="form-group">
+                  <label for="first-name-vertical">From</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled="">Destination</option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
                 </div>
+              </div>
+              <div class="col-lg-2 border-right-custom m-0">
+                <div class="form-group">
+                  <label for="first-name-vertical">To</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled="">Destination</option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 border-right-custom m-0">
+                <div class="form-group">
+                  <label for="first-name-vertical">Date</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled=""></option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 border-right-custom m-0">
+                <div class="form-group">
+                  <label for="first-name-vertical">Time of Departure</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled=""></option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 m-0">
+                <div class="form-group">
+                  <label for="first-name-vertical">Trip</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled=""></option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 no-padding" style="padding: 0; margin: 0;">
+                <button type="button" onclick="queryView()" class="btn btn-warning btn-block input-block-level text-uppercase" style="width: 100%; height: 100%;"><i data-feather="search"></i> Search</button>
+              </div>
+
             </div>
           </div>
+        </div>
 
       </div>
 
       <section id="resultSearch"></section>
+
+      <section id="queryView" class="px-4"></section>
 
     </div>
 
@@ -240,6 +194,7 @@
   <script type="text/javascript">
     $(document).ready(function() {
       console.log('DOM Fully Loaded')
+
 
       $(document).ready(function(){
         feather.replace()

@@ -7,22 +7,21 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/leftMenu.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/admin.css">
   <!-- <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon"> -->
-  <title>Home | Website</title>
+  <title>Details2 | Website</title>
 </head>
-<body>
+<body class="SFproReg">
   <nav class="navbar navbar-header navbar-expand navbar-dark bg-dark">
     <div class="container">
-
-        <a href="#" type="button" id="sidebarCollapse"><span class="navbar-toggler-icon"></span></a>
-
-        <img src="assets/img/logo.png" class="pl-5 brandlogo">
+        <img src="assets/img/logo.png" class="pl-4 brandlogo">
         <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
             <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
                 <li class="dropdown">
-                    <a href="profile-page.html"class="nav-link nav-link-lg nav-link-user">
+                    <a href="profile.html"class="nav-link nav-link-lg nav-link-user">
                         <div class="avatar-nav">
                             <img src="assets/img/profile.png" alt="avatar">
                         </div>
@@ -45,81 +44,46 @@
     
   </nav>
   <div class="wrapper">
-    <!-- Sidebar Holder -->
+    <!-- Sidebar Holder add class active to reduce-->
     <nav id="sidebar" class="active">
-
-      <ul class="list-unstyled components">
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/search-white.svg" class="icon-sidebar active_sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/calender.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/chat.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/users.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/setmenu.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/user.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/trending.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/note.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-        <li>
-          <div>
-            <a href="#">
-              <img src="assets/img/logout.svg" class="icon-sidebar">
-            </a>
-          </div>
-        </li>
-      </ul>
+      <div class="leftMenu">
+            <div class="menuArea">
+                <div class="Menu">
+                    <div class="icons" id="searchIcon">&nbsp; <span class="side-link text-uppercase">Search</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="companionsIcon">&nbsp; <span class="side-link text-uppercase">companions</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="profileIcon">&nbsp; <span class="side-link text-uppercase">profile</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="graphIcon">&nbsp; <span class="side-link text-uppercase">graph</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="conciergeIcon">&nbsp; <span class="side-link text-uppercase">concierge</span></div>
+                </div>
+                <div class="Menu">
+                    <div class="icons" id="logOutIcon">&nbsp; <span class="side-link text-uppercase">logout</span></div>
+                </div>
+            </div>
+        </div>
     </nav>
 
     <!-- Page Content Holder -->
-    <div id="content">
+    <div class="container-fluid" id="content">
       
-      <h2 class="mb-3 text-dark pl-5">request details</h2>
-      <div class="row px-5">
+      <h2 class="mb-3 text-dark pl-4 DinE">request details</h2>
+      <div class="row px-4">
         <div class="col-md-4">
           <div style="margin-top: 14px;">
             <img src="assets/img/settings-menu.png" width="19px" alt="">
@@ -151,20 +115,13 @@ Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna qu
         <div class="col-md-1 clearfix"></div>
         <div class="col-md-3">
           <div class="d-flex" style="margin-top: 14px;">
-            <button class="btn btn-secondary m-1 text-uppercase">cancel</button>
-            <button class="btn btn-warning m-1 text-uppercase">preview</button>
+            <a href="quote-details-1.html" class="btn btn-secondary btn-block m-1 text-uppercase">edit</a>
+            <a href="quote-details-3.html" class="btn btn-warning btn-block m-1 text-uppercase">send</a>
           </div>
         </div>
       </div>
-      
-      <div class="row px-5" style="margin-top: 54px;">
-        <div style="margin-top: 14px;">
-          <img src="assets/img/plane.svg" width="19px" alt="">
-          <span class="label">aircrafts selected</span>
-        </div>
-      </div>
 
-      <div class="row px-5">
+      <div class="row px-4">
 
         <div class="col-md-4 pt-4">
           <div class="card">
@@ -173,7 +130,7 @@ Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna qu
                   <img src="assets/img/plane/plane409x230.png" class="img-fluid w-100">
                 </div>
                 <div class="col-4 float-left pt-2">
-                  <span class="label text-inline" style="font-size: 12px;">Cessna citation mustang</span>
+                  <span class="label text-wrap" style="font-size: 12px;">Cessna citation mustang</span>
                   <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
                 </div>
                 <div class="col-1" style="padding-top: 34px;">
@@ -221,7 +178,7 @@ Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna qu
         </div>
 
       </div>
-      <div class="row px-5">
+      <div class="row px-4">
 
         <div class="col-md-4 pt-4">
           <div class="card">
@@ -230,7 +187,7 @@ Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna qu
                   <img src="assets/img/plane/plane2_409x230.png" class="img-fluid w-100">
                 </div>
                 <div class="col-4 float-left pt-2">
-                  <span class="label text-inline" style="font-size: 12px;">Cessna citation mustang</span>
+                  <span class="label text-wrap" style="font-size: 12px;">Cessna citation mustang</span>
                   <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
                 </div>
                 <div class="col-1" style="padding-top: 34px;">
@@ -278,7 +235,7 @@ Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna qu
         </div>
 
       </div>
-      <div class="row px-5">
+      <div class="row px-4">
 
         <div class="col-md-4 pt-4">
           <div class="card">
@@ -287,7 +244,7 @@ Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna qu
                   <img src="assets/img/plane/plane409x230.png" class="img-fluid w-100">
                 </div>
                 <div class="col-4 float-left pt-2">
-                  <span class="label text-inline" style="font-size: 12px;">Cessna citation mustang</span>
+                  <span class="label text-wrap" style="font-size: 12px;">Cessna citation mustang</span>
                   <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
                 </div>
                 <div class="col-1" style="padding-top: 34px;">
@@ -337,7 +294,6 @@ Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna qu
       </div>
 
     </div>
-    <!-- End Content -->
 
   </div>
 

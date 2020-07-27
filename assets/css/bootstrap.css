@@ -127,6 +127,15 @@ body {
   outline: 0 !important;
 }
 
+.no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+}
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;

@@ -1,0 +1,15 @@
+<svg id="Icon_List" data-name="Icon / List" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M8,10A1,1,0,0,1,8,8H18a1,1,0,1,1,0,2ZM1,10A1,1,0,1,1,1,8H4a1,1,0,1,1,0,2ZM8,6A1,1,0,0,1,8,4H18a1,1,0,0,1,0,2ZM1,6A1,1,0,0,1,1,4H4A1,1,0,1,1,4,6ZM8,2A1,1,0,0,1,8,0H18a1,1,0,1,1,0,2ZM1,2A1,1,0,0,1,1,0H4A1,1,0,1,1,4,2Z" fill="#b2b2b2"/>
+    </clipPath>
+  </defs>
+  <g id="List_Icon" data-name="List Icon">
+    <rect id="Base" width="24" height="24" fill="none"/>
+    <g id="List_Icon-2" data-name="List Icon" transform="translate(3 7)" clip-path="url(#clip-path)">
+      <g id="Color:" transform="translate(-3 -7)">
+        <rect id="Rectangle" width="24" height="24" fill="#b2b2b2"/>
+      </g>
+    </g>
+  </g>
+</svg>

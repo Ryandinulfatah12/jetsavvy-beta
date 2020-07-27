@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="318.5" height="74.5" viewBox="0 0 318.5 74.5">
+  <defs>
+    <filter id="Base" x="5.5" y="0.5" width="313" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Base-2" x="0" y="0" width="76" height="73" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M10,3.32H8.188c-1.421,0-1.7.7-1.7,1.73v2.27h3.39l-.442,3.556H6.491V20H2.956V10.877H0V7.321H2.956V4.7c0-3.044,1.79-4.7,4.4-4.7A23.269,23.269,0,0,1,10,.14Z" transform="translate(11 6)" fill="#b2b2b2"/>
+    </clipPath>
+  </defs>
+  <g id="Btn_-_Wide" data-name="Btn - Wide" transform="translate(15 10)">
+    <g transform="matrix(1, 0, 0, 1, -15, -10)" filter="url(#Base)">
+      <rect id="Base-3" data-name="Base" width="282" height="43" rx="3" transform="translate(15 10)" fill="#fff" stroke="#f8ab3a" stroke-width="1"/>
+    </g>
+    <text id="Button_Label:" data-name="Button Label:" transform="translate(36.331 16)" fill="#f8ab3a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="54.139" y="15">Login with Facebook</tspan></text>
+    <g id="Group_3" data-name="Group 3">
+      <g transform="matrix(1, 0, 0, 1, -15, -10)" filter="url(#Base-2)">
+        <path id="Base-4" data-name="Base" d="M3,0H46a0,0,0,0,1,0,0V43a0,0,0,0,1,0,0H3a3,3,0,0,1-3-3V3A3,3,0,0,1,3,0Z" transform="translate(15 10)" fill="#f8ab3a"/>
+      </g>
+      <g id="Icon_Social_Facebook_-_Light" data-name="Icon / Social / Facebook - Light" transform="translate(7 6)">
+        <g id="Group_52" data-name="Group 52">
+          <path id="Combined_Shape-2" data-name="Combined Shape" d="M10,3.32H8.188c-1.421,0-1.7.7-1.7,1.73v2.27h3.39l-.442,3.556H6.491V20H2.956V10.877H0V7.321H2.956V4.7c0-3.044,1.79-4.7,4.4-4.7A23.269,23.269,0,0,1,10,.14Z" transform="translate(11 6)" fill="#b2b2b2"/>
+          <g id="Mask_Group_58" data-name="Mask Group 58" clip-path="url(#clip-path)">
+            <g id="Color:">
+              <rect id="Rectangle" width="32" height="32" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

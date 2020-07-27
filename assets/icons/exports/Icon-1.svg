@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.404" height="30.405" viewBox="0 0 30.404 30.405">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M3.149,18.351a10.75,10.75,0,1,1,15.2-15.2,10.75,10.75,0,1,1-15.2,15.2Zm-1.194-7.6a8.8,8.8,0,1,0,8.8-8.8A8.805,8.805,0,0,0,1.954,10.75Zm7.818,3.91V11.727H6.841a.977.977,0,0,1,0-1.954H9.773V6.841a.977.977,0,0,1,1.954,0V9.773h2.932a.977.977,0,1,1,0,1.954H11.727v2.932a.977.977,0,1,1-1.954,0Z"/>
+    </clipPath>
+  </defs>
+  <g id="Icon:" transform="translate(0 15.203) rotate(-45)">
+    <g id="Group_44" data-name="Group 44">
+      <path id="Combined_Shape-2" data-name="Combined Shape" d="M3.149,18.351a10.75,10.75,0,1,1,15.2-15.2,10.75,10.75,0,1,1-15.2,15.2Zm-1.194-7.6a8.8,8.8,0,1,0,8.8-8.8A8.805,8.805,0,0,0,1.954,10.75Zm7.818,3.91V11.727H6.841a.977.977,0,0,1,0-1.954H9.773V6.841a.977.977,0,0,1,1.954,0V9.773h2.932a.977.977,0,1,1,0,1.954H11.727v2.932a.977.977,0,1,1-1.954,0Z" transform="translate(0 0)"/>
+      <g id="Mask_Group_44" data-name="Mask Group 44" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <g id="COLOR_black" data-name="COLOR/ black" transform="translate(-0.977 -0.977)">
+          <rect id="Rectangle" width="23.455" height="23.455" fill="#222"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

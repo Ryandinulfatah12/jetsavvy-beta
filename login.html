@@ -5,14 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
   <link rel="stylesheet" href="assets/css/clientside_login.css">
   <!-- <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon"> -->
   <title>Login Page | Website</title>
 </head>
-<body>
+<body class="SFproReg">
   <div class="row">
     
     <div class="col-8">
@@ -26,7 +26,33 @@
 
       <!-- start jumbotron -->
       <div class="jumbotron jumbotron-fluid">
-        
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">  
+          <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+              <div class="carousel-item">
+                  <img src="assets/img/login.png" class="d-block">
+                  <div class="carousel-caption text-left d-none d-md-block">
+                      <h5>Access to realtime</h5>
+                  </div>
+              </div>
+              <div class="carousel-item active">
+                  <img src="assets/img/landingpage.png" class="d-block">
+                  <div class="carousel-caption text-left d-none d-md-block">
+                      <h5>Access to realtime Pricing and Availability</h5>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="assets/img/landingpage.png" class="d-block">
+                  <div class="carousel-caption text-left d-none d-md-block">
+                      <h5>Pricing and Availability</h5>
+                  </div>
+              </div>
+          </div>
+      </div>
       </div>
       <!-- end jumbotron -->
     </div>
@@ -39,14 +65,16 @@
             <h3>LOGIN TO JETSAVVY</h3>
         </div>
 
-        <div class="mb-2">
-          <a href="#" class="btn icon icon-left btn-outline-warning btn-block"><img class="float-left" src="assets/img/social/google.svg"> Sign-in with Google</a>
+        <div class="row no-gutters text-center">
+          <a href="#" class="p-0 m-0"><img src="assets/img/icon/google.svg"></a>
+          <a href="#" class="p-0 m-0"><img src="assets/img/icon/fb.svg"></a>
+          <a href="#" class="p-0 m-0"><img src="assets/img/icon/linkedin.svg"></a>
         </div>
-        <div class="mb-2">
-          <a href="#" class="btn icon icon-left btn-outline-warning btn-block"><img class="float-left" src="assets/img/social/facebook.svg"> Sign-in with Facebook</a>
+        <div>
+          
         </div>
-        <div class="mb-2">
-          <a href="#" class="btn icon icon-left btn-outline-warning btn-block"><img class="float-left" src="assets/img/social/linkedin.svg"> Sign-in with LinkedIn</a>
+        <div>
+          
         </div>
 
         <div class="divider">
@@ -72,7 +100,7 @@
             </div>
             <!-- End captcha -->
             <div class="clearfix">
-                <button class="btn btn-light btn-block">Login</button>
+                <button class="btn btn-light btn-block" type="button"  data-toggle="modal" data-target="#verificationEmail">Login</button>
             </div>
             <div class="float-left pt-3">
                 Don't have an account? <a href="#" class="text-warning">Sign-up</a><br><a href="" class="text-warning">Forgot Password?</a>
@@ -86,7 +114,23 @@
   </div>
   
 
-    
+  <!-- POP UP MODAL -->
+  <!--BorderLess Modal Modal -->
+  <div class="modal fade text-left modal-borderless" id="verificationEmail" tabindex="-1" aria-labelledby="myModalLabel1" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header align-items-end">
+              <div class="invisible">Modal Header</div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
+        </div>
+        <div class="modal-body text-center">
+          <h3 class="text-uppercase text-dark">activation email sent</h3>
+          <p class="text-dark">Please login through the link sent to your email address.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END POPUP -->
 
     
 

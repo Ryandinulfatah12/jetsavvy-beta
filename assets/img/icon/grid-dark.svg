@@ -1,0 +1,15 @@
+<svg id="Icon_Grid" data-name="Icon / Grid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M15,10a1,1,0,0,1,0-2h3a1,1,0,1,1,0,2ZM8,10A1,1,0,0,1,8,8h3a1,1,0,1,1,0,2ZM1,10A1,1,0,1,1,1,8H4a1,1,0,1,1,0,2ZM15,6a1,1,0,0,1,0-2h3a1,1,0,0,1,0,2ZM8,6A1,1,0,0,1,8,4h3a1,1,0,0,1,0,2ZM1,6A1,1,0,0,1,1,4H4A1,1,0,1,1,4,6ZM15,2a1,1,0,0,1,0-2h3a1,1,0,1,1,0,2ZM8,2A1,1,0,0,1,8,0h3a1,1,0,0,1,0,2ZM1,2A1,1,0,0,1,1,0H4A1,1,0,1,1,4,2Z" fill="#222"/>
+    </clipPath>
+  </defs>
+  <g id="Grid_Icon" data-name="Grid Icon">
+    <rect id="Base" width="24" height="24" fill="none"/>
+    <g id="Grid_Icon-2" data-name="Grid Icon" transform="translate(3 7)" clip-path="url(#clip-path)">
+      <g id="Color:" transform="translate(-3 -7)">
+        <rect id="Rectangle" width="24" height="24" fill="#222"/>
+      </g>
+    </g>
+  </g>
+</svg>

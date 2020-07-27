@@ -1,0 +1,26 @@
+@font-face {
+    font-family: DinE;
+    src: url(../fonts/DINEngschriftStd.otf);
+}
+
+.DinE {
+    font-family: DinE;
+}
+
+@font-face {
+    font-family: DinM;
+    src: url(../fonts/DINMittelschriftStd.otf);
+}
+
+.DinM {
+    font-family: DinM;
+}
+
+@font-face {
+    font-family: SFproReg;
+    src: url(../fonts/SF-Pro-Display-Regular.otf);
+}
+
+.SFproReg {
+    font-family: SFproReg;
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="318.5" height="74.5" viewBox="0 0 318.5 74.5">
+  <defs>
+    <filter id="Base" x="5.5" y="0.5" width="313" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Base-2" x="0" y="0" width="76" height="73" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Path" d="M.845,4.39A7.915,7.915,0,0,1,7.925,0a7.593,7.593,0,0,1,5.3,2.071L10.989,4.266A4.38,4.38,0,0,0,7.925,3.08,4.793,4.793,0,0,0,3.408,6.39a5.177,5.177,0,0,0-.255,1.575,4.927,4.927,0,0,0,.264,1.575,4.773,4.773,0,0,0,4.508,3.31,4.673,4.673,0,0,0,2.747-.8,3.9,3.9,0,0,0,1.62-2.584H7.925V6.514h7.441a6.86,6.86,0,0,1,.167,1.629A7.809,7.809,0,0,1,13.173,14a7.531,7.531,0,0,1-5.248,1.929,7.915,7.915,0,0,1-7.08-4.39,7.985,7.985,0,0,1,0-7.151Z" transform="translate(8 8)" fill="#4285f4"/>
+    </clipPath>
+  </defs>
+  <g id="Btn_-_Wide" data-name="Btn - Wide" transform="translate(15 10)">
+    <g transform="matrix(1, 0, 0, 1, -15, -10)" filter="url(#Base)">
+      <rect id="Base-3" data-name="Base" width="282" height="43" rx="3" transform="translate(15 10)" fill="#fff" stroke="#f8ab3a" stroke-width="1"/>
+    </g>
+    <text id="Button_Label:" data-name="Button Label:" transform="translate(36.331 16)" fill="#f8ab3a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="61.088" y="15">Login with Google</tspan></text>
+    <g id="Group_4" data-name="Group 4">
+      <g transform="matrix(1, 0, 0, 1, -15, -10)" filter="url(#Base-2)">
+        <path id="Base-4" data-name="Base" d="M3,0H46a0,0,0,0,1,0,0V43a0,0,0,0,1,0,0H3a3,3,0,0,1-3-3V3A3,3,0,0,1,3,0Z" transform="translate(15 10)" fill="#f8ab3a"/>
+      </g>
+      <g id="Icon_Social_Facebook_-_Light" data-name="Icon / Social / Facebook - Light" transform="translate(7 6)">
+        <g id="Group_51" data-name="Group 51">
+          <path id="Path-2" data-name="Path" d="M.845,4.39A7.915,7.915,0,0,1,7.925,0a7.593,7.593,0,0,1,5.3,2.071L10.989,4.266A4.38,4.38,0,0,0,7.925,3.08,4.793,4.793,0,0,0,3.408,6.39a5.177,5.177,0,0,0-.255,1.575,4.927,4.927,0,0,0,.264,1.575,4.773,4.773,0,0,0,4.508,3.31,4.673,4.673,0,0,0,2.747-.8,3.9,3.9,0,0,0,1.62-2.584H7.925V6.514h7.441a6.86,6.86,0,0,1,.167,1.629A7.809,7.809,0,0,1,13.173,14a7.531,7.531,0,0,1-5.248,1.929,7.915,7.915,0,0,1-7.08-4.39,7.985,7.985,0,0,1,0-7.151Z" transform="translate(8 8)" fill="#4285f4"/>
+          <g id="Mask_Group_57" data-name="Mask Group 57" clip-path="url(#clip-path)">
+            <g id="Color:">
+              <rect id="Rectangle" width="32" height="32" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
