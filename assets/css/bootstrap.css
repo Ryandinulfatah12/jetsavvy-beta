@@ -3144,13 +3144,13 @@ progress {
   border-color: #fc960f;
 }
 .btn-check:focus + .btn-warning, .btn-warning:focus {
-  color: #212529;
+  color: #fff;
   background-color: #fd9b1b;
   border-color: #fc960f;
   box-shadow: 0 0 0 0.2rem rgba(220, 152, 61, 0.5);
 }
 .btn-check:checked + .btn-warning, .btn-check:active + .btn-warning, .btn-warning:active, .btn-warning.active, .show > .btn-warning.dropdown-toggle {
-  color: #212529;
+  color: #fff;
   background-color: #fc960f;
   border-color: #fc9003;
 }
@@ -5313,7 +5313,7 @@ button.close {
 }
 @media (min-width: 1200px) {
   .modal-xl {
-    max-width: 1140px;
+    max-width: 1190px;
   }
 }
 .modal-fullscreen {

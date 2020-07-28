@@ -379,6 +379,7 @@ function loadJS(file) {
 function queryView() {
   loadJS("./assets/js/choices.min.js");
   $('#queryView').html('');
+  $('#full-scrn').modal('hide');
   $('#queryView').append(`
       <div class="row py-3">
           <h6 class="text-uppercase label"><img src="assets/img/plane.svg" width="20px"> Aircrafts selected</h6>
