@@ -59,29 +59,32 @@
 
     <div class="col-lg-4 col-md-4">
       
-      <section class="login p-5">
+      <section class="login px-5">
 
         <div class="text-center mb-5">
             <h3>LOGIN TO JETSAVVY</h3>
         </div>
 
-        <div class="row no-gutters text-center">
-          <a href="#" class="p-0 m-0"><img src="assets/img/icon/google.svg"></a>
-          <a href="#" class="p-0 m-0"><img src="assets/img/icon/fb.svg"></a>
-          <a href="#" class="p-0 m-0"><img src="assets/img/icon/linkedin.svg"></a>
-        </div>
-        <div>
-          
-        </div>
-        <div>
-          
+        <div class="container text-center">
+            <a href="#" class="btn btn-outline-warning p-0 mb-4 socialLogin">
+                <img class="leftIcon float-left" src="assets/img/social/google.svg" alt="">
+                <span class="d-inline-block pt-2">Sign in with Google</span>
+            </a>
+            <a href="#" class="btn btn-outline-warning p-0 mb-4 socialLogin">
+                <img class="leftIcon float-left" src="assets/img/social/facebook.svg" alt="">
+                <span class="d-inline-block pt-2">Sign in with Facebook</span>
+            </a>
+            <a href="#" class="btn btn-outline-warning p-0 mb-4 socialLogin">
+                <img class="leftIcon float-left" src="assets/img/social/linkedin.svg" alt="">
+                <span class="d-inline-block pt-2">Sign in with LinkedIn</span>
+            </a>
         </div>
 
         <div class="divider">
             <div class="divider-text">OR</div>
         </div>
         
-        <form action="index.html">
+        <form action="req-quote.html">
             <div class="form-group">
                 <div class="position-relative">
                     <input type="email" class="form-control" id="email" placeholder="Email">
@@ -100,9 +103,9 @@
             </div>
             <!-- End captcha -->
             <div class="clearfix">
-                <button class="btn btn-light btn-block" type="button"  data-toggle="modal" data-target="#verificationEmail">Login</button>
+                <button class="btn btn-light btn-block" id="btnLogin" type="submit">Login</button>
             </div>
-            <div class="float-left pt-3">
+            <div class="float-left pt-3 mb-5">
                 Don't have an account? <a href="#" class="text-warning">Sign-up</a><br><a href="" class="text-warning">Forgot Password?</a>
             </div>
         </form>
@@ -142,6 +145,9 @@
   <script src="https://unpkg.com/feather-icons"></script>
   <script type="text/javascript">
     $(document).ready(function() {
+      $("#btnLogin").on('click' function () {
+        $("#verificationEmail").modal("show");
+      })
       feather.replace()
       console.log('DOM Fully Loaded')
 

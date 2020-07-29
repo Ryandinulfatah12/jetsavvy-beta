@@ -56,7 +56,7 @@
     background-image: url(../icons/searchBlack.svg);
 }
 
-.Menu:hover>#searchIcon {
+.Menu:hover>a #searchIcon {
     background-image: url(../icons/searchWhite.svg);
 }
 
@@ -64,7 +64,7 @@
     background-image: url(../icons/bookingsBlack.svg);
 }
 
-.Menu:hover>#bookingsIcon {
+.Menu:hover>a #bookingsIcon {
     background-image: url(../icons/bookingsWhite.svg);
 }
 
@@ -72,7 +72,7 @@
     background-image: url(../icons/messageBlack.svg);
 }
 
-.Menu:hover>#messageIcon {
+.Menu:hover>a #messageIcon {
     background-image: url(../icons/messageWhite.svg);
 }
 
@@ -80,7 +80,7 @@
     background-image: url(../icons/proxyUsersBlack.svg);
 }
 
-.Menu:hover>#proxyUsersIcon {
+.Menu:hover>a #proxyUsersIcon {
     background-image: url(../icons/proxyUsersWhite.svg);
 }
 
@@ -88,7 +88,7 @@
     background-image: url(../icons/companionsBlack.svg);
 }
 
-.Menu:hover>#companionsIcon {
+.Menu:hover>a #companionsIcon {
     background-image: url(../icons/companionsWhite.svg);
 }
 
@@ -96,7 +96,7 @@
     background-image: url(../icons/profileBlack.svg);
 }
 
-.Menu:hover>#profileIcon {
+.Menu:hover>a #profileIcon {
     background-image: url(../icons/profileWhite.svg);
 }
 
@@ -104,7 +104,7 @@
     background-image: url(../icons/graphBlack.svg);
 }
 
-.Menu:hover>#graphIcon {
+.Menu:hover>a #graphIcon {
     background-image: url(../icons/graphWhite.svg);
 }
 
@@ -112,7 +112,7 @@
     background-image: url(../icons/conciergeBlack.svg);
 }
 
-.Menu:hover>#conciergeIcon {
+.Menu:hover>a #conciergeIcon {
     background-image: url(../icons/conciergeWhite.svg);
 }
 
@@ -120,6 +120,69 @@
     background-image: url(../icons/logOutBlack.svg);
 }
 
-.Menu:hover>#logOutIcon {
+.Menu:hover>a #logOutIcon {
     background-image: url(../icons/logOutWhite.svg);
+}
+
+/*hamburger animation*/
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+.menu-toggle input:checked ~ span:nth-child(2) {
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+.menu-toggle input:checked ~ span:nth-child(4) {
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+.menu-toggle input:checked ~ span:nth-child(3) {
+    transform: scale(0);
+}
+
+/*Hamburger Menu*/
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -8px;
+    top: -5px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #F8AB3A;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+@media (min-width: 992px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+@media screen and (max-width: 576px){
+    nav {
+        display: none;
+        opacity: 0;
+        transition: all 1s;
+    }
+    nav.active {
+        display: flex;
+        opacity: 1;
+        transition: all 1s;
+    }
+    
 }

@@ -158,27 +158,8 @@ input[type="range"]::-webkit-slider-thumb {
   background: #F8AB3A;
 }
 /*END*/
-
-/* ---------------------------------------------------
-    SIDEBAR STYLE
------------------------------------------------------ */
 .wrapper {
     display: flex;
-}
-
-#sidebar {
-    min-width: 200px;
-    max-width: 200px;
-    background: #fff;
-    color: #222222;
-}
-
-#sidebar.active {
-    min-width: 80px;
-    max-width: 80px;
-    -webkit-box-shadow: 2px 0px 26px 0px rgba(221,221,221,1);
-    -moz-box-shadow: 2px 0px 26px 0px rgba(221,221,221,1);
-    box-shadow: 2px 0px 26px 0px rgba(221,221,221,1);
 }
 
 @media (min-width: 992px) {
@@ -207,9 +188,13 @@ input[type="range"]::-webkit-slider-thumb {
         position: absolute; 
         right: 144px;
     }
+    
 }
+
+/*Size Tablet*/
 @media (max-width: 768px) {
     #content {
         padding-top: 50px;
     }
+
 }

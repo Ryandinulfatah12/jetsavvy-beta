@@ -2,8 +2,18 @@
 * {
 	overflow: hidden;
 }
+	.socialLogin {
+		width: 100%;
+		-webkit-box-shadow: 2px 0px 26px 0px rgba(221,221,221,1);
+	    -moz-box-shadow: 2px 0px 26px 0px rgba(221,221,221,1);
+	    box-shadow: 2px 0px 26px 0px rgba(221,221,221,1);
+	}
+  .leftIcon {
+      background-color: #F8AB3A;
+      padding: 15px 20px;
+    }
 
-@media (max-width: 578px) {
+@media (max-width: 768px) {
 	.jumbotron {
 		display: none;
 	}
@@ -12,7 +22,9 @@
 
 /* DEKSTOP VER */
 @media (min-width: 992px) {
-
+	.login {
+		padding-top: 30px;
+	}
 	.jumbotron {
 	/*background-image: url('../img/login.png');*/
 	background-size: cover;

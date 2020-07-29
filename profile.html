@@ -15,10 +15,15 @@
   <title>Profile User | Website</title>
 </head>
 <body  class="SFproReg">
-  <nav class="navbar navbar-header navbar-expand navbar-dark bg-dark">
+  <header class="navbar navbar-header navbar-expand navbar-dark bg-dark">
     <div class="container">
 
-        <!-- <a href="#" type="button" id="sidebarCollapse"><span class="navbar-toggler-icon"></span></a> -->
+        <div class="menu-toggle">
+          <input type="checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
         <img src="assets/img/logo.png" class="pl-4 brandlogo">
         <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
@@ -37,46 +42,40 @@
             </ul>
         </div>
     </div>
-    <!-- <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M7.854 4.646a.5.5 0 0 1 0 .708L5.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z"/>
-          <path fill-rule="evenodd" d="M4.5 8a.5.5 0 0 1 .5-.5h6.5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z"/>
-        </svg>
-      </button> -->
-      
     
-  </nav>
+  </header>
   <div class="wrapper">
     <!-- Sidebar Holder -->
-    <nav id="sidebar" class="active">
+    <nav id="sidebar">
       <div class="leftMenu">
             <div class="menuArea">
+                
                 <div class="Menu">
-                    <div class="icons" id="searchIcon">&nbsp; <span class="side-link text-uppercase">Search</span></div>
+                   <a href="req-quote.html"><div class="icons" id="searchIcon">&nbsp; <span class="side-link text-uppercase">Search</span></div></a>
                 </div>
                 <div class="Menu">
-                    <div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div>
+                    <a href="#"><div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div></a>
                 </div>
                 <div class="Menu">
-                    <div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div>
+                    <a href="#"><div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div></a>
                 </div>
                 <div class="Menu">
-                    <div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div>
+                    <a href="#"><div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div></a>
                 </div>
                 <div class="Menu">
-                    <div class="icons" id="companionsIcon">&nbsp; <span class="side-link text-uppercase">companions</span></div>
+                    <a href="#"><div class="icons" id="companionsIcon">&nbsp; <span class="side-link text-uppercase">companions</span></div></a>
                 </div>
                 <div class="Menu">
-                    <div class="icons" id="profileIcon">&nbsp; <span class="side-link text-uppercase">profile</span></div>
+                    <a href="#"><div class="icons" id="profileIcon">&nbsp; <span class="side-link text-uppercase">profile</span></div></a>
                 </div>
                 <div class="Menu">
-                    <div class="icons" id="graphIcon">&nbsp; <span class="side-link text-uppercase">graph</span></div>
+                    <a href="#"><div class="icons" id="graphIcon">&nbsp; <span class="side-link text-uppercase">graph</span></div></a>
                 </div>
                 <div class="Menu">
-                    <div class="icons" id="conciergeIcon">&nbsp; <span class="side-link text-uppercase">concierge</span></div>
+                    <a href="#"><div class="icons" id="conciergeIcon">&nbsp; <span class="side-link text-uppercase">concierge</span></div></a>
                 </div>
                 <div class="Menu">
-                    <div class="icons" id="logOutIcon">&nbsp; <span class="side-link text-uppercase">logout</span></div>
+                    <a href="#"><div class="icons" id="logOutIcon">&nbsp; <span class="side-link text-uppercase">logout</span></div></a>
                 </div>
             </div>
         </div>
@@ -206,6 +205,7 @@
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/feather-icons"></script>
+  <script src="assets/js/custom.js"></script>
 
   <script type="text/javascript">
     $(document).ready(function() {
