@@ -85,7 +85,7 @@
   <div class="container">
     
     <h2 class="mb-3 text-dark pl-lg-5 text-uppercase pt-5 DinE">request details</h2>
-    <div class="row px-lg-5 px-md-3">
+    <div class="row px-lg-5 px-md-3 px-sm-3">
       <div class="col-md-4">
         <div class="mt-4">
           <img src="assets/img/settings-menu.png" width="19px" alt="">
@@ -103,6 +103,16 @@
           <span class="label text-uppercase">status</span>
           <h6 class="text-dark text-uppercase pt-2 font-weight-normal">Quoting in Progress</h6>
         </div>
+
+        <div class="mt-4">
+          <span class="label text-uppercase">quote id</span>
+          <h6 class="text-dark text-uppercase pt-2 font-weight-normal">Quoting in Progress</h6>
+        </div>
+
+        <div class="mt-4">
+          <span class="label text-uppercase">quote date</span>
+          <h6 class="text-dark text-uppercase pt-2 font-weight-normal">03/12/2020</h6>
+        </div>
       </div>
 
       <div class="col-md-4">
@@ -113,18 +123,40 @@
             Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna quam, at consectetur leo blandit quis. Quisque convallis ultrices nisi, id lobortis turpis rutrum vel. In at efficitur est. Mauris volutpat lectus in diam semper porta. Maecenas a mi nibh.
           </textarea>
         </div>
+        <div class="mt-3">
+          <span class="label text-dark text-uppercase SFPD-Bold">amenities</span>
+          <div class="form-group">
+            <select class="choices form-select" multiple="multiple">
+              <optgroup label="amenities">
+                <option value="passenger" selected><img src="assets/img/icon/sit.svg"> 9 passengers</option>
+                <option value="1 bathroom" selected>1 bathroom</option>
+                <option value="wifi" selected>WIFI</option>
+                <option value="Espresso_bar" selected>Espresso bar</option>
+                <option value="lcd" selected>9 lcd screens</option>
+              </optgroup>
+            </select>
+          </div>
+        </div>
       </div>
       <div class="col-md-1 clearfix"></div>
       <div class="col-md-3">
-        <div class="d-flex mt-4">
-          <a href="quote-details-1.html" class="btn btn-secondary btn-block m-1 text-uppercase SFPD-Bold">edit</a>
-          <a href="quote-details-3.html" class="btn btn-warning btn-block m-1 text-uppercase SFPD-Bold">send</a>
+        <div class="d-block mt-3">
+          <div class="row no-gutters">
+            <div class="col-6"><img src="assets/img/plane/1.png" class="img-fluid"></div>
+            <div class="col-6"><img src="assets/img/plane/2.png" class="img-fluid"></div>
+          </div>
+          <div class="row no-gutters">
+            <div class="col-6"><img src="assets/img/plane/3.png" class="img-fluid"></div>
+            <div class="col-6"><img src="assets/img/plane/4.png" class="img-fluid"></div>
+          </div>
+          <a href="#" class="text-right arrow-right"><img src="assets/img/icon/arrow-up.svg" alt=""></a>
+          <button class="btn btn-warning btn-block text-uppercase mt-3">send contact</button>
         </div>
       </div>
     </div>
     
     <!-- Section Selected Items -->
-    <div class="row px-lg-5 px-md-3 mt-3">
+    <div class="row px-lg-5 px-md-3 px-sm-3 mt-3">
       <h6 class="text-uppercase label"><img src="assets/img/plane.svg" width="20px"> Aircrafts selected</h6>
       <div class="col-md-4 pt-2">
         <div class="card">
@@ -154,8 +186,8 @@
 
       <div class="col-md-3">
         <label class="label letter-spacing-1 text-uppercase text-light">details</label>
-        <h6 class="text-dark pt-2 font-weight-normal">3 passenger capacity</h6>
-        <h6 class="text-dark pt-2 font-weight-normal">Wifi | Leather Seats | Pets Allowed | Headsets</h6>
+        <h6 class="text-dark pt-1 font-weight-normal">Depart: 05 July, 0110GMT</h6>
+        <h6 class="text-dark pt-1 font-weight-normal">Apart: 06 July, 0110GMT</h6>
       </div>
 
       <div class="col">
@@ -164,87 +196,35 @@
       </div>
 
     </div>
+    
+    <!-- Section Cancelation Policy -->
+    <div class="row px-lg-5 px-md-3 px-sm-3">
+      <div style="margin-top: 14px;">
+        <span class="label text-dark text-uppercase SFPD-Bold font-weight-bold">CANCELLATION POLICY</span>
+      </div>
+      <div style="margin-top: 14px;">
+        <p class="p-light">
+          Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.
 
-    <!-- Section Selected Items -->
-    <div class="row px-lg-5 px-md-3 mt-3">
-      <div class="col-md-4 pt-2">
-        <div class="card">
-          <div class="row">
-            <div class="col-4">
-              <img src="assets/img/plane/plane409x230.png" class="img-fluid w-100">
-            </div>
-            <div class="col-4 float-left">
-              <span class="label-silver-dark text-uppercase no-letter-spacing text-nowrap DinM">Cessna citation mustang</span>
-              <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
-            </div>
-            <div class="col-md-2 clearfix"></div>
-            <div class="col-1 pt-3 pr-2 align-items-end">
-              <div class="dropdown">
-                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
-                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#viewAircraft">View Aircraft</a>
-                  <a class="dropdown-item border-bottom" href="#">Contact Operator</a>
-                  <a class="dropdown-item" href="#">Remove</a>
-                </div>
-              </div>
-            </div>
+          Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
+          Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Sed posuere consectetur est at lobortis.
+        </p>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <div class="form-group w-75 py-2">
+            <label class="label" for="basicInput">CLIENT SIGNATURE</label>
+            <input type="text" class="form-control" id="basicInput" width="40%" placeholder="Full Name*" ">
+          </div>
+          <div class="form-check">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="form-check-input form-check-secondary" checked="" name="customCheck" id="customColorCheck2">
+              <label class="form-check-label text-dark" for="customColorCheck2">I hereby agree and accept these Terms and Conditions</label>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="col-md-3">
-        <label class="label letter-spacing-1 text-uppercase text-light">details</label>
-        <h6 class="text-dark pt-2 font-weight-normal">3 passenger capacity</h6>
-        <h6 class="text-dark pt-2 font-weight-normal">Wifi | Leather Seats | Pets Allowed | Headsets</h6>
-      </div>
-
-      <div class="col">
-        <label class="label text-uppercase text-light">total cost</label>
-        <h4 class="text-dark pt-2 DinE font-size-36">$40.000</h4>
-      </div>
-
-    </div>
-
-    <!-- Section Selected Items -->
-    <div class="row px-lg-5 px-md-3 mt-3">
-      <div class="col-md-4 pt-2">
-        <div class="card">
-          <div class="row">
-            <div class="col-4">
-              <img src="assets/img/plane/plane409x230.png" class="img-fluid w-100">
-            </div>
-            <div class="col-4 float-left">
-              <span class="label-silver-dark text-uppercase no-letter-spacing text-nowrap DinM">Cessna citation mustang</span>
-              <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
-            </div>
-            <div class="col-md-2 clearfix"></div>
-            <div class="col-1 pt-3 pr-2 align-items-end">
-              <div class="dropdown">
-                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
-                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#viewAircraft">View Aircraft</a>
-                  <a class="dropdown-item border-bottom" href="#">Contact Operator</a>
-                  <a class="dropdown-item" href="#">Remove</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <label class="label letter-spacing-1 text-uppercase text-light">details</label>
-        <h6 class="text-dark pt-2 font-weight-normal">3 passenger capacity</h6>
-        <h6 class="text-dark pt-2 font-weight-normal">Wifi | Leather Seats | Pets Allowed | Headsets</h6>
-      </div>
-
-      <div class="col">
-        <label class="label text-uppercase text-light">total cost</label>
-        <h4 class="text-dark pt-2 DinE font-size-36">$40.000</h4>
-      </div>
-
     </div>
 
   </div>
@@ -306,6 +286,8 @@
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/custom.js"></script>
+<script src="assets/js/choices.min.js"></script>
+
 
 <script type="text/javascript">
   $(document).ready(function() {

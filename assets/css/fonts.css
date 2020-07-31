@@ -5,6 +5,7 @@
 
 .DinE {
     font-family: DinE;
+    letter-spacing: 1px;
 }
 
 @font-face {
@@ -16,11 +17,42 @@
     font-family: DinM;
 }
 
+/* SF Pro Display Heavy*/
 @font-face {
-    font-family: SFproReg;
-    src: url(../fonts/SF-Pro-Display-Regular.otf);
+    src: url(../fonts/SF-Pro-Display-Heavy.otf);
+    font-family: SFPD-Heavy;   
 }
 
-.SFproReg {
-    font-family: SFproReg;
+.SFPD-Regular {
+    font-family: SFPD-Regular;
+}
+
+/* SF Pro Display Bold*/
+@font-face {
+	src: url(../fonts/SF-Pro-Display-Bold.otf);
+    font-family: SFPD-Bold;   
+}
+
+.SFPD-Bold {
+    font-family: SFPD-Bold;
+}
+
+/* SF Pro Display Regular*/
+@font-face {
+	src: url(../fonts/SF-Pro-Display-Regular.otf);
+    font-family: SFPD-Regular;   
+}
+
+.SFPD-Regular {
+    font-family: SFPD-Regular;
+}
+
+/* SF Pro Display Light*/
+@font-face {
+	src: url(../fonts/SF-Pro-Display-Light.otf);
+    font-family: SFPD-Light;   
+}
+
+.SFPD-Light {
+    font-family: SFPD-Light;
 }

@@ -1,10 +1,12 @@
 .leftMenu {
     /*position: fixed;*/
+    position: sticky;
+    top: 0;
     z-index: 1000;
     width: 80px;
-    padding: 20px 0 20px 0;/*
+    padding: 20px 0 20px 0;
     -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);*/
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .menuArea {
@@ -14,10 +16,12 @@
 
 .Menu {
     width: 54px;
-    height: 44px;
     border-radius: 3px;
     margin: 26px 0;
     padding: 12px 17px;
+}
+.Menu a {
+    text-decoration: none;
 }
 
 .Menu .side-link {
@@ -40,8 +44,6 @@
 
 .Menu:hover {
     background-color: #222222;
-    -webkit-transition:width .2s linear;
-    transition: all 0.4s;
 }
 
 .icons {
@@ -168,12 +170,14 @@
     transition: all 0.5s;
 }
 
-@media (min-width: 992px) {
-    .menu-toggle {
-        display: none;
+.menu-toggle {
+    display: none;
     }
-}
+
 @media screen and (max-width: 576px){
+    .menu-toggle {
+        display: flex;
+    }
     nav {
         display: none;
         opacity: 0;

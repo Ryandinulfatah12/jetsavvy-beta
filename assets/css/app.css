@@ -481,10 +481,10 @@ footer {
 }
 .form-group label {
   font-size: 0.755rem;
-  text-transform: uppercase;
   color: #7f7f7f;
   font-weight: 500;
   font-size: 12px;
+  padding-bottom: 8px;
 }
 .form-group small {
   font-size: 0.7rem;

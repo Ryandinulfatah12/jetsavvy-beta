@@ -11,10 +11,11 @@
   <link rel="stylesheet" href="assets/css/leftMenu.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/admin.css">
+  <link rel="stylesheet" href="assets/css/choices.min.css">
   <!-- <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon"> -->
-  <title>Details 1 | Website</title>
+  <title>Home | Website</title>
 </head>
-<body class="SFproReg">
+<body class="SFPD-Regular">
   <header class="navbar navbar-header navbar-expand navbar-dark bg-dark">
     <div class="container">
       <div class="menu-toggle">
@@ -23,280 +24,288 @@
         <span></span>
         <span></span>
       </div>
-        <img src="assets/img/logo.png" class="pl-4 brandlogo">
-        <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
-            <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
-                <li class="dropdown">
-                    <a href="profile.html"class="nav-link nav-link-lg nav-link-user">
-                        <div class="avatar-nav">
-                            <img src="assets/img/profile.png" alt="avatar">
-                        </div>
-                        <div class="d-none d-md-block d-lg-inline-block text-white text-left">John Doe <br><span class="text-muted">BROKER ADMIN</span></div>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right">
-                        <button class="dropdown-item"><i data-feather="log-out"></i> Logout</button>
-                    </div>
-                </li>
-            </ul>
-        </div>
+      <img src="assets/img/logo.png" class="ml-5 pl-lg-5">
+      <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
+          <li class="dropdown">
+            <a href="profile.html"class="nav-link nav-link-lg nav-link-user">
+              <div class="float-left mr-3">
+                <img src="assets/img/profile.png" alt="avatar">
+              </div>
+              <div class="d-none d-md-block d-lg-inline-block text-white text-left">John Doe <br><span class="text-muted DinM">BROKER ADMIN</span></div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <button class="dropdown-item"><i data-feather="log-out"></i> Logout</button>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
-  <div class="wrapper">
+
+  <div class="d-flex">
     <!-- Sidebar Holder add class active to reduce-->
     <nav id="sidebar">
+
       <div class="leftMenu">
-            <div class="menuArea">
-                
-                <div class="Menu">
-                   <a href="req-quote.html"><div class="icons" id="searchIcon">&nbsp; <span class="side-link text-uppercase">Search</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="companionsIcon">&nbsp; <span class="side-link text-uppercase">companions</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="profileIcon">&nbsp; <span class="side-link text-uppercase">profile</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="graphIcon">&nbsp; <span class="side-link text-uppercase">graph</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="conciergeIcon">&nbsp; <span class="side-link text-uppercase">concierge</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="logOutIcon">&nbsp; <span class="side-link text-uppercase">logout</span></div></a>
-                </div>
+        <div class="menuArea">
+
+          <div class="Menu">
+           <a href="req-quote.html"><div class="icons" id="searchIcon">&nbsp; <span class="side-link text-uppercase">Search</span></div></a>
+         </div>
+         <div class="Menu">
+          <a href="#"><div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="companionsIcon">&nbsp; <span class="side-link text-uppercase">companions</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="profileIcon">&nbsp; <span class="side-link text-uppercase">profile</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="graphIcon">&nbsp; <span class="side-link text-uppercase">graph</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="conciergeIcon">&nbsp; <span class="side-link text-uppercase">concierge</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="logOutIcon">&nbsp; <span class="side-link text-uppercase">logout</span></div></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content Holder -->
+  <div class="container">
+    
+    <h2 class="mb-3 text-dark pl-lg-5 text-uppercase pt-5 DinE">request details</h2>
+    <div class="row px-lg-5">
+      <div class="col-md-4">
+        <div class="mt-4">
+          <img src="assets/img/settings-menu.png" width="19px" alt="">
+          <span class="label text-uppercase">customer</span>
+          <h6 class="text-dark text-uppercase pt-2 font-weight-normal">michelle renolds</h6>
+        </div>
+
+        <div class="mt-4">
+          <span class="label text-uppercase">journey date</span>
+          <h6 class="text-dark text-uppercase pt-2 font-weight-normal">12 MAR ‘18 | 16:30 GMT</h6>
+          <span class="label text-dark text-uppercase">toronto <span class="text-silver-light">yyz</span><img src="assets/img/plane.svg" alt=""> los angeles <span class="text-silver-light">lax</span></span>
+        </div>
+
+        <div class="mt-4">
+          <span class="label text-uppercase">status</span>
+          <h6 class="text-dark text-uppercase pt-2 font-weight-normal">Quoting in Progress</h6>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="mt-4">
+          <span class="label text-dark text-uppercase SFPD-Bold">message to customer</span>
+          <textarea class="form-control" cols="30" rows="10">Hey there I eget bibendum arcu. Aliquam ut dignissim augue. Sed lobortis ipsum ultrices ante vehicula lobortis. Nunc ipsum orci, tristique vel nec, aliquet blandit nunc.
+
+            Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna quam, at consectetur leo blandit quis. Quisque convallis ultrices nisi, id lobortis turpis rutrum vel. In at efficitur est. Mauris volutpat lectus in diam semper porta. Maecenas a mi nibh.
+          </textarea>
+        </div>
+      </div>
+      <div class="col-md-1 clearfix"></div>
+      <div class="col-md-3">
+        <div class="d-flex mt-4">
+          <a href="req-quote.html" class="btn btn-secondary btn-block m-1 text-uppercase SFPD-Bold">cancel</a>
+          <a href="quote-details-2.html" class="btn btn-warning btn-block m-1 text-uppercase SFPD-Bold">preview</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Section Selected Items -->
+    <div class="row px-lg-5 mt-3">
+      <h6 class="text-uppercase label"><img src="assets/img/plane.svg" width="20px"> Aircrafts selected</h6>
+      <div class="col-md-4 pt-2">
+        <div class="card">
+          <div class="row">
+            <div class="col-4">
+              <img src="assets/img/plane/plane409x230.png" class="img-fluid w-100">
             </div>
-        </div>
-    </nav>
+            <div class="col-4 float-left">
+              <span class="label-silver-dark text-uppercase no-letter-spacing text-nowrap DinM">Cessna citation mustang</span>
+              <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
+            </div>
+            <div class="col-2 clearfix"></div>
+            <div class="col-1 pt-3 pr-2 align-items-end">
+              <div class="dropdown">
+                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#viewAircraft">View Aircraft</a>
+                  <a class="dropdown-item border-bottom" href="#">Contact Operator</a>
+                  <a class="dropdown-item" href="#">Remove</a>
+                </div>
+              </div>
+            </div>
 
-    <!-- Page Content Holder -->
-    <div class="container-fluid" id="content">
-      
-      <h2 class="mb-3 text-dark pl-4 DinE">request details</h2>
-      <div class="row px-4">
-        <div class="col-md-4">
-          <div style="margin-top: 14px;">
-            <img src="assets/img/settings-menu.png" width="19px" alt="">
-            <span class="label">customer</span>
-            <h6 class="text-dark text-uppercase pt-2 font-weight-normal">michelle renolds</h6>
-          </div>
-
-          <div style="margin-top: 54px;">
-            <span class="label">journey date</span>
-            <h6 class="text-dark text-uppercase pt-2 font-weight-normal">12 MAR ‘18 | 16:30 GMT</h6>
-            <span class="label">toronto yyz <img src="assets/img/plane.svg" alt=""> los angeles lax</span>
-          </div>
-
-          <div style="margin-top: 54px;">
-            <span class="label">status</span>
-            <h6 class="text-dark text-uppercase pt-2 font-weight-normal">Quoting in Progress</h6>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div style="margin-top: 14px;">
-            <span class="label">message to customer</span>
-            <textarea class="form-control" cols="30" rows="10">Hey there I eget bibendum arcu. Aliquam ut dignissim augue. Sed lobortis ipsum ultrices ante vehicula lobortis. Nunc ipsum orci, tristique vel nec, aliquet blandit nunc.
-
-Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna quam, at consectetur leo blandit quis. Quisque convallis ultrices nisi, id lobortis turpis rutrum vel. In at efficitur est. Mauris volutpat lectus in diam semper porta. Maecenas a mi nibh.
-            </textarea>
-          </div>
-        </div>
-        <div class="col-md-1 clearfix"></div>
-        <div class="col-md-3">
-          <div class="d-flex" style="margin-top: 14px;">
-            <a href="req-quote.html" class="btn btn-secondary btn-block m-1 text-uppercase">cancel</a>
-            <a href="quote-details-2.html" class="btn btn-warning btn-block m-1 text-uppercase">preview</a>
           </div>
         </div>
       </div>
 
-      <div class="row px-4">
-
-        <div class="col-md-4 pt-4">
-          <div class="card">
-              <div class="row">
-                <div class="col-6">
-                  <img src="assets/img/plane/plane409x230.png" class="img-fluid w-100">
-                </div>
-                <div class="col-4 float-left pt-2">
-                  <span class="label text-wrap" style="font-size: 12px;">Cessna citation mustang</span>
-                  <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
-                </div>
-                <div class="col-1" style="padding-top: 34px;">
-                  <div class="dropdown">
-                      <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
-                          <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#viewAircraft">View Aircraft</a>
-                          <a class="dropdown-item border-bottom" href="#">Contact Operator</a>
-                          <a class="dropdown-item" href="#">Remove</a>
-                      </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-        </div>
-
-        <div class="col pt-4">
-          <div class="form-group">
-            <label for="" class="label pb-1">quoted price</label>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control form-border" placeholder="Enter value">
-            </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="" class="label letter-spacing-1 text-uppercase pb-1">quoted price</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-border" placeholder="Enter value">
           </div>
         </div>
-
-        <div class="col pt-4">
-          <div class="form-group">
-            <label for="" class="label pb-1">commision value</label>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control form-border" placeholder="Enter value" value="28%">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 pt-4">
-          <label class="label text-light">details</label>
-            <h6 class="text-dark pt-2 font-weight-normal">3 passenger capacity</h6>
-            <h6 class="text-dark pt-2 font-weight-normal">Wifi | Leather Seats | Pets Allowed | Headsets</h6>
-        </div>
-
-        <div class="col pt-4">
-          <label class="label text-light">total cost</label>
-            <h4 class="text-dark pt-2 font-weight-normal">$40.000</h4>
-        </div>
-
       </div>
-      <div class="row px-4">
 
-        <div class="col-md-4 pt-4">
-          <div class="card">
-              <div class="row">
-                <div class="col-6">
-                  <img src="assets/img/plane/plane2_409x230.png" class="img-fluid w-100">
-                </div>
-                <div class="col-4 float-left pt-2">
-                  <span class="label text-wrap" style="font-size: 12px;">Cessna citation mustang</span>
-                  <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
-                </div>
-                <div class="col-1" style="padding-top: 34px;">
-                  <div class="dropdown">
-                      <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
-                          <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#viewAircraft">View Aircraft</a>
-                          <a class="dropdown-item border-bottom" href="#">Contact Operator</a>
-                          <a class="dropdown-item" href="#">Remove</a>
-                      </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-        </div>
-
-        <div class="col pt-4">
-          <div class="form-group">
-            <label for="" class="label pb-1">quoted price</label>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control form-border" placeholder="Enter value">
-            </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="" class="label letter-spacing-1 text-uppercase pb-1">commision value</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-border" placeholder="Enter value" value="28%">
           </div>
         </div>
-
-        <div class="col pt-4">
-          <div class="form-group">
-            <label for="" class="label pb-1">commision value</label>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control form-border" placeholder="Enter value" value="28%">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 pt-4">
-          <label class="label text-light">details</label>
-            <h6 class="text-dark pt-2 font-weight-normal">3 passenger capacity</h6>
-            <h6 class="text-dark pt-2 font-weight-normal">Wifi | Leather Seats | Pets Allowed | Headsets</h6>
-        </div>
-
-        <div class="col pt-4">
-          <label class="label text-light">total cost</label>
-            <h4 class="text-dark pt-2 font-weight-normal">$40.000</h4>
-        </div>
-
       </div>
-      <div class="row px-4">
 
-        <div class="col-md-4 pt-4">
-          <div class="card">
-              <div class="row">
-                <div class="col-6">
-                  <img src="assets/img/plane/plane409x230.png" class="img-fluid w-100">
-                </div>
-                <div class="col-4 float-left pt-2">
-                  <span class="label text-wrap" style="font-size: 12px;">Cessna citation mustang</span>
-                  <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
-                </div>
-                <div class="col-1" style="padding-top: 34px;">
-                  <div class="dropdown">
-                      <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
-                          <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#viewAircraft">View Aircraft</a>
-                          <a class="dropdown-item border-bottom" href="#">Contact Operator</a>
-                          <a class="dropdown-item" href="#">Remove</a>
-                      </div>
-                  </div>
-                </div>
+      <div class="col-md-3">
+        <label class="label letter-spacing-1 text-uppercase text-light">details</label>
+        <h6 class="text-dark pt-2 font-weight-normal">3 passenger capacity</h6>
+        <h6 class="text-dark pt-2 font-weight-normal">Wifi | Leather Seats | Pets Allowed | Headsets</h6>
+      </div>
 
+      <div class="col">
+        <label class="label text-uppercase text-light">total cost</label>
+        <h4 class="text-dark pt-2 DinE font-size-36">$40.000</h4>
+      </div>
+
+    </div>
+
+    <!-- Section Selected Items -->
+    <div class="row px-lg-5 mt-3">
+      <div class="col-md-4 pt-2">
+        <div class="card">
+          <div class="row">
+            <div class="col-4">
+              <img src="assets/img/plane/plane409x230.png" class="img-fluid w-100">
+            </div>
+            <div class="col-4 float-left">
+              <span class="label-silver-dark text-uppercase no-letter-spacing text-nowrap DinM">Cessna citation mustang</span>
+              <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
+            </div>
+            <div class="col-2 clearfix"></div>
+            <div class="col-1 pt-3 pr-2 align-items-end">
+              <div class="dropdown">
+                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#viewAircraft">View Aircraft</a>
+                  <a class="dropdown-item border-bottom" href="#">Contact Operator</a>
+                  <a class="dropdown-item" href="#">Remove</a>
+                </div>
               </div>
             </div>
-        </div>
 
-        <div class="col pt-4">
-          <div class="form-group">
-            <label for="" class="label pb-1">quoted price</label>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control form-border" placeholder="Enter value">
-            </div>
           </div>
         </div>
+      </div>
 
-        <div class="col pt-4">
-          <div class="form-group">
-            <label for="" class="label pb-1">commision value</label>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control form-border" placeholder="Enter value" value="28%">
-            </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="" class="label letter-spacing-1 text-uppercase pb-1">quoted price</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-border" placeholder="Enter value">
           </div>
         </div>
+      </div>
 
-        <div class="col-md-3 pt-4">
-          <label class="label text-light">details</label>
-            <h6 class="text-dark pt-2 font-weight-normal">3 passenger capacity</h6>
-            <h6 class="text-dark pt-2 font-weight-normal">Wifi | Leather Seats | Pets Allowed | Headsets</h6>
+      <div class="col">
+        <div class="form-group">
+          <label for="" class="label letter-spacing-1 text-uppercase pb-1">commision value</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-border" placeholder="Enter value" value="28%">
+          </div>
         </div>
+      </div>
 
-        <div class="col pt-4">
-          <label class="label text-light">total cost</label>
-            <h4 class="text-dark pt-2 font-weight-normal">$40.000</h4>
+      <div class="col-md-3">
+        <label class="label letter-spacing-1 text-uppercase text-light">details</label>
+        <h6 class="text-dark pt-2 font-weight-normal">3 passenger capacity</h6>
+        <h6 class="text-dark pt-2 font-weight-normal">Wifi | Leather Seats | Pets Allowed | Headsets</h6>
+      </div>
+
+      <div class="col">
+        <label class="label text-uppercase text-light">total cost</label>
+        <h4 class="text-dark pt-2 DinE font-size-36">$40.000</h4>
+      </div>
+
+    </div>
+
+    <!-- Section Selected Items -->
+    <div class="row px-lg-5 mt-3">
+      <div class="col-md-4 pt-2">
+        <div class="card">
+          <div class="row">
+            <div class="col-4">
+              <img src="assets/img/plane/plane409x230.png" class="img-fluid w-100">
+            </div>
+            <div class="col-4 float-left">
+              <span class="label-silver-dark text-uppercase no-letter-spacing text-nowrap DinM">Cessna citation mustang</span>
+              <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
+            </div>
+            <div class="col-2 clearfix"></div>
+            <div class="col-1 pt-3 pr-2 align-items-end">
+              <div class="dropdown">
+                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#viewAircraft">View Aircraft</a>
+                  <a class="dropdown-item border-bottom" href="#">Contact Operator</a>
+                  <a class="dropdown-item" href="#">Remove</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
+      </div>
 
+      <div class="col">
+        <div class="form-group">
+          <label for="" class="label letter-spacing-1 text-uppercase pb-1">quoted price</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-border" placeholder="Enter value">
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="form-group">
+          <label for="" class="label letter-spacing-1 text-uppercase pb-1">commision value</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-border" placeholder="Enter value" value="28%">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <label class="label letter-spacing-1 text-uppercase text-light">details</label>
+        <h6 class="text-dark pt-2 font-weight-normal">3 passenger capacity</h6>
+        <h6 class="text-dark pt-2 font-weight-normal">Wifi | Leather Seats | Pets Allowed | Headsets</h6>
+      </div>
+
+      <div class="col">
+        <label class="label text-uppercase text-light">total cost</label>
+        <h4 class="text-dark pt-2 DinE font-size-36">$40.000</h4>
       </div>
 
     </div>
 
   </div>
 
-  <!-- POP UP MODAL -->
+</div>
+
+ <!-- POP UP MODAL -->
   <!--BorderLess Modal Modal -->
   <div class="modal fade text-left modal-borderless" id="viewAircraft" tabindex="-1" aria-labelledby="myModalLabel1" style="display: none;" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-centered modal-dialog-scrollable" role="document">
@@ -306,13 +315,13 @@ Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna qu
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
         </div>
         <div class="modal-body">
-          <div class="row m-5 align-items-center justify-content-center">
+          <div class="row align-items-center justify-content-center">
             <div class="col-6">
-              <img src="assets/img/aircraft.png" class="img-fluid w-100">
+              <img src="assets/img/aircraft.png" class="img-fluid">
             </div>
-            <div class="col-4 float-left pt-2">
-              <span class="label float-left">Cessna citation mustang</span>
-              <h6 class="text-dark text-uppercase font-weight-normal">01WRLMS65</h6>
+            <div class="col-4 pt-2">
+              <span class="float-left text-nowrap">Jet Access Aviation</span><br>
+              <h6 class="text-silver-light label text-uppercase text-nowrap mt-2">23 Active aircraft</h6>
             </div>
           </div>
 
@@ -320,20 +329,20 @@ Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna qu
             <div class="row m-5">
               <div class="col-6">
                 <div class="form-group">
-                  <label for="first-name-vertical">Name</label>
-                  <input type="text" value="John Smith" class="form-control no-border">
+                  <label class="label-silver-dark text-uppercase" for="first-name-vertical">Name</label>
+                  <input type="text" value="John Smith" class="form-control no-border text-dark">
                 </div>
               </div>
               <div class="col-6">
                 <div class="form-group">
-                  <label for="first-name-vertical">Phone</label>
-                  <input type="text" value="+1 (416) 200 2000" class="form-control no-border">
+                  <label class="label-silver-dark text-uppercase" for="first-name-vertical">Phone</label>
+                  <input type="text" value="+1 (416) 200 2000" class="form-control no-border text-dark">
                 </div>
               </div>
               <div class="col-6">
                 <div class="form-group">
-                  <label for="first-name-vertical">Email</label>
-                  <input type="email" value="contact@jetsavvy.com" class="form-control no-border">
+                  <label class="label-silver-dark text-uppercase" for="first-name-vertical">Email</label>
+                  <input type="email" value="contact@jetsavvy.com" class="form-control no-border text-dark">
                 </div>
               </div>
             </div>
@@ -345,26 +354,25 @@ Aenean nec velit eget libero aliquet dictum id ac qua dolor ullamcorper magna qu
   </div>
   <!-- END POPUP -->
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="assets/js/jquery-3.5.1.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="https://unpkg.com/feather-icons"></script>
-  <script src="assets/js/custom.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script>
 
-  <script type="text/javascript">
-    $(document).ready(function() {
-      console.log('DOM Fully Loaded')
+<script type="text/javascript">
+  $(document).ready(function() {
+    console.log('DOM Fully Loaded')
 
-      $(document).ready(function(){
-        feather.replace()
-        $('#sidebarCollapse').on('click',function(){
-          $('#sidebar').toggleClass('active');
-        });
+
+    $(document).ready(function(){
+      $('#sidebarCollapse').on('click',function(){
+        $('#sidebar').toggleClass('active');
       });
+    });
 
-    })
-  </script>
+  })
+</script>
 </body>
 </html>

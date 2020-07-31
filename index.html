@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/app.css">
   <link rel="stylesheet" href="assets/css/clientside.css">
+  <link rel="stylesheet" href="assets/css/admin.css">
   <link rel="stylesheet" href="assets/css/fonts.css">
   <link rel="stylesheet" href="assets/css/choices.min.css">
   <!-- <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon"> -->
@@ -16,300 +17,293 @@
 </head>
 <body class="SFproReg">
   <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light pt-5">
-      <div class="container">
-        <img src="assets/img/logo.png" alt="brand" class="navbar-brand">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse align-items-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a href="login.html" class="nav-link btn text-white">LOGIN</a>
-            <a href="login.html" class="btn btn-outline-warning tombol">JOIN US</a>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-light pt-5">
+    <div class="container">
+      <img src="assets/img/logo.png" alt="brand" class="navbar-brand">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse align-items-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a href="login.html" class="nav-link btn text-white DinM">LOGIN</a>
+          <a href="login.html" class="btn btn-outline-warning tombol DinM">JOIN US</a>
         </div>
-      </div>
-    </nav>
-    <!-- End Navbar -->
-
-    <hr>
-
-    <!-- start jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container p-4">
-        
-        <div class="row filter">
-
-          <h1 class="display-4 text-left text-uppercase DinE text-white">The better
-way to fly.</h1>
-          
-          <div class="col-4 pl-0">
-            <button class="btn btn-warning text-white float-left text-uppercase text-nowrap" data-toggle="modal" data-target="#full-scrn" type="button">Advance Search</button>
-          </div>
-          
-          <div class="card">
-            <div class="card-content">
-                <div class="card-body">
-                    <div class="row">
-                      <div class="col-lg-2 border-right-custom m-0">
-                        <div class="form-group">
-                          <label class="float-left" for="first-name-vertical">From</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled="">Destination</option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-                      
-                      <div class="col-lg-2 border-right-custom m-0">
-                        <div class="form-group">
-                          <label class="float-left" for="first-name-vertical">To</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled="">Destination</option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-                      
-                      <div class="col-lg-2 border-right-custom m-0">
-                        <div class="form-group">
-                          <label class="float-left" for="first-name-vertical">Date</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-lg-2 border-right-custom m-0">
-                        <div class="form-group">
-                          <label class="float-left" for="first-name-vertical">Time of Departure</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-lg-2 m-0">
-                        <div class="form-group">
-                          <label class="float-left" for="first-name-vertical">Trip</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-lg-2 no-padding" style="padding: 0; margin: 0;">
-                        <button type="button" onclick="queryView()" class="btn btn-warning btn-block input-block-level text-uppercase" style="width: 100%; height: 100%;"><i data-feather="search"></i> Search</button>
-                      </div>
-
-                    </div>
-
-                </div>
-            </div>
-          </div>
-
-        </div>
-
       </div>
     </div>
-    <!-- end jumbotron -->
+  </nav>
+  <!-- End Navbar -->
 
-    <section id="resultSearch"></section>
+  <hr>
 
-    <section id="queryView" class="px-4"></section>
+  <!-- start jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container p-3">
 
-    <section class="gallery">
-      
-      <div class="container">
+      <div class="row filter">
 
-        <h5>Aircraft EX</h5>
-        <div class="row mb-3">
+        <h1 class="display-4 text-left text-uppercase DinE text-white">The better <br>
+        way to fly.</h1>
 
-          <div class="col-md-6">
-            <figure class="figure">
-              <img src="assets/img/item/item.png" class="figure-img img-fluid">
-              <figcaption class="figure-caption text-left">
-                <h4 class="text-white">US OPEN</h4>
-                <p><i data-feather="map-pin"></i> New York City, NY</p>
-              </figcaption>
-            </figure>
-
-          </div>
-          <div class="col-md-6">
-              <figure class="figure">
-                <img src="assets/img/item/item2.png" class="figure-img img-fluid">
-                <figcaption class="figure-caption text-left">
-                  <h4 class="text-white">ITALIAN GRAND PRIX</h4>
-                <p><i data-feather="map-pin"></i> Milan, Italy</p>
-                </figcaption>
-            </figure>
-          </div>
-
+        <div class="col-4 pl-0 ml-lg-3 mb-2">
+          <button class="btn btn-warning text-white float-left text-uppercase text-nowrap" data-toggle="modal" data-target="#full-scrn" type="button">Advance Search</button>
         </div>
 
-        <div class="row">
+        <div class="card p-0 m-0 ml-lg-3">
+          <div class="card-body panelCard-0">
+            <div class="row no-gutters">
 
-          <div class="col-md-4">
-            <figure class="figure">
-              <img src="assets/img/item/item3.png" class="figure-img img-fluid">
-              <figcaption class="figure-caption text-left">
-                <h4 class="text-white">FINAL FOUR</h4>
-                <p><i data-feather="map-pin"></i> State College, PA</p>
-              </figcaption>
-            </figure>
+              <div class="col-lg-2 border-right-custom py-3 px-2">
+                <div class="form-group">
+                  <label class="float-left" for="first-name-vertical"><img src="assets/img/icon/plane-white.svg" width="14px"> From</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled="">Destination</option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 border-right-custom py-3 px-2">
+                <div class="form-group">
+                  <label class="float-left" for="first-name-vertical">To</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled="">Destination</option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 border-right-custom py-3 px-2">
+                <div class="form-group">
+                  <label class="float-left" for="first-name-vertical">Date</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled=""></option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 border-right-custom py-3 px-2">
+                <div class="form-group">
+                  <label class="float-left" for="first-name-vertical">Time</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled=""></option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 py-3 px-2">
+                <div class="form-group">
+                  <label class="float-left" for="first-name-vertical">Trip</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled=""></option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-2">
+                <button type="button" onclick="queryView()" class="btn btn-warning btnSearch ml-lg-3 input-block-level text-uppercase DinM"><img src="assets/img/icon/search-white.svg" width="14px"> Search</button>
+              </div>
+
+            </div>
           </div>
-
-          <div class="col-md-4">
-            <figure class="figure">
-              <img src="assets/img/item/item4.png" class="figure-img img-fluid">
-              <figcaption class="figure-caption text-left">
-                <h4 class="text-white">AMERICA'S CUP</h4>
-                <p><i data-feather="map-pin"></i> San Fransisco</p>
-              </figcaption>
-            </figure>
-          </div>
-
-          <div class="col-md-4">
-            <figure class="figure">
-              <img src="assets/img/item/item5.png" class="figure-img img-fluid">
-              <figcaption class="figure-caption text-left">
-                <h4 class="text-white">WORLD SERIES</h4>
-                <p><i data-feather="map-pin"></i> Boston, MA</p>
-              </figcaption>
-            </figure>
-          </div>
-
         </div>
 
       </div>
 
-    </section>
+    </div>
+  </div>
+  <!-- end jumbotron -->
+
+  <section id="resultSearch"></section>
+
+  <section id="queryView" class="p-lg-5"></section>
+
+  <section class="gallery">
+
+    <div class="container">
+
+      <h5 class="text-dark">Aircraft EX</h5>
+      <div class="row mb-3">
+
+        <div class="col-md-6">
+          <figure class="figure">
+            <img src="assets/img/item/item.png" class="figure-img img-fluid">
+            <figcaption class="figure-caption text-left DinE">
+              <h4 class="text-white">US OPEN</h4>
+              <p><i data-feather="map-pin"></i> New York City, NY</p>
+            </figcaption>
+          </figure>
+
+        </div>
+        <div class="col-md-6">
+          <figure class="figure">
+            <img src="assets/img/item/item2.png" class="figure-img img-fluid">
+            <figcaption class="figure-caption text-left DinE">
+              <h4 class="text-white">ITALIAN GRAND PRIX</h4>
+              <p><i data-feather="map-pin"></i> Milan, Italy</p>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <figure class="figure">
+            <img src="assets/img/item/item3.png" class="figure-img img-fluid">
+            <figcaption class="figure-caption text-left DinE">
+              <h4 class="text-white">FINAL FOUR</h4>
+              <p><i data-feather="map-pin"></i> State College, PA</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-4">
+          <figure class="figure">
+            <img src="assets/img/item/item4.png" class="figure-img img-fluid">
+            <figcaption class="figure-caption text-left DinE">
+              <h4 class="text-white">AMERICA'S CUP</h4>
+              <p><i data-feather="map-pin"></i> San Fransisco</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-md-4">
+          <figure class="figure">
+            <img src="assets/img/item/item5.png" class="figure-img img-fluid">
+            <figcaption class="figure-caption text-left DinE">
+              <h4 class="text-white">WORLD SERIES</h4>
+              <p><i data-feather="map-pin"></i> Boston, MA</p>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
 
   <!-- MODAL POPUP ADVANCED SEARCh -->
   <div class="modal fade text-left w-100" id="full-scrn" tabindex="-1" aria-labelledby="myModalLabel20" style="display: none;" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h4 class="modal-title" id="myModalLabel20">Advanced Search</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <i data-feather="x"></i>
+            <i data-feather="x"></i>
           </button>
-          </div>
-          <div class="row no-gutters">
+        </div>
+        <div class="row no-gutters">
           <div class="card">
             <div class="card-content">
-                <div class="card-body">
-                    <div class="row">
+              <div class="card-body">
+                <div class="row">
 
-                      <div class="col-md border-right-custom">
-                        <div class="form-group">
-                          <label for="first-name-vertical">Jet Type</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-md border-right-custom">
-                        <div class="form-group">
-                          <label for="first-name-vertical">make/model</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-md border-right-custom">
-                        <div class="form-group">
-                          <label for="first-name-vertical">amenities</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-md border-right-custom">
-                        <div class="form-group">
-                          <label for="first-name-vertical">pricing</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-md border-right-custom">
-                        <div class="form-group">
-                          <label for="first-name-vertical">passengers</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-md border-right-custom">
-                        <div class="form-group">
-                          <label for="first-name-vertical">operator</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-md border-right-custom">
-                        <div class="form-group">
-                          <label for="first-name-vertical">tail numbers</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="col-md">
-                        <div class="form-group">
-                          <label for="first-name-vertical">Search radius</label>
-                          <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled=""></option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                          </select>
-                        </div>
-                      </div>
-
+                  <div class="col-md border-right-custom">
+                    <div class="form-group">
+                      <label for="first-name-vertical">Jet Type</label>
+                      <select class="form-select no-border" id="basicSelect">
+                        <option selected="" disabled=""></option>
+                        <option>Blade Runner</option>
+                        <option>Thor Ragnarok</option>
+                      </select>
                     </div>
+                  </div>
+
+                  <div class="col-md border-right-custom">
+                    <div class="form-group">
+                      <label for="first-name-vertical">make/model</label>
+                      <select class="form-select no-border" id="basicSelect">
+                        <option selected="" disabled=""></option>
+                        <option>Blade Runner</option>
+                        <option>Thor Ragnarok</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-md border-right-custom">
+                    <div class="form-group">
+                      <label for="first-name-vertical">amenities</label>
+                      <select class="form-select no-border" id="basicSelect">
+                        <option selected="" disabled=""></option>
+                        <option>Blade Runner</option>
+                        <option>Thor Ragnarok</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-md border-right-custom">
+                    <div class="form-group">
+                      <label for="first-name-vertical">pricing</label>
+                      <select class="form-select no-border" id="basicSelect">
+                        <option selected="" disabled=""></option>
+                        <option>Blade Runner</option>
+                        <option>Thor Ragnarok</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-md border-right-custom">
+                    <div class="form-group">
+                      <label for="first-name-vertical">passengers</label>
+                      <select class="form-select no-border" id="basicSelect">
+                        <option selected="" disabled=""></option>
+                        <option>Blade Runner</option>
+                        <option>Thor Ragnarok</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-md border-right-custom">
+                    <div class="form-group">
+                      <label for="first-name-vertical">operator</label>
+                      <select class="form-select no-border" id="basicSelect">
+                        <option selected="" disabled=""></option>
+                        <option>Blade Runner</option>
+                        <option>Thor Ragnarok</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-md border-right-custom">
+                    <div class="form-group">
+                      <label for="first-name-vertical">tail numbers</label>
+                      <select class="form-select no-border" id="basicSelect">
+                        <option selected="" disabled=""></option>
+                        <option>Blade Runner</option>
+                        <option>Thor Ragnarok</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="col-md">
+                    <div class="form-group">
+                      <label for="first-name-vertical">Search radius</label>
+                      <select class="form-select no-border" id="basicSelect">
+                        <option selected="" disabled=""></option>
+                        <option>Blade Runner</option>
+                        <option>Thor Ragnarok</option>
+                      </select>
+                    </div>
+                  </div>
 
                 </div>
+
+              </div>
             </div>
           </div>
 
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-warning float-right" onclick="queryView()" type="button">Show Results</button>
+        </div>
+
       </div>
-      <div class="modal-footer">
-        <button class="btn btn-warning float-right" onclick="queryView()" type="button">Show Results</button>
-      </div>
-      
-      </div>
-      </div>
+    </div>
   </div>
   <!-- END POPUP -->  
 

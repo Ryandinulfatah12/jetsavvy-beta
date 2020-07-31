@@ -1,0 +1,111 @@
+/* SF Pro Display Regular*/
+@font-face {
+	src: url(../fonts/SF-Pro-Display-Regular.otf);
+    font-family: SFPD-Regular;   
+}
+
+$font-stack: SFPD-Regular;
+$dark-color: #222222;
+$orange-color: #F8AB3A;
+$silver-light-colour: #B2B2B2;
+$silver-dark-colour: #7f7f7f;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $dark-color;
+}
+
+.text-silver-dark {
+	color: $silver-dark-colour;
+}
+.text-silver-light {
+	color: $silver-light-colour;
+}
+.text-orange {
+	color: $orange-color;
+}
+.text-dark {
+	color: $dark-color;
+}
+
+.font-size-36 {
+	font-size: 36px;
+}
+
+.label {
+	color: $silver-light-colour;
+	font-weight: 200;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+.no-letter-spacing {
+	letter-spacing: 0;
+}
+.letter-spacing-1 {
+	letter-spacing: 1px;
+}
+.label-silver-dark {
+	color: $silver-dark-colour;
+	font-weight: 200;
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-family: DinM;
+}
+label {
+	color: $silver-light-colour;
+	font-size: 12px;
+	font-family: DinM;
+}
+
+.form-border-1 {
+	border: 1px solid $silver-light-colour;
+}
+.form-select {
+	color: $silver-light-colour;
+}
+.panelCard-0 {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.btnSearch {
+	border-radius: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.list-unstyled li {
+	color: $silver-light-colour;
+}
+
+.arrow-right {
+	margin-top: -44px;
+	position: absolute;
+	right: 125px;
+}
+
+.border-orange {
+	border: 2px solid $orange-color;
+}
+
+@media screen and (max-width: 568px){
+	.arrow-right {
+	margin-top: -44px;
+	position: absolute;
+	right: 77px;
+}
+}
+
+@media screen and (min-width: 997px){	
+	.border-right-custom{
+		padding-right: 20px;
+		padding-left: 20px;
+		border-right: 2px solid #f0f0f0;
+	}	
+}

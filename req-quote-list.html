@@ -15,7 +15,7 @@
   <!-- <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon"> -->
   <title>Home | Website</title>
 </head>
-<body class="SFproReg">
+<body class="SFPD-Regular">
   <header class="navbar navbar-header navbar-expand navbar-dark bg-dark">
     <div class="container">
       <div class="menu-toggle">
@@ -24,15 +24,15 @@
         <span></span>
         <span></span>
       </div>
-      <img src="assets/img/logo.png" class="pl-4 brandlogo">
+      <img src="assets/img/logo.png" class="ml-5 pl-lg-5">
       <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
         <ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
           <li class="dropdown">
-            <a href="profile-page.html"class="nav-link nav-link-lg nav-link-user">
-              <div class="avatar-nav">
+            <a href="profile.html"class="nav-link nav-link-lg nav-link-user">
+              <div class="float-left mr-3">
                 <img src="assets/img/profile.png" alt="avatar">
               </div>
-              <div class="d-none d-md-block d-lg-inline-block text-white text-left">John Doe <br><span class="text-muted">BROKER ADMIN</span></div>
+              <div class="d-none d-md-block d-lg-inline-block text-white text-left">John Doe <br><span class="text-muted DinM">BROKER ADMIN</span></div>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
               <button class="dropdown-item"><i data-feather="log-out"></i> Logout</button>
@@ -41,677 +41,711 @@
         </ul>
       </div>
     </div>
-    </header>
-    <div class="wrapper">
-      <!-- Sidebar Holder -->
-      <nav id="sidebar">
-        <div class="leftMenu">
-            <div class="menuArea">
-                
-                <div class="Menu">
-                   <a href="req-quote.html"><div class="icons" id="searchIcon">&nbsp; <span class="side-link text-uppercase">Search</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="companionsIcon">&nbsp; <span class="side-link text-uppercase">companions</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="profileIcon">&nbsp; <span class="side-link text-uppercase">profile</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="graphIcon">&nbsp; <span class="side-link text-uppercase">graph</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="conciergeIcon">&nbsp; <span class="side-link text-uppercase">concierge</span></div></a>
-                </div>
-                <div class="Menu">
-                    <a href="#"><div class="icons" id="logOutIcon">&nbsp; <span class="side-link text-uppercase">logout</span></div></a>
-                </div>
-            </div>
+  </header>
+
+  <div class="d-flex">
+    <!-- Sidebar Holder add class active to reduce-->
+    <nav id="sidebar">
+
+      <div class="leftMenu">
+        <div class="menuArea">
+
+          <div class="Menu">
+           <a href="req-quote.html"><div class="icons" id="searchIcon">&nbsp; <span class="side-link text-uppercase">Search</span></div></a>
+         </div>
+         <div class="Menu">
+          <a href="#"><div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div></a>
         </div>
-      </nav>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="companionsIcon">&nbsp; <span class="side-link text-uppercase">companions</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="profileIcon">&nbsp; <span class="side-link text-uppercase">profile</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="graphIcon">&nbsp; <span class="side-link text-uppercase">graph</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="conciergeIcon">&nbsp; <span class="side-link text-uppercase">concierge</span></div></a>
+        </div>
+        <div class="Menu">
+          <a href="#"><div class="icons" id="logOutIcon">&nbsp; <span class="side-link text-uppercase">logout</span></div></a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-      <!-- Page Content Holder -->
-      <div id="content">
+  <!-- Page Content Holder -->
+  <div class="container">
 
-        <h2 class="mb-3 text-dark pl-4 DinE">REQUEST A QUOTE</h2>
-        <div class="row px-4 justify-content-start">
-          <div class="col-md-5 py-2">
+    <h2 class="text-dark pl-lg-5 pl-3 mt-5 DinE">REQUEST A QUOTE</h2>
+    <div class="row px-lg-5 px-3">
+      <div class="col-md-5 py-2">
 
-            <div class="form-group row float-left">
+        <div class="form-group row float-left">
 
-              <div class="col-md-4">
-                <div style="margin-top: 14px;">
-                  <img src="assets/img/settings-menu.png" width="19px" alt="">
-                  <span class="label">customer</span>
-                </div>
-              </div>
-              <div class="col-md-4 py-2">
-                <select class="form-select border-select-light" id="basicSelect">
-                  <option>John Doe</option>
-                  <option>Blade Runner</option>
-                  <option>Thor Ragnarok</option>
-                </select>
-              </div>
-
-              <div class="col-md-4 text-warning" style="margin-top:14px;">
-                <a href=""><u>Add a Customer</u></a>
-              </div>
-              
+          <div class="col-md-4 mt-3">
+            <div>
+              <img src="assets/img/settings-menu.png" width="19px" alt="">
+              <span class="label text-uppercase SFPD-Bold">customer</span>
             </div>
           </div>
-
-        </div>  
-
-        <div class="row px-4 no-gutters">
-          <div class="col-md-4 pb-3">
-            <button onclick="advanceSearch()" class="btn btn-warning text-white float-left text-uppercase">Advance Search</button>
+          <div class="col-md-4 py-2">
+            <select class="form-select form-border-1" id="basicSelect">
+              <option>John Doe</option>
+              <option>Blade Runner</option>
+              <option>Thor Ragnarok</option>
+            </select>
           </div>
 
-          <div class="card">
-            <div class="card-content">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-lg-2 border-right-custom m-0">
-                    <div class="form-group">
-                      <label for="first-name-vertical">From</label>
-                      <select class="form-select no-border" id="basicSelect">
-                        <option selected="" disabled="">Destination</option>
-                        <option>Blade Runner</option>
-                        <option>Thor Ragnarok</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-2 border-right-custom m-0">
-                    <div class="form-group">
-                      <label for="first-name-vertical">To</label>
-                      <select class="form-select no-border" id="basicSelect">
-                        <option selected="" disabled="">Destination</option>
-                        <option>Blade Runner</option>
-                        <option>Thor Ragnarok</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-2 border-right-custom m-0">
-                    <div class="form-group">
-                      <label for="first-name-vertical">Date</label>
-                      <div class="row">
-                        <div class="col">
-                          <div class="form-group">
-                            <label for="first-name-vertical">depart</label>
-                            <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled="">4 Jan</option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="form-group">
-                            <label for="first-name-vertical">return</label>
-                            <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled="">4 Feb</option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-2 border-right-custom m-0">
-                    <div class="form-group">
-                      <label for="first-name-vertical">time</label>
-                      <div class="row">
-                        <div class="col">
-                          <div class="form-group">
-                            <label for="first-name-vertical">depart</label>
-                            <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled="">0084 hrs</option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                            </select>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="form-group">
-                            <label for="first-name-vertical">return</label>
-                            <select class="form-select no-border" id="basicSelect">
-                              <option selected="" disabled="">22hrs</option>
-                              <option>Blade Runner</option>
-                              <option>Thor Ragnarok</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-2 m-0">
-                    <div class="form-group">
-                      <label for="first-name-vertical">Trip</label>
-                      <select class="form-select no-border" id="basicSelect">
-                        <option selected="" disabled="">Road Trip</option>
-                        <option>Blade Runner</option>
-                        <option>Thor Ragnarok</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-2 no-padding" style="padding: 0; margin: 0;">
-                    <button class="btn btn-warning btn-block input-block-level text-uppercase" style="width: 100%; height: 100%;"><i data-feather="search"></i> Search</button>
-                  </div>
-
-                </div>
-
-              </div>
-            </div>
+          <div class="col-md-4 text-nowrap mt-3">
+            <a href="" class="text-warning"><u>Add a Customer</u></a>
           </div>
 
         </div>
+      </div>
 
-        <section id="resultSearch"></section>
+    </div>  
 
-        <section class="results px-4">
+    <!-- Panel Search -->
+    <div class="row no-gutters px-lg-5 px-3 px-3">
+      <div class="col-md-4 pb-3 ml-lg-2">
+        <button type="button" onclick="advanceSearch()" data-toggle="modal" data-target="#full-scrn" class="btn btn-warning text-white float-left text-uppercase DinM">Advance Search</button>
+      </div>
 
-          <div class="row py-3">
-            <h6 class="text-uppercase label"><img src="assets/img/plane.svg" width="20px"> Aircrafts selected</h6>
-            <div class="col-md-8">
+      <div class="card p-0 m-0 ml-lg-2">
+        <div class="card-body panelCard-0">
+          <div class="row no-gutters">
+
+            <div class="col-lg-2 border-right-custom py-3 px-2">
               <div class="form-group">
-                <select class="choices form-select multiple-remove" multiple="multiple">
-                  <optgroup label="Figures">
-                    <option value="romboid">Romboid</option>
-                    <option value="trapeze" selected>Trapeze</option>
-                    <option value="triangle">Triangle</option>
-                    <option value="polygon">Polygon</option>
-                  </optgroup>
-                  <optgroup label="Colors">
-                    <option value="red">Red</option>
-                    <option value="green">Green</option>
-                    <option value="blue" selected>Blue</option>
-                    <option value="purple">Purple</option>
-                  </optgroup>
-                </select>
-              </div>
-            </div>
-
-            <div class="col-md-2 clearfix"></div>
-
-            <div class="col-md-2">
-              <button class="btn btn-warning btn-md text-uppercase">create quote</button>
-            </div>
-          </div>
-
-          <!-- RESULTS SECTION -->
-          <div class="row py-3">
-
-            <div class="col-md-5">
-              <div class="col-4"><h6 class="text-uppercase label">23 result</h6></div>
-              <div class="col-8">
-                <select class="form-select no-border" id="basicSelect">
-                  <option selected="" disabled="">SORT BY</option>
+                <label class="text-uppercase" for="first-name-vertical"><img src="assets/img/icon/plane-white.svg" width="14px"> From</label>
+                <select class="form-select text-dark no-border" id="basicSelect">
+                  <option selected="" disabled="">Toronto (YYZ)</option>
                   <option>Blade Runner</option>
                   <option>Thor Ragnarok</option>
                 </select>
               </div>
-
             </div>
-
-            <div class="col-md-1 clearfix"></div>
-
-            <div class="col-md-1 text-right">
-              <select class="form-select no-border" id="basicSelect">
-                <option>TYPE</option>
-                <option>Blade Runner</option>
-                <option>Thor Ragnarok</option>
-              </select>
+            <div class="col-lg-2 border-right-custom py-3 px-2">
+              <div class="form-group">
+                <label class="text-uppercase" for="first-name-vertical">To</label>
+                <select class="form-select text-dark no-border" id="basicSelect">
+                  <option selected="" disabled="">San Francisco (SFO)</option>
+                  <option>Blade Runner</option>
+                  <option>Thor Ragnarok</option>
+                </select>
+              </div>
             </div>
-
-            <div class="col-md-1 text-right">
-              <select class="form-select no-border" id="basicSelect">
-                <option>RATINGS</option>
-                <option>Blade Runner</option>
-                <option>Thor Ragnarok</option>
-              </select>
-            </div>
-
-            <div class="col-md-1 text-right">
-              <select class="form-select no-border" id="basicSelect">
-                <option>PRICING</option>
-                <option>Blade Runner</option>
-                <option>Thor Ragnarok</option>
-              </select>
-            </div>
-
-            <div class="col-md-1">
-              <select class="form-select no-border" id="basicSelect">
-                <option>AMENITIES</option>
-                <option>Blade Runner</option>
-                <option>Thor Ragnarok</option>
-              </select>
-            </div>
-
-            <div class="col-md-2 justify-content-evenly text-center">
-              <a href="req-quote-list.html" class="text-dark"><i data-feather="list"></i></a>
-              <a href="req-quote-grid.html"><i data-feather="grid"></i></a>
-            </div>
-
-          </div>
-
-          <div class="row">
-            <h6 class="text-uppercase label"><img src="assets/img/down.svg" alt=""> empty legs 3</h6>
-          </div>
-
-          <!-- LIST CARD -->
-          <div class="row px-2 py-2">
-
-            <div class="card p-4">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="card-content">
-                    <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1">Select</button>
-                    <span class="text-warning text-uppercase">Light jet Charter | 8 seats available</span>
-                    <div class="row text-secondary text-uppercase justify-content-between">
-                      <div class="col"><h4 class="card-title">Beech baron 58</h4></div>
-                      <div class="col clearfix"></div>
-                      <div class="col"><h4 class="card-title">$40.000</h4></div>
+            <div class="col-lg-2 border-right-custom">
+              <div class="form-group">
+                <label class="text-uppercase" for="first-name-vertical">Date</label>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                      <label class="text-uppercase" for="first-name-vertical">depart</label>
+                      <select class="form-select text-dark no-border" id="basicSelect">
+                          <option selected="" disabled="">4 Jan</option>
+                          <option>Blade Runner</option>
+                          <option>Thor Ragnarok</option>
+                      </select>
                     </div>
-                    <p class="text-light">
-                      Flight Time 4:04 hrs
-                    </p>
-                    <p class="text-light">
-                      Tail Number: 01WRLMS65 
-                    </p>
-                    <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-                    <p class="text-light">
-                      Capacity: 10 Passengers
-                    </p>
-                    <p class="text-light">
-                      1 flight attendent • 2 bathrooms • Recliner-style seats
-                      Couch • Wi-Fi • 10 LCD screens
-                    </p>
                   </div>
-                </div>
-                <div class="col-lg-6">
-                  <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                      <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                      <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-                    </ol>
-                    <div class="carousel-inner rounded-0" role="listbox">
-                      <div class="carousel-item active">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
-                      </div>
+                  <div class="col">
+                    <div class="form-group">
+                      <label class="text-uppercase" for="first-name-vertical">return</label>
+                      <select class="form-select text-dark no-border" id="basicSelect">
+                          <option selected="" disabled="">4 Feb</option>
+                          <option>Blade Runner</option>
+                          <option>Thor Ragnarok</option>
+                      </select>
                     </div>
-                    <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                      <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                      <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- LIST CARD -->
-          <div class="row px-2 py-2">
-
-            <div class="card p-4">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="card-content">
-                    <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1">Select</button>
-                    <span class="text-warning text-uppercase">Light jet Charter | 8 seats available</span>
-                    <div class="row text-secondary text-uppercase justify-content-between">
-                      <div class="col"><h4 class="card-title">Beech baron 58</h4></div>
-                      <div class="col clearfix"></div>
-                      <div class="col"><h4 class="card-title">$40.000</h4></div>
+            <div class="col-lg-2 border-right-custom">
+              <div class="form-group">
+                <label class="text-uppercase" for="first-name-vertical">time</label>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                      <label class="text-uppercase" for="first-name-vertical">depart</label>
+                      <select class="form-select text-dark no-border" id="basicSelect">
+                          <option selected="" disabled="">0084 hrs</option>
+                          <option>Blade Runner</option>
+                          <option>Thor Ragnarok</option>
+                      </select>
                     </div>
-                    <p class="text-light">
-                      Flight Time 4:04 hrs
-                    </p>
-                    <p class="text-light">
-                      Tail Number: 01WRLMS65 
-                    </p>
-                    <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-                    <p class="text-light">
-                      Capacity: 10 Passengers
-                    </p>
-                    <p class="text-light">
-                      1 flight attendent • 2 bathrooms • Recliner-style seats
-                      Couch • Wi-Fi • 10 LCD screens
-                    </p>
                   </div>
-                </div>
-                <div class="col-lg-6">
-                  <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                      <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                      <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-                    </ol>
-                    <div class="carousel-inner rounded-0" role="listbox">
-                      <div class="carousel-item active">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
-                      </div>
+                  <div class="col">
+                    <div class="form-group">
+                      <label class="text-uppercase" for="first-name-vertical">return</label>
+                      <select class="form-select text-dark no-border" id="basicSelect">
+                          <option selected="" disabled="">22hrs</option>
+                          <option>Blade Runner</option>
+                          <option>Thor Ragnarok</option>
+                      </select>
                     </div>
-                    <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                      <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                      <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <!-- LIST CARD -->
-          <div class="row px-2 py-2">
-
-            <div class="card p-4">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="card-content">
-                    <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1">Select</button>
-                    <span class="text-warning text-uppercase">Light jet Charter | 8 seats available</span>
-                    <div class="row text-secondary text-uppercase justify-content-between">
-                      <div class="col"><h4 class="card-title">Beech baron 58</h4></div>
-                      <div class="col clearfix"></div>
-                      <div class="col"><h4 class="card-title">$40.000</h4></div>
-                    </div>
-                    <p class="text-light">
-                      Flight Time 4:04 hrs
-                    </p>
-                    <p class="text-light">
-                      Tail Number: 01WRLMS65 
-                    </p>
-                    <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-                    <p class="text-light">
-                      Capacity: 10 Passengers
-                    </p>
-                    <p class="text-light">
-                      1 flight attendent • 2 bathrooms • Recliner-style seats
-                      Couch • Wi-Fi • 10 LCD screens
-                    </p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                      <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                      <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-                    </ol>
-                    <div class="carousel-inner rounded-0" role="listbox">
-                      <div class="carousel-item active">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                      <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                      <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                </div>
+            <div class="col-lg-2 border-right-custom py-3 px-2">
+              <div class="form-group">
+                <label class="text-uppercase" for="first-name-vertical">Trip</label>
+                <select class="form-select text-dark no-border" id="basicSelect">
+                  <option selected="" disabled="">Round trip</option>
+                  <option>Blade Runner</option>
+                  <option>Thor Ragnarok</option>
+                </select>
               </div>
             </div>
-          </div>
-
-          <!-- LIST CARD -->
-          <div class="row px-2 py-2">
-
-            <div class="card p-4">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="card-content">
-                    <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1">Select</button>
-                    <span class="text-warning text-uppercase">Light jet Charter | 8 seats available</span>
-                    <div class="row text-secondary text-uppercase justify-content-between">
-                      <div class="col"><h4 class="card-title">Beech baron 58</h4></div>
-                      <div class="col clearfix"></div>
-                      <div class="col"><h4 class="card-title">$40.000</h4></div>
-                    </div>
-                    <p class="text-light">
-                      Flight Time 4:04 hrs
-                    </p>
-                    <p class="text-light">
-                      Tail Number: 01WRLMS65 
-                    </p>
-                    <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-                    <p class="text-light">
-                      Capacity: 10 Passengers
-                    </p>
-                    <p class="text-light">
-                      1 flight attendent • 2 bathrooms • Recliner-style seats
-                      Couch • Wi-Fi • 10 LCD screens
-                    </p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                      <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                      <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-                    </ol>
-                    <div class="carousel-inner rounded-0" role="listbox">
-                      <div class="carousel-item active">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                      <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                      <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <div class="col-lg-2 col-md-2">
+              <button type="button" onclick="queryView()" class="btn btn-warning btnSearch input-block-level text-uppercase DinM"><img src="assets/img/icon/search-white.svg" width="14px"> Search</button>
             </div>
+
           </div>
-
-          <!-- LIST CARD -->
-          <div class="row px-2 py-2">
-
-            <div class="card p-4">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="card-content">
-                    <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1">Select</button>
-                    <span class="text-warning text-uppercase">Light jet Charter | 8 seats available</span>
-                    <div class="row text-secondary text-uppercase justify-content-between">
-                      <div class="col"><h4 class="card-title">Beech baron 58</h4></div>
-                      <div class="col clearfix"></div>
-                      <div class="col"><h4 class="card-title">$40.000</h4></div>
-                    </div>
-                    <p class="text-light">
-                      Flight Time 4:04 hrs
-                    </p>
-                    <p class="text-light">
-                      Tail Number: 01WRLMS65 
-                    </p>
-                    <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-                    <p class="text-light">
-                      Capacity: 10 Passengers
-                    </p>
-                    <p class="text-light">
-                      1 flight attendent • 2 bathrooms • Recliner-style seats
-                      Couch • Wi-Fi • 10 LCD screens
-                    </p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                      <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                      <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-                    </ol>
-                    <div class="carousel-inner rounded-0" role="listbox">
-                      <div class="carousel-item active">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                      <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                      <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- LIST CARD -->
-          <div class="row px-2 py-2">
-
-            <div class="card p-4">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="card-content">
-                    <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1">Select</button>
-                    <span class="text-warning text-uppercase">Light jet Charter | 8 seats available</span>
-                    <div class="row text-secondary text-uppercase justify-content-between">
-                      <div class="col"><h4 class="card-title">Beech baron 58</h4></div>
-                      <div class="col clearfix"></div>
-                      <div class="col"><h4 class="card-title">$40.000</h4></div>
-                    </div>
-                    <p class="text-light">
-                      Flight Time 4:04 hrs
-                    </p>
-                    <p class="text-light">
-                      Tail Number: 01WRLMS65 
-                    </p>
-                    <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-                    <p class="text-light">
-                      Capacity: 10 Passengers
-                    </p>
-                    <p class="text-light">
-                      1 flight attendent • 2 bathrooms • Recliner-style seats
-                      Couch • Wi-Fi • 10 LCD screens
-                    </p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                      <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                      <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-                    </ol>
-                    <div class="carousel-inner rounded-0" role="listbox">
-                      <div class="carousel-item active">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                      <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                      <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </section>
-
+        </div>
       </div>
 
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-3.5.1.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/choices.min.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
+    <section id="resultSearch" class="mt-2">
+      <div class="row py-3 px-lg-5">
+        <h6 class="text-uppercase label font-weight-bold"><img src="assets/img/plane.svg" width="20px"> Aircrafts selected</h6>
+        <div class="col-md-8">
+            <div class="form-group">
+              <select class="choices form-select multiple-remove" multiple="multiple">
+                  <optgroup class="text-uppercase" label="Figures">
+                      <option value="romboid">Romboid</option>
+                      <option value="trapeze" selected>Trapeze</option>
+                      <option value="triangle">Triangle</option>
+                      <option value="polygon">Polygon</option>
+                  </optgroup>
+                  <optgroup class="text-uppercase" label="Colors">
+                      <option value="red">Red</option>
+                      <option value="green">Green</option>
+                      <option value="blue" selected>Blue</option>
+                      <option value="purple">Purple</option>
+                  </optgroup>
+              </select>
+          </div>
+        </div>
 
-    <script type="text/javascript">
-      $(document).ready(function() {
-        console.log('DOM Fully Loaded')
+        <div class="col-md-2 clearfix"></div>
+  
+        <div class="col-md-2">
+          <a href="quote-details-1.html" class="btn btn-warning btn-block text-uppercase font-weight-bold letter-spacing-1">create quote</a>
+        </div>
+      </div>
+      <div class="row py-3 px-lg-5">
+        <div class="col-md-2 d-flex">
+          <h6 class="text-uppercase label text-dark font-weight-bold mt-2 text-nowrap">23 result</h6>
+          <div class="dropdown">
+              <button class="btn dropdown-toggle mr-1 SFPD-Bold text-silver-light" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  SORT BY
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6" style="">
+                  <div class="form-check form-check-warning m-3">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                          Operators
+                      </label>
+                  </div>
+                  <div class="form-check form-check-warning m-3">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                      <label class="form-check-label" for="flexRadioDefault1">
+                          Charter/Empty Leg
+                      </label>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-5 clearfix"></div>
+        <div class="col-md-1">
+          <select class="form-select no-border">
+              <option>TYPE</option>
+              <option>Blade Runner</option>
+              <option>Thor Ragnarok</option>
+          </select>
+        </div>
 
-        $(document).ready(function(){
-          feather.replace()
-          $('#sidebarCollapse').on('click',function(){
-            $('#sidebar').toggleClass('active');
-          });
-        });
+        <div class="col-md-1">
+          <select class="form-select no-border">
+              <option>RATINGS</option>
+              <option>Blade Runner</option>
+              <option>Thor Ragnarok</option>
+          </select>
+        </div>
 
-      })
-    </script>
-  </body>
-  </html>
+        <div class="col-md-1">
+          <select class="form-select no-border">
+              <option>PRICING</option>
+              <option>Blade Runner</option>
+              <option>Thor Ragnarok</option>
+          </select>
+        </div>
+
+        <div class="col-md-1">
+          <select class="form-select no-border">
+              <option>AMENITIES</option>
+              <option>Blade Runner</option>
+              <option>Thor Ragnarok</option>
+          </select>
+        </div>
+
+        <div class="col-md-1 mt-2 text-center">
+          <a href="#"><img src="assets/img/icon/list-white.svg" alt=""></a>
+          <a href="#"><img class="text-dark"><img src="assets/img/icon/grid-dark.svg" alt=""></a>
+        </div>
+      </div>
+
+      <div class="row ml-5">
+        <h6 class="text-uppercase label text-dark font-weight-bold text-nowrap"><img src="assets/img/down.svg" alt=""> flightpath</h6>
+      </div>
+
+      <div class="card mx-5 mt-3 border-orange">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card-content p-4">
+              <button class="btn btn-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM">Selected</button>
+              <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
+              <div class="row text-secondary text-uppercase justify-content-between">
+                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
+                <div class="col clearfix"></div>
+                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
+              </div>
+              <p class="text-light">
+                Flight Time 4:04 hrs
+              </p>
+              <p class="text-light">
+                Tail Number: 01WRLMS65 
+              </p>
+              <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
+              <p class="text-light">
+                Capacity: 10 Passengers
+              </p>
+              <p class="text-light">
+                1 flight attendent • 2 bathrooms • Recliner-style seats
+                Couch • Wi-Fi • 10 LCD screens
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
+              </ol>
+              <div class="carousel-inner rounded-0" role="listbox">
+                <div class="carousel-item active">
+                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
+                <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
+                <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mx-5 mt-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card-content p-4">
+              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM">Select</button>
+              <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
+              <div class="row text-secondary text-uppercase justify-content-between">
+                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
+                <div class="col clearfix"></div>
+                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
+              </div>
+              <p class="text-light">
+                Flight Time 4:04 hrs
+              </p>
+              <p class="text-light">
+                Tail Number: 01WRLMS65 
+              </p>
+              <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
+              <p class="text-light">
+                Capacity: 10 Passengers
+              </p>
+              <p class="text-light">
+                1 flight attendent • 2 bathrooms • Recliner-style seats
+                Couch • Wi-Fi • 10 LCD screens
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
+              </ol>
+              <div class="carousel-inner rounded-0" role="listbox">
+                <div class="carousel-item active">
+                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
+                <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
+                <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mx-5 mt-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card-content p-4">
+              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM">Select</button>
+              <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
+              <div class="row text-secondary text-uppercase justify-content-between">
+                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
+                <div class="col clearfix"></div>
+                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
+              </div>
+              <p class="text-light">
+                Flight Time 4:04 hrs
+              </p>
+              <p class="text-light">
+                Tail Number: 01WRLMS65 
+              </p>
+              <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
+              <p class="text-light">
+                Capacity: 10 Passengers
+              </p>
+              <p class="text-light">
+                1 flight attendent • 2 bathrooms • Recliner-style seats
+                Couch • Wi-Fi • 10 LCD screens
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
+              </ol>
+              <div class="carousel-inner rounded-0" role="listbox">
+                <div class="carousel-item active">
+                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
+                <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
+                <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mx-5 mt-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card-content p-4">
+              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM">Select</button>
+              <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
+              <div class="row text-secondary text-uppercase justify-content-between">
+                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
+                <div class="col clearfix"></div>
+                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
+              </div>
+              <p class="text-light">
+                Flight Time 4:04 hrs
+              </p>
+              <p class="text-light">
+                Tail Number: 01WRLMS65 
+              </p>
+              <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
+              <p class="text-light">
+                Capacity: 10 Passengers
+              </p>
+              <p class="text-light">
+                1 flight attendent • 2 bathrooms • Recliner-style seats
+                Couch • Wi-Fi • 10 LCD screens
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
+              </ol>
+              <div class="carousel-inner rounded-0" role="listbox">
+                <div class="carousel-item active">
+                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
+                <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
+                <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mx-5 mt-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card-content p-4">
+              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM">Select</button>
+              <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
+              <div class="row text-secondary text-uppercase justify-content-between">
+                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
+                <div class="col clearfix"></div>
+                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
+              </div>
+              <p class="text-light">
+                Flight Time 4:04 hrs
+              </p>
+              <p class="text-light">
+                Tail Number: 01WRLMS65 
+              </p>
+              <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
+              <p class="text-light">
+                Capacity: 10 Passengers
+              </p>
+              <p class="text-light">
+                1 flight attendent • 2 bathrooms • Recliner-style seats
+                Couch • Wi-Fi • 10 LCD screens
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
+              </ol>
+              <div class="carousel-inner rounded-0" role="listbox">
+                <div class="carousel-item active">
+                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
+                <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
+                <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="queryView" class="px-4"></section>
+
+  </div>
+
+</div>
+
+<!-- MODAL POPUP ADVANCED SEARCh -->
+<div class="modal fade text-left w-100" id="full-scrn" tabindex="-1" aria-labelledby="myModalLabel20" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel20">Advanced Search</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          x
+        </button>
+      </div>
+      <div class="row no-gutters">
+        <div class="card">
+          <div class="card-content">
+            <div class="card-body">
+              <div class="row">
+
+                <div class="col-md border-right-custom">
+                  <div class="form-group">
+                    <label for="first-name-vertical">Jet Type</label>
+                    <select class="form-select no-border" id="basicSelect">
+                      <option selected="" disabled=""></option>
+                      <option>Blade Runner</option>
+                      <option>Thor Ragnarok</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md border-right-custom">
+                  <div class="form-group">
+                    <label for="first-name-vertical">make/model</label>
+                    <select class="form-select no-border" id="basicSelect">
+                      <option selected="" disabled=""></option>
+                      <option>Blade Runner</option>
+                      <option>Thor Ragnarok</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md border-right-custom">
+                  <div class="form-group">
+                    <label for="first-name-vertical">amenities</label>
+                    <select class="form-select no-border" id="basicSelect">
+                      <option selected="" disabled=""></option>
+                      <option>Blade Runner</option>
+                      <option>Thor Ragnarok</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md border-right-custom">
+                  <div class="form-group">
+                    <label for="first-name-vertical">pricing</label>
+                    <select class="form-select no-border" id="basicSelect">
+                      <option selected="" disabled=""></option>
+                      <option>Blade Runner</option>
+                      <option>Thor Ragnarok</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md border-right-custom">
+                  <div class="form-group">
+                    <label for="first-name-vertical">passengers</label>
+                    <select class="form-select no-border" id="basicSelect">
+                      <option selected="" disabled=""></option>
+                      <option>Blade Runner</option>
+                      <option>Thor Ragnarok</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md border-right-custom">
+                  <div class="form-group">
+                    <label for="first-name-vertical">operator</label>
+                    <select class="form-select no-border" id="basicSelect">
+                      <option selected="" disabled=""></option>
+                      <option>Blade Runner</option>
+                      <option>Thor Ragnarok</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md border-right-custom">
+                  <div class="form-group">
+                    <label for="first-name-vertical">tail numbers</label>
+                    <select class="form-select no-border" id="basicSelect">
+                      <option selected="" disabled=""></option>
+                      <option>Blade Runner</option>
+                      <option>Thor Ragnarok</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-md">
+                  <div class="form-group">
+                    <label for="first-name-vertical">Search radius</label>
+                    <select class="form-select no-border" id="basicSelect">
+                      <option selected="" disabled=""></option>
+                      <option>Blade Runner</option>
+                      <option>Thor Ragnarok</option>
+                    </select>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-warning float-right" onclick="queryView()" type="button">Show Results</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- END POPUP -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/choices.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    console.log('DOM Fully Loaded')
+
+
+    $(document).ready(function(){
+      $('#sidebarCollapse').on('click',function(){
+        $('#sidebar').toggleClass('active');
+      });
+    });
+
+  })
+</script>
+</body>
+</html>
