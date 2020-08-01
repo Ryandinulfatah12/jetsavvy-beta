@@ -1,12 +1,15 @@
+nav {
+    margin-right: 100px;
+}
+
 .leftMenu {
-    /*position: fixed;*/
-    position: sticky;
-    top: 0;
     z-index: 1000;
     width: 80px;
-    padding: 20px 0 20px 0;
+    height: 100%;
+    padding: 20px 20px 20px 0;
     -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);
+    position: fixed;
 }
 
 .menuArea {

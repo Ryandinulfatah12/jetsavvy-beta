@@ -16,7 +16,7 @@
   <title>Home | Website</title>
 </head>
 <body class="SFPD-Regular">
-  <header class="navbar navbar-header navbar-expand navbar-dark bg-dark">
+  <header class="navbar fixed-top navbar-header navbar-expand navbar-dark bg-dark">
     <div class="container">
       <div class="menu-toggle">
         <input type="checkbox">
@@ -32,7 +32,7 @@
               <div class="float-left mr-3">
                 <img src="assets/img/profile.png" alt="avatar">
               </div>
-              <div class="d-none d-md-block d-lg-inline-block text-white text-left">John Doe <br><span class="text-muted DinM">BROKER ADMIN</span></div>
+              <div class="d-none d-md-block d-lg-inline-block text-white text-left SFPD-Regular">John Doe <br><span class="text-muted DinM">BROKER ADMIN</span></div>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
               <button class="dropdown-item"><i data-feather="log-out"></i> Logout</button>
@@ -91,9 +91,9 @@
         <div class="form-group row float-left">
 
           <div class="col-md-4 mt-3">
-            <div>
+            <div class="d-flex">
               <img src="assets/img/settings-menu.png" width="19px" alt="">
-              <span class="label text-uppercase SFPD-Bold">customer</span>
+              <span class="label text-uppercase SFPD-Bold ml-1 mt-1">customer</span>
             </div>
           </div>
           <div class="col-md-4 py-2">
@@ -187,7 +187,7 @@
 
     </section>
 
-    <section id="queryView" class="px-4"></section>
+    <section id="queryView"></section>
 
   </div>
 
@@ -206,7 +206,7 @@
       <div class="row no-gutters">
         <div class="card">
           <div class="card-content">
-            <div class="card-body">
+            <div class="card-body panelCard-0">
               <div class="row">
 
                 <div class="col-md border-right-custom">
@@ -305,7 +305,7 @@
 
       </div>
       <div class="modal-footer">
-        <button class="btn btn-warning float-right text-uppercase" onclick="queryView()" type="button">Show Results</button>
+        <button class="btn btn-warning float-right text-uppercase DinM" onclick="queryView()" type="button">Show Results</button>
       </div>
       
     </div>

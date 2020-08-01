@@ -1,8 +1,4 @@
-@font-face {
-  src: url("./assets/fonts/SF-Pro-Display-Regular.otf") format("opentype");
-  src: url("./assets/fonts/SF-Pro-Display-Light.otf") format("opentype");
-  font-family: SFProDisplay-Regular;
-}
+
 /**
  * TABLE OF CONTENTS
  *
@@ -1068,8 +1064,8 @@ footer {
   background-color: #e9ecef;
 }
 .navbar.navbar-header .dropdown > a {
-  color: #6c757d;
-  font-weight: 600;
+  /*color: #6c757d;*/
+  /*font-weight: 600;*/
 }
 .navbar.navbar-header .dropdown > a svg {
   height: 24px;

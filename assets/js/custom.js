@@ -12,7 +12,7 @@ function advanceSearch() {
           <div class="card">
             <div class="card-body d-flex">
               <div class="form-group">
-                <label class="text-silver-light" for="first-name-vertical">depart</label>
+                <label class="text-silver-light text-uppercase" for="first-name-vertical">depart</label>
                 <select class="form-select no-border" id="basicSelect">
                   <option selected="" disabled="">12 Aug</option>
                   <option>Blade Runner</option>
@@ -20,7 +20,7 @@ function advanceSearch() {
                 </select>
               </div>
               <div class="form-group">
-                <label class="text-silver-light" for="first-name-vertical">depart</label>
+                <label class="text-silver-light text-uppercase" for="first-name-vertical">depart</label>
                 <select class="form-select no-border" id="basicSelect">
                   <option selected="" disabled="">12 jan</option>
                   <option>Blade Runner</option>
@@ -35,7 +35,7 @@ function advanceSearch() {
           <div class="card">
             <div class="card-body d-flex">
               <div class="form-group border-right-0">
-                <label class="text-silver-light" for="first-name-vertical">depart</label>
+                <label class="text-silver-light text-uppercase" for="first-name-vertical">depart</label>
                 <select class="form-select no-border" id="basicSelect">
                   <option selected="" disabled="">12.08</option>
                   <option>Blade Runner</option>
@@ -43,7 +43,7 @@ function advanceSearch() {
                 </select>
               </div>
               <div class="form-group">
-                <label class="text-silver-light" for="first-name-vertical">return</label>
+                <label class="text-silver-light text-uppercase" for="first-name-vertical">return</label>
                 <select class="form-select no-border" id="basicSelect">
                   <option selected="" disabled="">12.48</option>
                   <option>Blade Runner</option>
@@ -58,7 +58,7 @@ function advanceSearch() {
           <div class="card">
             <div class="card-body">
               <div class="form-group">
-                <label for="" class="text-silver-dark pb-2">search operators</label>
+                <label for="" class="text-silver-dark text-uppercase pb-2">search operators</label>
                 <div class="input-group mb-3">
                   <input type="text" class="form-control form-border" placeholder="Enter operator name" aria-describedby="button-addon2">
                   <button class="btn btn-warning btn-sm" type="button" id="button-addon2">SEARCH</button>
@@ -154,7 +154,7 @@ function advanceSearch() {
           <div class="card">
             <div class="card-body">
               <div class="form-group">
-                <label for="" class="pb-2">search tail number</label>
+                <label for="" class="text-silver-dark text-uppercase pb-2">search tail number</label>
                 <div class="input-group mb-3">
                   <input type="text" class="form-control form-border" placeholder="Enter tail number" aria-describedby="button-addon2">
                   <button class="btn btn-warning btn-sm" type="button" id="button-addon2">SEARCH</button>
@@ -322,7 +322,7 @@ function advanceSearch() {
           <div class="card">
             <div class="card-body">
               <div class="form-group">
-                <label for="" class="pb-2">search radius</label>
+                <label for="" class="pb-2 text-silver-dark text-uppercase">search radius</label>
                 <div class="input-group mb-3">
                   <label for="" class="label pb-3"><b><span class="value">0</span> Kilometer</b></label>
                   <input type="range">

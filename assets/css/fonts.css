@@ -25,6 +25,7 @@
 
 .SFPD-Regular {
     font-family: SFPD-Regular;
+    font-size: 14px;
 }
 
 /* SF Pro Display Bold*/
@@ -35,6 +36,17 @@
 
 .SFPD-Bold {
     font-family: SFPD-Bold;
+}
+
+/* SF Pro Display Medium*/
+@font-face {
+    src: url(../fonts/SF-Pro-Display-Medium.otf);
+    font-family: SFPD-Medium;  
+}
+
+.SFPD-Medium {
+    font-family: SFPD-Medium;
+    font-size: 14px;
 }
 
 /* SF Pro Display Regular*/

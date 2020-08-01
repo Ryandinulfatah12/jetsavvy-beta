@@ -1,9 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  src: url("./assets/fonts/SF-Pro-Display-Regular.otf") format("opentype");
-  src: url("./assets/fonts/SF-Pro-Display-Light.otf") format("opentype");
-  font-family: SFProDisplay-Regular, SFProDisplay-Light;
-}
 /**
  * VARIABLE - TABLE OF CONTENTS
  * 
