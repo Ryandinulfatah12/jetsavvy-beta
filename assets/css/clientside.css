@@ -10,12 +10,10 @@ hr {
 	width: 100%;
 	height: 100%;
 	background-size: cover;
-	background-repeat: no-repeat;
 	object-fit: fill;
 	object-position: center;
 	margin-top: -70px;
-	
-	text-align: center;
+	/*text-align: center;*/
 	position: relative;
 }
 
@@ -32,7 +30,7 @@ hr {
 	z-index: 1;
 }
 .filter {
-	padding-top: 200px;
+	padding-top: 160px;
 }
 
 .figure-img::after {
@@ -55,8 +53,10 @@ hr {
 /* DEKSTOP VER */
 @media (min-width: 992px) {
 	.jumbotron {
-		-webkit-background-size: contain;
-		background-size: contain;
+		/*-webkit-background-size: auto;
+		background-size: auto;*/
+		/*background-repeat: no-repeat;*/
+		width: 100%;
 		height: 640px;
 	}
 	.nav-link {
