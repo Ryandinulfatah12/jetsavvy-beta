@@ -5,7 +5,7 @@ menuToggle.addEventListener('click', function () {
 });
 
 function advanceSearch() {
-  $('#resultSearch').html(`
+  $('#resultSearch').append(`
     <div class="row">
 
         <div class="col-md-2">
@@ -60,8 +60,8 @@ function advanceSearch() {
               <div class="form-group">
                 <label for="" class="text-silver-dark text-uppercase pb-2">search operators</label>
                 <div class="input-group mb-3">
-                  <input type="text" class="form-control form-border" placeholder="Enter operator name" aria-describedby="button-addon2">
-                  <button class="btn btn-warning btn-sm" type="button" id="button-addon2">SEARCH</button>
+                    <input type="text" class="form-control" placeholder="Enter operator name" aria-label="Enter operator name" aria-describedby="button-addon2">
+                    <button class="btn btn-warning btn-sm DinM" type="button" id="button-addon2">SEARCH</button>
                 </div>
               </div>
 
@@ -144,7 +144,7 @@ function advanceSearch() {
                 </div>
               </div>
 
-              <a href="" class="pt-3 text-uppercase text-warning float-right">clear</a>
+              <a href="" class="pt-3 text-uppercase text-warning float-right DinM">clear</a>
 
             </div>
           </div>
@@ -157,7 +157,7 @@ function advanceSearch() {
                 <label for="" class="text-silver-dark text-uppercase pb-2">search tail number</label>
                 <div class="input-group mb-3">
                   <input type="text" class="form-control form-border" placeholder="Enter tail number" aria-describedby="button-addon2">
-                  <button class="btn btn-warning btn-sm" type="button" id="button-addon2">SEARCH</button>
+                  <button class="btn btn-warning btn-sm DinM" type="button" id="button-addon2">SEARCH</button>
                 </div>
               </div>
             </div>
@@ -233,7 +233,7 @@ function advanceSearch() {
                     </div>
                   </div>
 
-                  <a href="" class="pt-3 text-uppercase text-warning float-right">clear</a>
+                  <a href="" class="pt-3 text-uppercase text-warning float-right DinM">clear</a>
                 </div>
               </div>
             </div>
@@ -307,7 +307,7 @@ function advanceSearch() {
                     </div>
                   </div>
 
-                  <a href="" class="pt-3 text-uppercase text-warning float-right">clear</a>
+                  <a href="" class="pt-3 text-uppercase text-warning float-right DinM">clear</a>
 
                 </div>
               </div>
@@ -318,27 +318,27 @@ function advanceSearch() {
           </div>
         </div>
 
-        <div class="col-md">
+        <div class="col-md-3">
           <div class="card">
             <div class="card-body">
               <div class="form-group">
                 <label for="" class="pb-2 text-silver-dark text-uppercase">search radius</label>
-                <div class="input-group mb-3">
-                  <label for="" class="label pb-3"><b><span class="value">0</span> Kilometer</b></label>
-                  <input type="range">
+                <div class="input-group mb-3 rangeContainer">
+                  <label class="label pb-3"><b>0 Kilometer</b></label>
+                  <input id="radius-range" class="slider-warning" type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
                 </div>
                 <div class="row">
                   <div class="col">
-                    <h6 class="label text-uppercase text-inline" style="font-size: 10px;">distance in</h6>
+                    <h6 class="label text-uppercase text-inline font-size-12 DinM text-silver-dark text-nowrap">distance in</h6>
                   </div>
                   <div class="col">
-                    <h6 class="label text-uppercase" style="font-size: 10px;">usd | <span class="text-warning">miles</span></h6>
-                  </div>
-                  <div class="col">
-                    <a href="" class="pt-3 text-uppercase text-warning float-right">clear</a>
+                    <h6 class="label text-uppercase font-size-12 DinM text-nowrap">usd | <span class="text-warning">miles</span></h6>
                   </div>
 
                 </div>
+                <div class="row">
+                    <a href="" class="pt-3 text-uppercase text-warning text-right DinM">clear</a>
+                  </div>
               </div>
             </div>
           </div>
@@ -348,41 +348,36 @@ function advanceSearch() {
               <div class="form-group">
                 <h5 for="" class=" pb-2">$17,234 - $67,100</h5>
                 <p class="text-light">The average price of a flight from Toronto to New York is $21,246.</p>
-                <div class="input-group mb-3">
-                  <input type="range">
+                <div class="input-group mb-3 rangeContainer">
+                  <input id="price-range" type="text" class="span2 slider-warning" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/>
                 </div>
+
                 <div class="row">
                   <div class="col">
-                    <h6 class="label text-uppercase text-inline" style="font-size: 10px;">price in</h6>
+                    <h6 class="label text-uppercase text-inline font-size-12 DinM text-silver-dark text-nowrap">price in</h6>
                   </div>
                   <div class="col">
-                    <h6 class="label text-uppercase" style="font-size: 10px;">usd | <span class="text-warning">miles</span></h6>
-                  </div>
-                  <div class="col">
-                    <a href="" class="pt-3 text-uppercase text-warning float-right">clear</a>
+                    <h6 class="label text-uppercase font-size-12 DinM text-nowrap">usd | <span class="text-warning">miles</span></h6>
                   </div>
 
                 </div>
+                <div class="row">
+                    <a href="" class="pt-3 text-uppercase text-warning text-right DinM">clear</a>
+                  </div>
               </div>
             </div>
           </div>
         </div>
 
 
-      </div>
+    </div>
   `);
-}
-// Load Choice JS File
-function loadJS(file) {
-  var script = document.createElement("script");
-  script.setAttribute("type", "text/javascript");
-  script.setAttribute("src", file);
-  document.getElementsByTagName("body")[0].appendChild(script);
+  $("#radius-range").slider({});
+  $("#price-range").slider({});
 }
 
 // Query view GRID
 function queryView() {
-  loadJS("./assets/js/choices.min.js");
   $('#queryView').html('');
   $('#full-scrn').modal('hide');
   $('#queryView').append(`
@@ -800,16 +795,17 @@ function queryView() {
         </div>
       </div>
   `)
+  const element = document.querySelector('.choices');
+  const choices = new Choices(element);
 
 }
 
 
 // LIST STYLE VIEW
 function listViewQuery() {
-    loadJS("./assets/js/choices.min.js");
     $('#queryView').html('');
-    $('#queryView').html(`
-        <div class="row py-3 px-lg-5">
+    $('#queryView').append(`
+      <div class="row py-3 px-lg-5">
         <h6 class="text-uppercase label font-weight-bold"><img src="assets/img/plane.svg" width="20px"> Aircrafts selected</h6>
         <div class="col-md-8">
             <div class="form-group">
@@ -1188,4 +1184,6 @@ function listViewQuery() {
         </div>
       </div>
     `);
+  const element = document.querySelector('.choices');
+  const choices = new Choices(element);
 }

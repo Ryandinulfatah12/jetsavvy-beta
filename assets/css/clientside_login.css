@@ -1,5 +1,8 @@
 
-* {
+body {
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
 	padding: 0;
 	margin: 0;
 }
@@ -15,12 +18,15 @@
 }
 
 .login {
-	padding-top: 55px;
+	padding-top: 100px;
 }
-.carousel,
-.item,
-.active {
-	height: 100%;
+
+
+.carousel, .item, .active {
+height:100%;
+}
+.carousel-caption {
+z-index: 10;
 }
 
 .carousel-inner {
@@ -28,9 +34,10 @@
 	border-radius: 0;
 }
 
-.slider {
+.carousel-item img {
 	width: 100%;
 	height: 100%;
+	background-repeat:no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -55,16 +62,26 @@
 
 .navbar-brand {
 	position: absolute;
-	z-index: 2;
-	padding-top: 70px;
-	padding-left: 150px;
+	z-index: 100;
+	margin-top: 70px;
+	margin-left: 150px;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 800px) {
 	.login-left {
 		display: none;
 	}
 	.login {
 		padding:44px;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/*Extra Large Device and resolution*/
+@media (min-width: 1300px) {
+	.login {
+		padding: 90px;
+
 	}
 }
