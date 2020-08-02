@@ -14,9 +14,17 @@ hr {
 	object-fit: fill;
 	object-position: center;
 	margin-top: -70px;
-	height: 640px;
+	
 	text-align: center;
 	position: relative;
+}
+
+.btn-outline-light {
+	border-color: rgba(255, 255, 255, 0.5);
+}
+
+.opacity-50 {
+	opacity: 50%;
 }
 
 .jumbotron .container {
@@ -46,7 +54,11 @@ hr {
 
 /* DEKSTOP VER */
 @media (min-width: 992px) {
-
+	.jumbotron {
+		-webkit-background-size: contain;
+		background-size: contain;
+		height: 640px;
+	}
 	.nav-link {
 		text-transform: uppercase;
 		margin-right: 30px;

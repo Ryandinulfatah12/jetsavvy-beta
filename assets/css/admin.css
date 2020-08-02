@@ -145,6 +145,10 @@ option {
   background-image: none !important;
 }
 
+.opacity-50 {
+  opacity: 50%;
+}
+
 @media screen and (max-width: 568px) {
   .arrow-right {
     margin-top: -44px;
@@ -155,6 +159,10 @@ option {
   .border-profile {
     display: none;
   }
+
+  .btnSearch {
+    padding: 10px;
+  }
 }
 @media screen and (min-width: 997px) {
   .border-right-custom {
@@ -164,7 +172,12 @@ option {
 
   .border-bottom-custom {
     padding: 20px;
-    border-bottom: 2px solid #efefef;
+    border-bottom: 1px solid #efefef;
+  }
+
+  .border-bottom-custom-op-50 {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   }
 
   hr {

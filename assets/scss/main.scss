@@ -6,6 +6,7 @@ $silver-light-colour: #B2B2B2;
 $silver-dark-colour: #7f7f7f;
 $silverlighttwo : #E5E5E5;
 $border-profile-color: #efefef;
+$white-opacity-50: rgba(255, 255, 255, 0.5);
 
 * {
   padding: 0;
@@ -119,11 +120,6 @@ option {
 .border-orange {
 	border: 2px solid $orange-color;
 }
-
-// #radius-range {
-// 	background: $orange-color;
-// }
-
 .slider-selection {
 	background: $orange-color !important;
 }
@@ -137,6 +133,10 @@ option {
 	background-image: none !important;
 }
 
+.opacity-50 {
+	opacity: 50%;
+}
+
 
 @media screen and (max-width: 568px){
 	.arrow-right {
@@ -147,6 +147,9 @@ option {
 	.border-profile {
 		display: none;
 	}
+	.btnSearch {
+		padding: 10px;
+	}
 }
 
 @media screen and (min-width: 997px){	
@@ -156,7 +159,11 @@ option {
 	}
 	.border-bottom-custom{
 		padding: 20px;
-		border-bottom: 2px solid $border-profile-color;
+		border-bottom: 1px solid $border-profile-color;
+	}
+	.border-bottom-custom-op-50{
+		padding: 20px;
+		border-bottom: 1px solid $white-opacity-50;
 	}
 	hr {
 		color: $border-profile-color;

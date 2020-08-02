@@ -405,7 +405,7 @@ function queryView() {
         <div class="col-md-2 clearfix"></div>
   
         <div class="col-md-2">
-          <a href="quote-details-1.html" class="btn btn-warning btn-block text-uppercase font-weight-bold letter-spacing-1">create quote</a>
+          <a href="quote-details-1.html" class="btn btn-warning btn-block text-uppercase font-weight-bold letter-spacing-1 text-nowrap">create quote</a>
         </div>
       </div>
       <div class="row py-3 px-lg-5">
@@ -831,7 +831,7 @@ function listViewQuery() {
         <div class="col-md-2 clearfix"></div>
   
         <div class="col-md-2">
-          <a href="quote-details-1.html" class="btn btn-warning btn-block text-uppercase font-weight-bold letter-spacing-1">create quote</a>
+          <a href="quote-details-1.html" class="btn btn-warning btn-block text-uppercase font-weight-bold letter-spacing-1 text-nowrap">create quote</a>
         </div>
       </div>
       <div class="row py-3 px-lg-5">
