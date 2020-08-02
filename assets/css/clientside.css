@@ -12,9 +12,7 @@ hr {
 	background-size: cover;
 	object-fit: fill;
 	object-position: center;
-	margin-top: -70px;
-	/*text-align: center;*/
-	position: relative;
+	margin-top: -92px;
 }
 
 .btn-outline-light {
@@ -42,7 +40,6 @@ hr {
 	position: absolute;
 	bottom: 0;
 }
-
 
 .figure-caption {
 	margin-top: -90px;
@@ -79,6 +76,10 @@ hr {
         padding-right: 20px;
         border-right: 2px solid #f0f0f0;
     }
+    .line-bottom-header {
+		margin-left: 150px;
+		margin-right: 150px;
+	}
 
 }		
 /* END DEKSTOP */
