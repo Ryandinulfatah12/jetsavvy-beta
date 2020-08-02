@@ -796,7 +796,9 @@ function queryView() {
       </div>
   `)
   const element = document.querySelector('.choices');
-  const choices = new Choices(element);
+  const choices = new Choices(element, {
+    removeItems: true
+  });
 
 }
 
@@ -902,7 +904,7 @@ function listViewQuery() {
         <div class="row">
           <div class="col-lg-6">
             <div class="card-content p-4">
-              <button class="btn btn-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM">Selected</button>
+              <button class="btn btn-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Selected</button><br>
               <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
               <div class="row text-secondary text-uppercase justify-content-between">
                 <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
@@ -959,7 +961,7 @@ function listViewQuery() {
         <div class="row">
           <div class="col-lg-6">
             <div class="card-content p-4">
-              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM">Select</button>
+              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Select</button><br>
               <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
               <div class="row text-secondary text-uppercase justify-content-between">
                 <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
@@ -1016,7 +1018,7 @@ function listViewQuery() {
         <div class="row">
           <div class="col-lg-6">
             <div class="card-content p-4">
-              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM">Select</button>
+              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Select</button><br>
               <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
               <div class="row text-secondary text-uppercase justify-content-between">
                 <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
@@ -1073,7 +1075,7 @@ function listViewQuery() {
         <div class="row">
           <div class="col-lg-6">
             <div class="card-content p-4">
-              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM">Select</button>
+              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Select</button><br>
               <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
               <div class="row text-secondary text-uppercase justify-content-between">
                 <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
@@ -1130,7 +1132,7 @@ function listViewQuery() {
         <div class="row">
           <div class="col-lg-6">
             <div class="card-content p-4">
-              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM">Select</button>
+              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Select</button><br>
               <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
               <div class="row text-secondary text-uppercase justify-content-between">
                 <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>

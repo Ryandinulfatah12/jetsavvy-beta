@@ -10,6 +10,7 @@ nav {
     -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.2);
     position: fixed;
+    transition: all 1s;
 }
 
 .menuArea {

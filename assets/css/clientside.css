@@ -2,11 +2,19 @@
 .navbar {
 	z-index: 2;
 }
+hr {
+	z-index: 30;
+}
 .jumbotron {
 	background-image: url('../img/landingpage.png');
+	width: 100%;
+	height: 100%;
 	background-size: cover;
-	margin-top: -105px;
-	height: 740px;
+	background-repeat: no-repeat;
+	object-fit: fill;
+	object-position: center;
+	margin-top: -70px;
+	height: 640px;
 	text-align: center;
 	position: relative;
 }
@@ -16,7 +24,7 @@
 	z-index: 1;
 }
 .filter {
-	padding-top: 170px;
+	padding-top: 200px;
 }
 
 .figure-img::after {
@@ -29,12 +37,9 @@
 	bottom: 0;
 }
 
-.gallery {
-	padding-top: 24px;
-}
 
 .figure-caption {
-	margin-top: -80px;
+	margin-top: -90px;
 	padding-left: 30px;
 	color: #fff;
 }

@@ -29,7 +29,9 @@ body {
 .text-dark {
 	color: $dark-color;
 }
-
+.font-size-48 {
+	font-size: 48px;
+}
 .font-size-36 {
 	font-size: 36px;
 }
@@ -86,6 +88,11 @@ label {
 }
 .form-select {
 	color: $silver-dark-colour;
+}
+option {
+	text-transform: uppercase;
+	font-family: DinM;
+	color: $silver-light-colour;
 }
 .panelCard-0 {
 	padding-bottom: 0;
