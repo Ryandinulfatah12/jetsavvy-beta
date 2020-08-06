@@ -98,7 +98,6 @@ label {
 }
 
 option {
-  text-transform: uppercase;
   font-family: DinM;
   color: #B2B2B2;
 }
@@ -114,6 +113,10 @@ option {
   padding-bottom: 0;
   width: 100%;
   height: 100%;
+}
+
+.pr-40 {
+  padding-right: 40px;
 }
 
 .list-unstyled li {
@@ -184,6 +187,7 @@ option {
     color: #efefef;
     height: 2px;
     margin: 20px;
+    z-index: 99;
   }
 }
 

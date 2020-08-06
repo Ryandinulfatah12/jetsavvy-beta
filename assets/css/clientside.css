@@ -81,5 +81,13 @@ hr {
 		margin-right: 150px;
 	}
 
+	.filter {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.gallery {
+		margin-left: 40px;
+	}
+
 }		
 /* END DEKSTOP */

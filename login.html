@@ -74,7 +74,7 @@
             <div class="divider-text DinM text-dark">OR</div>
           </div>
 
-          <form action="req-quote.html">
+          <form action="">
             <div class="form-group">
               <div class="position-relative">
                 <input type="email" class="form-control" id="email" placeholder="Email">
@@ -93,7 +93,7 @@
             </div>
             <!-- End captcha -->
             <div class="clearfix">
-              <button class="btn btn-light btn-block" id="btnLogin" type="submit">Login</button>
+              <button class="btn btn-light btn-block" id="btnLogin" data-toggle="modal" type="button" data-target="#verificationEmail">Login</button>
             </div>
             <div class="float-left pt-3 mb-5 text-dark">
               Don't have an account? <a href="#" class="text-warning">Sign-up</a><br><a href="" class="text-warning">Forgot Password?</a>
@@ -117,8 +117,8 @@
           <div class="invisible">Modal Header</div>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
         </div>
-        <div class="modal-body text-center">
-          <h3 class="text-uppercase text-dark DinM">activation email sent</h3>
+        <div class="modal-body text-center mb-5">
+          <h3 class="text-uppercase text-dark DinM font-size-38">activation email sent</h3>
           <p class="text-dark">Please login through the link sent to your email address.</p>
         </div>
       </div>

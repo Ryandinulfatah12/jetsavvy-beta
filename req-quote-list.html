@@ -119,101 +119,66 @@
         <button type="button" onclick="advanceSearch()" data-toggle="modal" data-target="#full-scrn" class="btn btn-warning text-white float-left text-uppercase DinM">Advance Search</button>
       </div>
 
-      <div class="card p-0 m-0 ml-lg-2">
-        <div class="card-body panelCard-0">
-          <div class="row no-gutters">
+      <div class="card p-0 m-0 ml-lg-2 mr-lg-2">
+          <div class="card-body panelCard-0 pr-40">
+            <div class="row no-gutters">
 
-            <div class="col-lg-2 border-right-custom py-2 px-2">
-              <div class="form-group">
-                <label class="text-uppercase" for="first-name-vertical"><img src="assets/img/icon/plane-white.svg" width="14px"> From</label>
-                <select class="form-select text-dark no-border" id="basicSelect">
-                  <option selected="" disabled="">Toronto (YYZ)</option>
-                  <option>Blade Runner</option>
-                  <option>Thor Ragnarok</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-lg-2 border-right-custom py-2 px-2">
-              <div class="form-group">
-                <label class="text-uppercase" for="first-name-vertical">To</label>
-                <select class="form-select text-dark no-border" id="basicSelect">
-                  <option selected="" disabled="">San Francisco (SFO)</option>
-                  <option>Blade Runner</option>
-                  <option>Thor Ragnarok</option>
-                </select>
-              </div>
-            </div>
-            <div class="col-lg-2 border-right-custom">
-              <div class="form-group">
-                <label class="text-uppercase" for="first-name-vertical">Date</label>
-                <div class="row">
-                  <div class="col">
-                    <div class="form-group">
-                      <label class="text-uppercase" for="first-name-vertical">depart</label>
-                      <select class="form-select text-dark no-border" id="basicSelect">
-                          <option selected="" disabled="">4 Jan</option>
-                          <option>Blade Runner</option>
-                          <option>Thor Ragnarok</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="form-group">
-                      <label class="text-uppercase" for="first-name-vertical">return</label>
-                      <select class="form-select text-dark no-border" id="basicSelect">
-                          <option selected="" disabled="">4 Feb</option>
-                          <option>Blade Runner</option>
-                          <option>Thor Ragnarok</option>
-                      </select>
-                    </div>
-                  </div>
+              <div class="col-lg-2 border-right-custom pt-3 pb-3 px-3">
+                <div class="form-group">
+                  <label class="float-left text-uppercase text-silver-light" for="first-name-vertical"><img src="assets/img/icon/plane-white.svg" width="14px"> From</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled="">Origin</option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
                 </div>
               </div>
-            </div>
-
-            <div class="col-lg-2 border-right-custom">
-              <div class="form-group">
-                <label class="text-uppercase" for="first-name-vertical">time</label>
-                <div class="row">
-                  <div class="col">
-                    <div class="form-group">
-                      <label class="text-uppercase" for="first-name-vertical">depart</label>
-                      <select class="form-select text-dark no-border" id="basicSelect">
-                          <option selected="" disabled="">0084 hrs</option>
-                          <option>Blade Runner</option>
-                          <option>Thor Ragnarok</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="form-group">
-                      <label class="text-uppercase" for="first-name-vertical">return</label>
-                      <select class="form-select text-dark no-border" id="basicSelect">
-                          <option selected="" disabled="">22hrs</option>
-                          <option>Blade Runner</option>
-                          <option>Thor Ragnarok</option>
-                      </select>
-                    </div>
-                  </div>
+              <div class="col-lg-2 border-right-custom pt-3 pb-3 px-3">
+                <div class="form-group">
+                  <label class="float-left text-uppercase text-silver-light" for="first-name-vertical">To</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled="">Destination</option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-2 border-right-custom py-2 px-2">
-              <div class="form-group">
-                <label class="text-uppercase" for="first-name-vertical">Trip</label>
-                <select class="form-select text-dark no-border" id="basicSelect">
-                  <option selected="" disabled="">Round trip</option>
-                  <option>Blade Runner</option>
-                  <option>Thor Ragnarok</option>
-                </select>
+              <div class="col-lg-2 border-right-custom pt-3 pb-3 px-3">
+                <div class="form-group">
+                  <label class="float-left text-uppercase text-silver-light" for="first-name-vertical">Date</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled=""></option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
               </div>
-            </div>
-            <div class="col-lg-2 col-md-2">
-              <button type="button" onclick="queryView()" class="btn btn-warning btnSearch input-block-level text-uppercase DinM"><img src="assets/img/icon/search-white.svg" width="14px"> Search</button>
-            </div>
+              <div class="col-lg-2 border-right-custom pt-3 pb-3 px-3">
+                <div class="form-group">
+                  <label class="float-left text-uppercase text-silver-light" for="first-name-vertical">Time</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled=""></option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 pt-3 pb-3 px-3">
+                <div class="form-group">
+                  <label class="float-left text-uppercase text-silver-light" for="first-name-vertical">Trip</label>
+                  <select class="form-select no-border" id="basicSelect">
+                    <option selected="" disabled=""></option>
+                    <option>Blade Runner</option>
+                    <option>Thor Ragnarok</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-2">
+                <button type="button" onclick="queryView()" class="btn btn-warning btnSearch btn-block ml-lg-1 text-uppercase DinM"><img src="assets/img/icon/search-white.svg" width="14px"> Search</button>
+              </div>
 
+            </div>
           </div>
-        </div>
       </div>
 
     </div>
