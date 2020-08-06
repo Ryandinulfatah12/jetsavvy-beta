@@ -107,10 +107,6 @@ option {
 	height: 100%;
 }
 
-.pr-40 {
-	padding-right: 40px;
-}
-
 .list-unstyled li {
 	color: $silver-light-colour;
 }
@@ -174,6 +170,9 @@ option {
 		height: 2px;
 		margin: 20px;
 		z-index: 99;
+	}
+	.pr-40 {
+		padding-right: 40px;
 	}
 
 }
