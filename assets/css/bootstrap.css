@@ -2336,11 +2336,11 @@ progress {
           appearance: none;
 }
 .form-select:focus {
-  border-color: #979797;
+  border-color: #F8AB3A;
   outline: 0;
 }
 .form-select:focus::-ms-value {
-  color: #979797;
+  color: #F8AB3A;
   background-color: white;
 }
 .form-select[multiple], .form-select[size]:not([size="1"]) {

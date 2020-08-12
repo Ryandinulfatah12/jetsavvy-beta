@@ -189,16 +189,16 @@
         <div class="col-md-8">
             <div class="form-group">
               <select class="choices form-select multiple-remove" multiple="multiple">
-                  <optgroup class="text-uppercase DinM" label="Figures">
+                  <optgroup class="text-uppercase" label="Figures">
                       <option value="romboid">Romboid</option>
-                      <option value="trapeze" selected>Cessna Citation Soverign</option>
+                      <option value="trapeze" selected>Trapeze</option>
                       <option value="triangle">Triangle</option>
                       <option value="polygon">Polygon</option>
                   </optgroup>
                   <optgroup class="text-uppercase" label="Colors">
                       <option value="red">Red</option>
                       <option value="green">Green</option>
-                      <option value="blue" selected>Beech Baron</option>
+                      <option value="blue" selected>Blue</option>
                       <option value="purple">Purple</option>
                   </optgroup>
               </select>
@@ -273,294 +273,245 @@
         </div>
       </div>
 
-      <div class="row ml-5">
-        <h6 class="text-uppercase label text-dark font-weight-bold text-nowrap"><img src="assets/img/down.svg" alt=""> flightpath</h6>
-      </div>
+      <div class="accordion mx-lg-5 mx-3" id="accordionExample">
+              <h2 class="mb-0 text-uppercase">
+                <a href="#" class="text-left text-decoration-none label text-dark font-weight-bold text-nowrap" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 <img src="assets/img/down.svg" alt=""> flightpath
+                </a>
+              </h2>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card mt-3 border-orange">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="card-content p-4">
+                      <button class="btn btn-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Selected</button><br>
+                      <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
+                      <div class="row text-secondary text-uppercase justify-content-between">
+                        <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
+                        <div class="col clearfix"></div>
+                        <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
+                      </div>
+                      <p class="text-light">
+                        Flight Time 4:04 hrs
+                      </p>
+                      <p class="text-light">
+                        Tail Number: 01WRLMS65 
+                      </p>
+                      <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
+                      <p class="text-light">
+                        Capacity: 10 Passengers
+                      </p>
+                      <p class="text-light">
+                        1 flight attendent • 2 bathrooms • Recliner-style seats
+                        Couch • Wi-Fi • 10 LCD screens
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
+                      </ol>
+                      <div class="carousel-inner rounded-0" role="listbox">
+                        <div class="carousel-item active">
+                          <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
+                        <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
+                        <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <div class="card mx-5 mt-3 border-orange">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card-content p-4">
-              <button class="btn btn-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Selected</button><br>
-              <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
-              <div class="row text-secondary text-uppercase justify-content-between">
-                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
-                <div class="col clearfix"></div>
-                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
-              </div>
-              <p class="text-light">
-                Flight Time 4:04 hrs
-              </p>
-              <p class="text-light">
-                Tail Number: 01WRLMS65 
-              </p>
-              <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-              <p class="text-light">
-                Capacity: 10 Passengers
-              </p>
-              <p class="text-light">
-                1 flight attendent • 2 bathrooms • Recliner-style seats
-                Couch • Wi-Fi • 10 LCD screens
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-              </ol>
-              <div class="carousel-inner rounded-0" role="listbox">
-                <div class="carousel-item active">
-                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card mx-5 mt-3">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card-content p-4">
-              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Select</button><br>
-              <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
-              <div class="row text-secondary text-uppercase justify-content-between">
-                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
-                <div class="col clearfix"></div>
-                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
-              </div>
-              <p class="text-light">
-                Flight Time 4:04 hrs
-              </p>
-              <p class="text-light">
-                Tail Number: 01WRLMS65 
-              </p>
-              <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-              <p class="text-light">
-                Capacity: 10 Passengers
-              </p>
-              <p class="text-light">
-                1 flight attendent • 2 bathrooms • Recliner-style seats
-                Couch • Wi-Fi • 10 LCD screens
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-              </ol>
-              <div class="carousel-inner rounded-0" role="listbox">
-                <div class="carousel-item active">
-                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+              <div class="card mt-3 border-orange">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="card-content p-4">
+                      <button class="btn btn-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Selected</button><br>
+                      <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
+                      <div class="row text-secondary text-uppercase justify-content-between">
+                        <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
+                        <div class="col clearfix"></div>
+                        <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
+                      </div>
+                      <p class="text-light">
+                        Flight Time 4:04 hrs
+                      </p>
+                      <p class="text-light">
+                        Tail Number: 01WRLMS65 
+                      </p>
+                      <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
+                      <p class="text-light">
+                        Capacity: 10 Passengers
+                      </p>
+                      <p class="text-light">
+                        1 flight attendent • 2 bathrooms • Recliner-style seats
+                        Couch • Wi-Fi • 10 LCD screens
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
+                      </ol>
+                      <div class="carousel-inner rounded-0" role="listbox">
+                        <div class="carousel-item active">
+                          <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
+                        <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
+                        <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card mx-5 mt-3">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card-content p-4">
-              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Select</button><br>
-              <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
-              <div class="row text-secondary text-uppercase justify-content-between">
-                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
-                <div class="col clearfix"></div>
-                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
-              </div>
-              <p class="text-light">
-                Flight Time 4:04 hrs
-              </p>
-              <p class="text-light">
-                Tail Number: 01WRLMS65 
-              </p>
-              <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-              <p class="text-light">
-                Capacity: 10 Passengers
-              </p>
-              <p class="text-light">
-                1 flight attendent • 2 bathrooms • Recliner-style seats
-                Couch • Wi-Fi • 10 LCD screens
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-              </ol>
-              <div class="carousel-inner rounded-0" role="listbox">
-                <div class="carousel-item active">
-                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card mx-5 mt-3">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card-content p-4">
-              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Select</button><br>
-              <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
-              <div class="row text-secondary text-uppercase justify-content-between">
-                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
-                <div class="col clearfix"></div>
-                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
-              </div>
-              <p class="text-light">
-                Flight Time 4:04 hrs
-              </p>
-              <p class="text-light">
-                Tail Number: 01WRLMS65 
-              </p>
-              <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-              <p class="text-light">
-                Capacity: 10 Passengers
-              </p>
-              <p class="text-light">
-                1 flight attendent • 2 bathrooms • Recliner-style seats
-                Couch • Wi-Fi • 10 LCD screens
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-              </ol>
-              <div class="carousel-inner rounded-0" role="listbox">
-                <div class="carousel-item active">
-                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+
+              <div class="card mt-3 border-orange">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="card-content p-4">
+                      <button class="btn btn-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Selected</button><br>
+                      <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
+                      <div class="row text-secondary text-uppercase justify-content-between">
+                        <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
+                        <div class="col clearfix"></div>
+                        <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
+                      </div>
+                      <p class="text-light">
+                        Flight Time 4:04 hrs
+                      </p>
+                      <p class="text-light">
+                        Tail Number: 01WRLMS65 
+                      </p>
+                      <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
+                      <p class="text-light">
+                        Capacity: 10 Passengers
+                      </p>
+                      <p class="text-light">
+                        1 flight attendent • 2 bathrooms • Recliner-style seats
+                        Couch • Wi-Fi • 10 LCD screens
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
+                      </ol>
+                      <div class="carousel-inner rounded-0" role="listbox">
+                        <div class="carousel-item active">
+                          <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
+                        <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
+                        <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card mx-5 mt-3">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card-content p-4">
-              <button class="btn btn-outline-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Select</button><br>
-              <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
-              <div class="row text-secondary text-uppercase justify-content-between">
-                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
-                <div class="col clearfix"></div>
-                <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
+
+              <div class="card mt-3 border-orange">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="card-content p-4">
+                      <button class="btn btn-warning btn-sm justify-content-evenly mb-1 text-uppercase DinM mb-2">Selected</button><br>
+                      <span class="text-warning text-uppercase DinM">Light jet Charter | 8 seats available</span>
+                      <div class="row text-secondary text-uppercase justify-content-between">
+                        <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">Beech baron 58</h4></div>
+                        <div class="col clearfix"></div>
+                        <div class="col"><h4 class="card-title text-nowrap text-uppercase DinE font-size-36 text-dark">$40.000</h4></div>
+                      </div>
+                      <p class="text-light">
+                        Flight Time 4:04 hrs
+                      </p>
+                      <p class="text-light">
+                        Tail Number: 01WRLMS65 
+                      </p>
+                      <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
+                      <p class="text-light">
+                        Capacity: 10 Passengers
+                      </p>
+                      <p class="text-light">
+                        1 flight attendent • 2 bathrooms • Recliner-style seats
+                        Couch • Wi-Fi • 10 LCD screens
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
+                        <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
+                      </ol>
+                      <div class="carousel-inner rounded-0" role="listbox">
+                        <div class="carousel-item active">
+                          <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
+                        <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
+                        <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <p class="text-light">
-                Flight Time 4:04 hrs
-              </p>
-              <p class="text-light">
-                Tail Number: 01WRLMS65 
-              </p>
-              <p class="text-light">Operator : <span class="text-warning">Michael Scott</span></p>
-              <p class="text-light">
-                Capacity: 10 Passengers
-              </p>
-              <p class="text-light">
-                1 flight attendent • 2 bathrooms • Recliner-style seats
-                Couch • Wi-Fi • 10 LCD screens
-              </p>
-            </div>
           </div>
-          <div class="col-lg-6">
-            <div id="carousel-example-card" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-card" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-card" data-slide-to="1" class=""></li>
-                <li data-target="#carousel-example-card" data-slide-to="2" class=""></li>
-              </ol>
-              <div class="carousel-inner rounded-0" role="listbox">
-                <div class="carousel-item active">
-                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/plane/plane2_409x230.png" class="d-block w-100" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/plane/plane409x230.png" class="d-block w-100" alt="Third slide">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carousel-example-card" role="button" data-slide="prev">
-                <span class="bx bx-chevron-left icon-prev" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-example-card" role="button" data-slide="next">
-                <span class="bx bx-chevron-right icon-next" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
 
     </section>

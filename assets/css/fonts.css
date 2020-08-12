@@ -27,7 +27,15 @@
     font-family: SFPD-Regular;
     font-size: 14px;
 }
+/* SF Pro Display Heavy*/
+@font-face {
+    src: url(../fonts/SF-Pro-Display-Heavy.otf);
+    font-family: SFPD-Heavy;   
+}
 
+.SFPD-Heavy {
+    font-family: SFPD-Heavy;
+}
 /* SF Pro Display Bold*/
 @font-face {
 	src: url(../fonts/SF-Pro-Display-Bold.otf);

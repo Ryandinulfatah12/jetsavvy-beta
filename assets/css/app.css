@@ -1253,7 +1253,7 @@ footer {
   border-radius: 5px;
 }
 .chat.chat-left .chat-message {
-  background: #5A8DEE !important;
+  background: #fff !important;
   float: left !important;
   color: #fff;
 }
