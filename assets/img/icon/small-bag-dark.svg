@@ -1,0 +1,26 @@
+<svg id="Icon_Luggage_Small_Bag" data-name="Icon / Luggage / Small Bag" xmlns="http://www.w3.org/2000/svg" width="21" height="20.496" viewBox="0 0 21 20.496">
+  <g id="Small_Bag" data-name="Small Bag" transform="translate(0.08 0.074)" opacity="0.8">
+    <g id="XMLID_30_" transform="translate(0 7.336)">
+      <path id="XMLID_182_" d="M1.205,13A1.236,1.236,0,0,1,0,11.741V2.653A2.6,2.6,0,0,1,2.534,0H18.351a2.6,2.6,0,0,1,2.534,2.653v9.089A1.224,1.224,0,0,1,19.68,13Z" transform="translate(0 0)"/>
+    </g>
+    <g id="XMLID_32_" transform="translate(5.316 7.336)">
+      <g id="XMLID_31_" transform="translate(0 0)">
+        <path id="XMLID_179_" d="M.31,13A.321.321,0,0,1,0,12.678V.325A.321.321,0,0,1,.31,0h1.6a.321.321,0,0,1,.31.325V12.678a.316.316,0,0,1-.31.325Z"/>
+      </g>
+      <g id="XMLID_33_" transform="translate(8.028 0)">
+        <path id="XMLID_176_" d="M.31,13A.321.321,0,0,1,0,12.678V.325A.321.321,0,0,1,.31,0h1.6a.321.321,0,0,1,.31.325V12.678a.309.309,0,0,1-.3.325Z" transform="translate(0)"/>
+      </g>
+    </g>
+    <g id="XMLID_34_" transform="translate(5.316 6.14)">
+      <path id="XMLID_173_" d="M.31,1.846A.322.322,0,0,1,0,1.521V.325A.321.321,0,0,1,.31,0h1.6a.321.321,0,0,1,.31.325v1.2a.316.316,0,0,1-.31.325Z" transform="translate(0)"/>
+    </g>
+    <g id="XMLID_36_" transform="translate(13.344 6.14)">
+      <path id="XMLID_170_" d="M.31,1.846A.322.322,0,0,1,0,1.521V.325A.321.321,0,0,1,.31,0h1.6a.321.321,0,0,1,.31.325v1.2a.309.309,0,0,1-.3.325Z" transform="translate(0)"/>
+    </g>
+    <g id="XMLID_37_" transform="translate(5.281)">
+      <g id="XMLID_38_" transform="translate(0)">
+        <path id="XMLID_167_" d="M8.347,6.789a.321.321,0,0,1-.31-.325V5.4a2.939,2.939,0,0,0-2.871-3,2.939,2.939,0,0,0-2.871,3V6.464a.321.321,0,0,1-.31.325H.31A.321.321,0,0,1,0,6.464V5.4A5.288,5.288,0,0,1,5.166,0a5.294,5.294,0,0,1,5.166,5.4V6.464a.329.329,0,0,1-.319.325Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

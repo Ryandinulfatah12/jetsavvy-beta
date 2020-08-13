@@ -1,3 +1,5 @@
+
+
 // Declaration Variable
 $dark-color: #222222;
 $white-color: #ffffff;
@@ -22,6 +24,11 @@ body {
 .bg-dark {
 	background-color: $dark-color;
 }
+.bg-badge {
+	background-color: $table-head-bg;
+	color: $silver-dark-colour;
+}
+
 .text-silver-dark {
 	color: $silver-dark-colour;
 }

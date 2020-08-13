@@ -1,0 +1,43 @@
+<svg id="Icon_Luggage_Medium_Bag" data-name="Icon / Luggage / Medium Bag" xmlns="http://www.w3.org/2000/svg" width="13" height="22.286" viewBox="0 0 13 22.286">
+  <g id="Medium_Bag" data-name="Medium Bag" transform="translate(0.005)" opacity="0.8">
+    <g id="XMLID_4_" transform="translate(0 5.303)">
+      <g id="XMLID_10_" transform="translate(0 0)">
+        <g id="XMLID_11_">
+          <path id="XMLID_207_" d="M.955,14.993a.314.314,0,0,1-.269-.239A36.934,36.934,0,0,1,.686.586.314.314,0,0,1,.955.346a44.28,44.28,0,0,1,11.054,0,.313.313,0,0,1,.269.239,36.925,36.925,0,0,1,0,14.168.313.313,0,0,1-.269.239,45.078,45.078,0,0,1-5.523.346A45.333,45.333,0,0,1,.955,14.993Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="XMLID_2_" transform="translate(3.501 2.35)">
+      <g id="XMLID_5_" transform="translate(0 0)">
+        <rect id="XMLID_205_" width="0.628" height="3.233"/>
+      </g>
+      <g id="XMLID_6_" transform="translate(5.343 0)">
+        <rect id="XMLID_204_" width="0.628" height="3.233" transform="translate(0)"/>
+      </g>
+    </g>
+    <g id="XMLID_8_" transform="translate(2.882)">
+      <g id="XMLID_9_" transform="translate(0)">
+        <path id="XMLID_201_" d="M5.648,3.027a.306.306,0,0,1-.314-.289V1.732H1.883V2.738a.306.306,0,0,1-.314.289H.314A.306.306,0,0,1,0,2.738V.866A.906.906,0,0,1,.941,0H6.276a.906.906,0,0,1,.941.866V2.738a.306.306,0,0,1-.314.289Z"/>
+      </g>
+    </g>
+    <g id="XMLID_13_" transform="translate(0.327 19.959)">
+      <g id="XMLID_12_" transform="translate(0.691 0)">
+        <path id="XMLID_200_" d="M0,0,.525.028.579,1.109.053,1.081Z" transform="translate(0.577) rotate(29.354)"/>
+      </g>
+      <g id="XMLID_7_" transform="translate(0 0.485)">
+        <ellipse id="XMLID_206_" cx="0.834" cy="0.767" rx="0.834" ry="0.767"/>
+      </g>
+    </g>
+    <g id="XMLID_17_" transform="translate(10.836 19.967)">
+      <g id="XMLID_19_" transform="translate(0 0)">
+        <path id="XMLID_199_" d="M0,0,1.081.053l.028.525L.028.525Z" transform="translate(0.538 0) rotate(60.654)"/>
+      </g>
+      <g id="XMLID_18_" transform="translate(0.142 0.477)">
+        <ellipse id="XMLID_67_" cx="0.834" cy="0.767" rx="0.834" ry="0.767" transform="translate(0)"/>
+      </g>
+    </g>
+    <g id="XMLID_16_" transform="translate(1.555 20.782)">
+      <path id="XMLID_198_" d="M4.931.717C3.281.717,1.632.668,0,.577L.036,0A84.141,84.141,0,0,0,9.817,0l.036.577C8.23.676,6.581.717,4.931.717Z" transform="translate(0)"/>
+    </g>
+  </g>
+</svg>
