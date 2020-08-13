@@ -215,6 +215,10 @@ option {
 	border-bottom: 1px solid $dark-color;
 	display: inline;
 }
+.custom-table > .row {
+	width: 100%;
+	white-space: nowrap;
+}
 
 @media screen and (max-width: 568px){
 	.arrow-right {
@@ -228,8 +232,9 @@ option {
 	.btnSearch {
 		padding: 10px;
 	}
-	.booking-table {
-		width: 800px;
+	.custom-table > .row {
+		width: 170vh;
+		// white-space: nowrap;
 	}
 }
 

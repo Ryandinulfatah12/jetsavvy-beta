@@ -238,6 +238,11 @@ option {
   display: inline;
 }
 
+.custom-table > .row {
+  width: 100%;
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 568px) {
   .arrow-right {
     margin-top: -44px;
@@ -253,8 +258,8 @@ option {
     padding: 10px;
   }
 
-  .booking-table {
-    width: 800px;
+  .custom-table > .row {
+    width: 170vh;
   }
 }
 @media screen and (min-width: 997px) {

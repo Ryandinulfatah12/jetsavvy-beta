@@ -27,7 +27,7 @@
 			<img src="assets/img/logo.png" class="ml-lg-5 ml-3 mr-3 pl-lg-5">
 			<div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
 				<ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
-					<li class="dropdown">
+					<li class="dropdown float-right">
 						<a href="profile.html"class="nav-link nav-link-lg nav-link-user">
 							<div class="float-left mr-3">
 								<img src="assets/img/profile.png" alt="avatar">
@@ -54,13 +54,13 @@
 						<a href="req-quote.html"><div class="icons" id="searchIcon">&nbsp; <span class="side-link text-uppercase">Search</span></div></a>
 					</div>
 					<div class="Menu">
-						<a href="#"><div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div></a>
+						<a href="booking-history.html"><div class="icons" id="bookingsIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">Bookings</span></div></a>
 					</div>
 					<div class="Menu">
-						<a href="#"><div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div></a>
+						<a href="message.html"><div class="icons" id="messageIcon">&nbsp;<span class="badge bg-warning float-left">3</span> <span class="side-link text-uppercase">message</span></div></a>
 					</div>
 					<div class="Menu">
-						<a href="#"><div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div></a>
+						<a href="managers.html"><div class="icons" id="proxyUsersIcon">&nbsp; <span class="side-link text-uppercase">proxy users</span></div></a>
 					</div>
 					<div class="Menu">
 						<a href="#"><div class="icons" id="companionsIcon">&nbsp; <span class="side-link text-uppercase">companions</span></div></a>
@@ -126,17 +126,18 @@
 		          </div>
 
 			    </div>
-
-			    <div class="accordion" id="accordionExample">
+				
+				<!-- Table Upcoming booking -->
+			    <div class="accordion mb-4" id="accordionExample">
 				      <h2 class="mb-0 letter-spacing-2 mb-2">
-				        <a href="#" class="text-left text-decoration-none text-dark SFPD-Bold text-uppercase font-size-16" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				        <a href="#" class="text-left text-decoration-none text-dark SFPD-Bold text-uppercase font-size-16" data-toggle="collapse" data-target="#UpcomingBookingTable" aria-expanded="true" aria-controls="UpcomingBookingTable">
 				         <img src="assets/img/down.svg" alt=""> Upcoming Bookings <span class="text-light">20</span>
 				        </a>
 				      </h2>
 
-				    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				    <div id="UpcomingBookingTable" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 				    	
-				    	<div class="booking-table">
+				    	<div class="custom-table" style="overflow-x: auto;"> 
 				    		<!-- CUSTOM TABLE HEAD -->
 					    	<div class="row table-head DinM text-uppercase text-silver-dark p-3">
 					    		<div class="col-2">
@@ -185,7 +186,429 @@
 					    			$62,000
 					    		</div>
 					    		<div class="col-1">
-					    			<div class="dropdown">
+					    			<div class="dropdown float-right">
+						                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+						                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#detailBooking">View Details</a>
+						                  <a class="dropdown-item border-bottom" href="#">Itinerary</a>
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#addCompanion">Add Companions</a>
+						                  <a class="dropdown-item border-bottom" href="#">Message Client</a>
+						                  <a class="dropdown-item border-bottom" href="#">Download Contract</a>
+						                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#cancelBooking">Cancel</a>
+						                </div>
+						              </div>
+					    		</div>
+					    	</div>
+					    	<!-- End Table Body -->
+
+					    	<!-- CUSTOM TABLE Body -->
+					    	<div class="row text-dark border-box-silver p-3 my-2">
+					    		<div class="col-2">
+					    			<h6 class="text-dark font-size-14 SFPD-Bold text-nowrap">12 MAR ‘18</h6>
+					        		<h6 class="text-dark font-size-14 SFPD-Regular">16:30 GMT</h6>
+					    		</div>
+					    		<div class="col-2">
+					    			<h6 class="text-warning font-size-14 SFPD-Bold text-nowrap">Michelle Renolds</h6>
+					    		</div>
+					    		<div class="col-4">
+					    			<p class="SFPD-Light text-silver-dark">Charter</p>
+					    			<span class="SFPD-Light text-dark">Los Angeles <span class="text-silver-light">yyz -</span> Los Cabos <span class="text-silver-light">SJD</span></span>
+					    		</div>
+					    		<div class="col-1">
+					    			5+6+2
+					    		</div>
+					    		<div class="col-1">
+					    			6
+					    		</div>
+					    		<div class="col-1">
+					    			$62,000
+					    		</div>
+					    		<div class="col-1">
+					    			<div class="dropdown float-right">
+						                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+						                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#detailBooking">View Details</a>
+						                  <a class="dropdown-item border-bottom" href="#">Itinerary</a>
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#addCompanion">Add Companions</a>
+						                  <a class="dropdown-item border-bottom" href="#">Message Client</a>
+						                  <a class="dropdown-item border-bottom" href="#">Download Contract</a>
+						                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#cancelBooking">Cancel</a>
+						                </div>
+						              </div>
+					    		</div>
+					    	</div>
+					    	<!-- End Table Body -->
+
+					    	<!-- CUSTOM TABLE Body -->
+					    	<div class="row text-dark border-box-silver p-3 my-2">
+					    		<div class="col-2">
+					    			<h6 class="text-dark font-size-14 SFPD-Bold text-nowrap">12 MAR ‘18</h6>
+					        		<h6 class="text-dark font-size-14 SFPD-Regular">16:30 GMT</h6>
+					    		</div>
+					    		<div class="col-2">
+					    			<h6 class="text-warning font-size-14 SFPD-Bold text-nowrap">Michelle Renolds</h6>
+					    		</div>
+					    		<div class="col-4">
+					    			<p class="SFPD-Light text-silver-dark">Charter</p>
+					    			<span class="SFPD-Light text-dark">Los Angeles <span class="text-silver-light">yyz -</span> Los Cabos <span class="text-silver-light">SJD</span></span>
+					    		</div>
+					    		<div class="col-1">
+					    			5+6+2
+					    		</div>
+					    		<div class="col-1">
+					    			6
+					    		</div>
+					    		<div class="col-1">
+					    			$62,000
+					    		</div>
+					    		<div class="col-1">
+					    			<div class="dropdown float-right">
+						                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+						                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#detailBooking">View Details</a>
+						                  <a class="dropdown-item border-bottom" href="#">Itinerary</a>
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#addCompanion">Add Companions</a>
+						                  <a class="dropdown-item border-bottom" href="#">Message Client</a>
+						                  <a class="dropdown-item border-bottom" href="#">Download Contract</a>
+						                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#cancelBooking">Cancel</a>
+						                </div>
+						              </div>
+					    		</div>
+					    	</div>
+					    	<!-- End Table Body -->
+
+					    	<!-- CUSTOM TABLE Body -->
+					    	<div class="row text-dark border-box-silver p-3 my-2">
+					    		<div class="col-2">
+					    			<h6 class="text-dark font-size-14 SFPD-Bold text-nowrap">12 MAR ‘18</h6>
+					        		<h6 class="text-dark font-size-14 SFPD-Regular">16:30 GMT</h6>
+					    		</div>
+					    		<div class="col-2">
+					    			<h6 class="text-warning font-size-14 SFPD-Bold text-nowrap">Michelle Renolds</h6>
+					    		</div>
+					    		<div class="col-4">
+					    			<p class="SFPD-Light text-silver-dark">Charter</p>
+					    			<span class="SFPD-Light text-dark">Los Angeles <span class="text-silver-light">yyz -</span> Los Cabos <span class="text-silver-light">SJD</span></span>
+					    		</div>
+					    		<div class="col-1">
+					    			5+6+2
+					    		</div>
+					    		<div class="col-1">
+					    			6
+					    		</div>
+					    		<div class="col-1">
+					    			$62,000
+					    		</div>
+					    		<div class="col-1">
+					    			<div class="dropdown float-right">
+						                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+						                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#detailBooking">View Details</a>
+						                  <a class="dropdown-item border-bottom" href="#">Itinerary</a>
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#addCompanion">Add Companions</a>
+						                  <a class="dropdown-item border-bottom" href="#">Message Client</a>
+						                  <a class="dropdown-item border-bottom" href="#">Download Contract</a>
+						                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#cancelBooking">Cancel</a>
+						                </div>
+						              </div>
+					    		</div>
+					    	</div>
+					    	<!-- End Table Body -->
+				    	</div>
+				      
+				    </div>
+				</div>
+
+				<!-- Table Past booking -->
+			    <div class="accordion mb-4" id="accordionExample">
+				      <h2 class="mb-0 letter-spacing-2 mb-2">
+				        <a href="#" class="text-left text-decoration-none text-dark SFPD-Bold text-uppercase font-size-16" data-toggle="collapse" data-target="#PastBookingTable" aria-expanded="true" aria-controls="PastBookingTable">
+				         <img src="assets/img/down.svg" alt=""> Past Bookings <span class="text-light">71</span>
+				        </a>
+				      </h2>
+
+				    <div id="PastBookingTable" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				    	
+				    	<div class="custom-table" style="overflow-x: auto;"> 
+				    		<!-- CUSTOM TABLE HEAD -->
+					    	<div class="row table-head DinM text-uppercase text-silver-dark p-3">
+					    		<div class="col-2">
+					    			departure <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-2">
+					    			broker <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-4">
+					    			trip type <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-1">
+					    			hours <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-1">
+					    			pax <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-1">
+					    			price <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-1">
+					    			&nbsp;
+					    		</div>
+					    	</div>
+					    	<!-- End Table Head -->
+					    	<!-- CUSTOM TABLE Body -->
+					    	<div class="row text-dark border-box-silver p-3 my-2">
+					    		<div class="col-2">
+					    			<h6 class="text-dark font-size-14 SFPD-Bold text-nowrap">12 MAR ‘18</h6>
+					        		<h6 class="text-dark font-size-14 SFPD-Regular">16:30 GMT</h6>
+					    		</div>
+					    		<div class="col-2">
+					    			<h6 class="text-warning font-size-14 SFPD-Bold text-nowrap">Michelle Renolds</h6>
+					    		</div>
+					    		<div class="col-4">
+					    			<p class="SFPD-Light text-silver-dark">Charter</p>
+					    			<span class="SFPD-Light text-dark">Los Angeles <span class="text-silver-light">yyz -</span> Los Cabos <span class="text-silver-light">SJD</span></span>
+					    		</div>
+					    		<div class="col-1">
+					    			5+6+2
+					    		</div>
+					    		<div class="col-1">
+					    			6
+					    		</div>
+					    		<div class="col-1">
+					    			$62,000
+					    		</div>
+					    		<div class="col-1">
+					    			<div class="dropdown float-right">
+						                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+						                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#detailBooking">View Details</a>
+						                  <a class="dropdown-item border-bottom" href="#">Itinerary</a>
+						                  <a class="dropdown-item border-bottom" href="#">Message Client</a>
+						                  <a class="dropdown-item border-bottom" href="#">Download Contract</a>
+						                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#cancelBooking">Cancel</a>
+						                </div>
+						              </div>
+					    		</div>
+					    	</div>
+					    	<!-- End Table Body -->
+
+					    	<!-- CUSTOM TABLE Body -->
+					    	<div class="row text-dark border-box-silver p-3 my-2">
+					    		<div class="col-2">
+					    			<h6 class="text-dark font-size-14 SFPD-Bold text-nowrap">12 MAR ‘18</h6>
+					        		<h6 class="text-dark font-size-14 SFPD-Regular">16:30 GMT</h6>
+					    		</div>
+					    		<div class="col-2">
+					    			<h6 class="text-warning font-size-14 SFPD-Bold text-nowrap">Michelle Renolds</h6>
+					    		</div>
+					    		<div class="col-4">
+					    			<p class="SFPD-Light text-silver-dark">Charter</p>
+					    			<span class="SFPD-Light text-dark">Los Angeles <span class="text-silver-light">yyz -</span> Los Cabos <span class="text-silver-light">SJD</span></span>
+					    		</div>
+					    		<div class="col-1">
+					    			5+6+2
+					    		</div>
+					    		<div class="col-1">
+					    			6
+					    		</div>
+					    		<div class="col-1">
+					    			$62,000
+					    		</div>
+					    		<div class="col-1">
+					    			<div class="dropdown float-right">
+						                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+						                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#detailBooking">View Details</a>
+						                  <a class="dropdown-item border-bottom" href="#">Itinerary</a>
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#addCompanion">Add Companions</a>
+						                  <a class="dropdown-item border-bottom" href="#">Message Client</a>
+						                  <a class="dropdown-item border-bottom" href="#">Download Contract</a>
+						                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#cancelBooking">Cancel</a>
+						                </div>
+						              </div>
+					    		</div>
+					    	</div>
+					    	<!-- End Table Body -->
+
+					    	<!-- CUSTOM TABLE Body -->
+					    	<div class="row text-dark border-box-silver p-3 my-2">
+					    		<div class="col-2">
+					    			<h6 class="text-dark font-size-14 SFPD-Bold text-nowrap">12 MAR ‘18</h6>
+					        		<h6 class="text-dark font-size-14 SFPD-Regular">16:30 GMT</h6>
+					    		</div>
+					    		<div class="col-2">
+					    			<h6 class="text-warning font-size-14 SFPD-Bold text-nowrap">Michelle Renolds</h6>
+					    		</div>
+					    		<div class="col-4">
+					    			<p class="SFPD-Light text-silver-dark">Charter</p>
+					    			<span class="SFPD-Light text-dark">Los Angeles <span class="text-silver-light">yyz -</span> Los Cabos <span class="text-silver-light">SJD</span></span>
+					    		</div>
+					    		<div class="col-1">
+					    			5+6+2
+					    		</div>
+					    		<div class="col-1">
+					    			6
+					    		</div>
+					    		<div class="col-1">
+					    			$62,000
+					    		</div>
+					    		<div class="col-1">
+					    			<div class="dropdown float-right">
+						                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+						                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#detailBooking">View Details</a>
+						                  <a class="dropdown-item border-bottom" href="#">Itinerary</a>
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#addCompanion">Add Companions</a>
+						                  <a class="dropdown-item border-bottom" href="#">Message Client</a>
+						                  <a class="dropdown-item border-bottom" href="#">Download Contract</a>
+						                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#cancelBooking">Cancel</a>
+						                </div>
+						              </div>
+					    		</div>
+					    	</div>
+					    	<!-- End Table Body -->
+
+					    	<!-- CUSTOM TABLE Body -->
+					    	<div class="row text-dark border-box-silver p-3 my-2">
+					    		<div class="col-2">
+					    			<h6 class="text-dark font-size-14 SFPD-Bold text-nowrap">12 MAR ‘18</h6>
+					        		<h6 class="text-dark font-size-14 SFPD-Regular">16:30 GMT</h6>
+					    		</div>
+					    		<div class="col-2">
+					    			<h6 class="text-warning font-size-14 SFPD-Bold text-nowrap">Michelle Renolds</h6>
+					    		</div>
+					    		<div class="col-4">
+					    			<p class="SFPD-Light text-silver-dark">Charter</p>
+					    			<span class="SFPD-Light text-dark">Los Angeles <span class="text-silver-light">yyz -</span> Los Cabos <span class="text-silver-light">SJD</span></span>
+					    		</div>
+					    		<div class="col-1">
+					    			5+6+2
+					    		</div>
+					    		<div class="col-1">
+					    			6
+					    		</div>
+					    		<div class="col-1">
+					    			$62,000
+					    		</div>
+					    		<div class="col-1">
+					    			<div class="dropdown float-right">
+						                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+						                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#detailBooking">View Details</a>
+						                  <a class="dropdown-item border-bottom" href="#">Itinerary</a>
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#addCompanion">Add Companions</a>
+						                  <a class="dropdown-item border-bottom" href="#">Message Client</a>
+						                  <a class="dropdown-item border-bottom" href="#">Download Contract</a>
+						                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#cancelBooking">Cancel</a>
+						                </div>
+						              </div>
+					    		</div>
+					    	</div>
+					    	<!-- End Table Body -->
+				    	</div>
+				      
+				    </div>
+				</div>
+
+				<!-- Table Canceled booking -->
+			    <div class="accordion" id="accordionExample">
+				      <h2 class="mb-0 letter-spacing-2 mb-2">
+				        <a href="#" class="text-left text-decoration-none text-dark SFPD-Bold text-uppercase font-size-16" data-toggle="collapse" data-target="#CanceledBookingTable" aria-expanded="true" aria-controls="CanceledBookingTable">
+				         <img src="assets/img/down.svg" alt=""> canceled Bookings <span class="text-light">2</span>
+				        </a>
+				      </h2>
+
+				    <div id="CanceledBookingTable" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				    	
+				    	<div class="custom-table" style="overflow-x: auto;"> 
+				    		<!-- CUSTOM TABLE HEAD -->
+					    	<div class="row table-head DinM text-uppercase text-silver-dark p-3">
+					    		<div class="col-2">
+					    			departure <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-2">
+					    			broker <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-4">
+					    			trip type <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-1">
+					    			hours <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-1">
+					    			pax <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-1">
+					    			price <img src="assets/img/icon/down-silver.svg" alt="">
+					    		</div>
+					    		<div class="col-1">
+					    			&nbsp;
+					    		</div>
+					    	</div>
+					    	<!-- End Table Head -->
+
+					    	<!-- CUSTOM TABLE Body -->
+					    	<div class="row text-dark border-box-silver p-3 my-2">
+					    		<div class="col-2">
+					    			<h6 class="text-dark font-size-14 SFPD-Bold text-nowrap">12 MAR ‘18</h6>
+					        		<h6 class="text-dark font-size-14 SFPD-Regular">16:30 GMT</h6>
+					    		</div>
+					    		<div class="col-2">
+					    			<h6 class="text-warning font-size-14 SFPD-Bold text-nowrap">Michelle Renolds</h6>
+					    		</div>
+					    		<div class="col-4">
+					    			<p class="SFPD-Light text-silver-dark">Charter</p>
+					    			<span class="SFPD-Light text-dark">Los Angeles <span class="text-silver-light">yyz -</span> Los Cabos <span class="text-silver-light">SJD</span></span>
+					    		</div>
+					    		<div class="col-1">
+					    			5+6+2
+					    		</div>
+					    		<div class="col-1">
+					    			6
+					    		</div>
+					    		<div class="col-1">
+					    			$62,000
+					    		</div>
+					    		<div class="col-1">
+					    			<div class="dropdown float-right">
+						                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
+						                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#detailBooking">View Details</a>
+						                  <a class="dropdown-item border-bottom" href="#">Itinerary</a>
+						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#addCompanion">Add Companions</a>
+						                  <a class="dropdown-item border-bottom" href="#">Message Client</a>
+						                  <a class="dropdown-item border-bottom" href="#">Download Contract</a>
+						                  <a class="dropdown-item" href="#" data-toggle="modal" data-target="#cancelBooking">Cancel</a>
+						                </div>
+						              </div>
+					    		</div>
+					    	</div>
+					    	<!-- End Table Body -->
+
+					    	<!-- CUSTOM TABLE Body -->
+					    	<div class="row text-dark border-box-silver p-3 my-2">
+					    		<div class="col-2">
+					    			<h6 class="text-dark font-size-14 SFPD-Bold text-nowrap">12 MAR ‘18</h6>
+					        		<h6 class="text-dark font-size-14 SFPD-Regular">16:30 GMT</h6>
+					    		</div>
+					    		<div class="col-2">
+					    			<h6 class="text-warning font-size-14 SFPD-Bold text-nowrap">Michelle Renolds</h6>
+					    		</div>
+					    		<div class="col-4">
+					    			<p class="SFPD-Light text-silver-dark">Charter</p>
+					    			<span class="SFPD-Light text-dark">Los Angeles <span class="text-silver-light">yyz -</span> Los Cabos <span class="text-silver-light">SJD</span></span>
+					    		</div>
+					    		<div class="col-1">
+					    			5+6+2
+					    		</div>
+					    		<div class="col-1">
+					    			6
+					    		</div>
+					    		<div class="col-1">
+					    			$62,000
+					    		</div>
+					    		<div class="col-1">
+					    			<div class="dropdown float-right">
 						                <a href="#" class="dropdown-toggle no-padding" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/icon/dot.svg"></a>
 						                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
 						                  <a class="dropdown-item border-bottom" href="#" data-toggle="modal" data-target="#detailBooking">View Details</a>
@@ -267,7 +690,7 @@
 
 			        <div class="mt-4">
 			          <span class="label text-uppercase">COmpanions</span>
-			          <div class="media d-flex align-items-center">
+			          <div class="media d-flex">
 			          	<div class="mr-2">
 			          		<a href="#" class="text-decoration-none"><h6 class="text-decoration-warning text-warning DinM text-uppercase pt-2 font-weight-normal">Michelle renolds</h6></a> |
 			          	</div>
