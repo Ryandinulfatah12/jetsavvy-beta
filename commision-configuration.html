@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="stylesheet" href="assets/css/fonts.css">
+	<link rel="stylesheet" href="assets/css/leftMenu.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/admin.css">
+	<link rel="stylesheet" href="assets/css/tail.select-default.min.css">
+	<!-- <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon"> -->
+	<title>Commision Configuration | Website</title>
+</head>
+<body class="SFPD-Regular">
+	<header class="navbar navbar-header fixed-top navbar-expand navbar-dark bg-dark">
+		<div class="container">
+			<div class="menu-toggle">
+				<input type="checkbox">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<img src="assets/img/logo.png" class="ml-lg-5 ml-3 mr-3 pl-lg-5">
+			<div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+				<ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
+					<li class="dropdown">
+						<a href="profile.html"class="nav-link nav-link-lg nav-link-user">
+							<div class="float-left mr-3">
+								<img src="assets/img/profile.png" alt="avatar">
+							</div>
+							<div class="d-none d-md-block d-lg-inline-block text-white text-left">John Doe <br><span class="text-muted DinM">BROKER ADMIN</span></div>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right">
+							<button class="dropdown-item"><i data-feather="log-out"></i> Logout</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="d-flex">
+		<!-- Sidebar Holder add class active to reduce-->
+		<nav id="sidebar">
+	        <div class="leftMenu">
+	          <div class="menuArea">
+	            <!-- Add class menu-active to shcange colour side icon -->
+	            <div class="Menu">
+	              <a href="req-quote.html"><div class="icons" id="searchIcon">&nbsp;<span class="side-link text-uppercase">Search</span></div></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="booking-history.html"><div class="icons" id="bookingsIcon">&nbsp;<span class="side-link text-uppercase">Bookings</span></div><span class="badge bg-warning float-left">3</span></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="message.html"><div class="icons" id="messageIcon">&nbsp;<span class="side-link text-uppercase">message</span></div><span class="badge bg-warning float-left">4</span></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="managers.html"><div class="icons" id="proxyUsersIcon">&nbsp;<span class="side-link text-uppercase">proxy users</span></div></a>
+	            </div>
+	            <div class="Menu menu-active">
+	              <a href="customers.html"><div class="icons" id="companionsIcon">&nbsp;<span class="side-link text-uppercase">companions</span></div></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="company-profile.html"><div class="icons" id="profileIcon">&nbsp;<span class="side-link text-uppercase">profile</span></div></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="business-insight.html"><div class="icons" id="graphIcon">&nbsp;<span class="side-link text-uppercase">graph</span></div></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="#"><div class="icons" id="conciergeIcon">&nbsp;<span class="side-link text-uppercase">concierge</span></div></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="login.html"><div class="icons" id="logOutIcon">&nbsp;<span class="side-link text-uppercase">logout</span></div></a>
+	            </div>
+	          </div>
+	        </div>
+	    </nav>
+
+		<!-- Page Content Holder -->
+		<div class="container">
+				
+			<!-- Profile Section Form -->
+			<section class="mx-lg-5 mt-5 mb-4 mx-4">
+				<h1 class="text-dark DinE letter-spacing-2 text-uppercase">Managers</h1>
+				
+				<div class="row mt-4 align-items-center">
+					<div class="col-md-3 mb-md-3">
+						<a href="managers.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">broker listing</h3></a>
+					</div>
+					<div class="col-md-3 mb-md-3">
+						<a href="manager-assignment.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">account manager assignment</h3></a>
+					</div>
+					<div class="col-md-3 mb-md-3">
+						<a href="support-manager-assignment.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">support manager assignment</h3></a>
+					</div>
+					<div class="col-md-3 mb-md-3">
+						<a href="commision-configuration.html" class="text-decoration-none"><h3 class="text-dark border-bottom-orange SFPD-Heavy text-uppercase text-wrap font-size-20">Commission configuration</h3></a>
+					</div>
+				</div>
+
+				<div class="row my-4">
+					<div class="col-md-2">
+						<div class="form-group my-3 mr-2">
+							<span class="label text-uppercase">Commission</span>
+							<select class="form-select form-border-1" id="basicSelect">
+				              <option selected="" disabled="">Select an Option</option>
+				              <option>Charter</option>
+				              <option>Empty Legs</option>
+				            </select>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="form-group my-3 mr-2">
+							<span class="label text-uppercase">Commission Type</span>
+							<select class="form-select form-border-1" id="basicSelect">
+				              <option selected="" disabled="">Select an Option</option>
+				              <option>Percentage</option>
+				              <option>Amount</option>
+				            </select>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="form-group my-3 mr-2">
+							<span class="label text-uppercase">Commission value</span>
+							<input type="text" class="form-control mt-2" id="basicInput" placeholder="Enter Value*">
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="form-group my-3 mr-2">
+							<span class="label text-uppercase">Effective from</span>
+							<input type="date" class="form-control mt-2" id="basicInput" placeholder="Enter Value*">
+						</div>
+					</div>
+				</div>
+
+				<div class="row my-4">
+
+					<div class="col-md-2">
+						<span class="font-size-20 SFPD-Heavy text-dark text-uppercase">history</span>
+					</div>
+			     
+				     <div class="col-md-3">
+			            <div class="form-group position-relative has-icon-left">
+		                    <input type="text" class="form-control" placeholder="Search...">
+		                    <div class="form-control-icon">
+		                        <img src="assets/img/icon/search-dark.svg" width="14px">
+		                    </div>
+		                </div>
+			          </div>
+
+			    </div>
+				
+				<!-- Table managers -->
+			    <div class="custom-table" style="overflow-x: auto;"> 
+		    		<!-- CUSTOM TABLE HEAD -->
+			    	<div class="row table-head DinM text-uppercase text-silver-dark p-3">
+			    		<div class="col-2">
+			    			commision
+			    		</div>
+			    		<div class="col-2">
+			    			commision type
+			    		</div>
+			    		<div class="col-2">
+			    			commision value
+			    		</div>
+			    		<div class="col-3">
+			    			effective from
+			    		</div>
+			    		<div class="col-3">
+			    			effective to
+			    		</div>
+			    	</div>
+			    	<!-- End Table Head -->
+
+			    	<!-- CUSTOM TABLE Body -->
+			    	<div class="row text-dark border-box-silver p-3 my-2">
+			    		<div class="col-2">
+			    			<h6 class="text-dark SFPD-Light">Charter</h6>
+			    		</div>
+			    		<div class="col-2">
+			    			<p class="SFPD-Light text-dark">Percentage</p>
+			    		</div>
+			    		<div class="col-2">
+			    			<p class="SFPD-Light text-dark">14%</p>
+			    		</div>
+			    		<div class="col-3">
+			    			11 MAR ’18  @ 16:30 GMT
+			    		</div>
+			    		<div class="col-3">
+			    			31 MAR ’18  @ 20:30 GMT
+			    		</div>
+			    	</div>
+			    	<!-- End Table Body -->
+			    	<!-- CUSTOM TABLE Body -->
+			    	<div class="row text-dark border-box-silver p-3 my-2">
+			    		<div class="col-2">
+			    			<h6 class="text-dark SFPD-Light">Empty LEg</h6>
+			    		</div>
+			    		<div class="col-2">
+			    			<p class="SFPD-Light text-dark">Amount</p>
+			    		</div>
+			    		<div class="col-2">
+			    			<p class="SFPD-Light text-dark">14%</p>
+			    		</div>
+			    		<div class="col-3">
+			    			11 MAR ’18  @ 16:30 GMT
+			    		</div>
+			    		<div class="col-3">
+			    			31 MAR ’18  @ 20:30 GMT
+			    		</div>
+			    	</div>
+			    	<!-- End Table Body -->
+		    	</div>
+
+				
+				
+			</section>
+
+		</div>
+
+	</div>
+
+
+	<!--Cancel Booking popup -->
+    <div class="modal fade text-left modal-borderless" id="cancelBooking" tabindex="-1" role="dialog"
+    aria-labelledby="myModalLabel1" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-scrollable" role="document">
+	        <div class="modal-content">
+	        <div class="modal-header">
+	            <h5 class="modal-title invisible">TITLE</h5>
+	            <button type="button" class="close rounded-pill" data-dismiss="modal" aria-label="Close">
+	            x
+	            </button>
+	        </div>
+	        <div class="modal-body">
+	            <h1 class="mb-3 text-dark text-uppercase DinE font-size-36">cancel booking?</h1>
+	            <p class="SFPD-Light font-size-14">Are you sure you’d like to cancel this booking?
+Canceling cannot be undone and the users who booked this will be informed.</p>
+				<form action="" class="media d-flex">
+					<button class="btn btn-warning w-100 text-uppercase mr-1">cancel</button>
+					<button type="button" class="btn w-100 btn-light text-uppercase ml-1" data-dismiss="modal" aria-label="Close">do not cancel</button>
+				</form>
+	        </div>
+	        
+	        </div>
+	    </div>
+	</div>
+
+	<!--Make Changes popup -->
+    <div class="modal fade text-left modal-borderless" id="makeChanges" tabindex="-1" role="dialog"
+    aria-labelledby="myModalLabel1" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-scrollable" role="document">
+	        <div class="modal-content">
+	        <div class="modal-header">
+	            <h5 class="modal-title invisible">TITLE</h5>
+	            <button type="button" class="close rounded-pill" data-dismiss="modal" aria-label="Close">
+	            x
+	            </button>
+	        </div>
+	        <div class="modal-body">
+	            <h1 class="mb-3 text-dark text-center text-uppercase DinE font-size-36">confirm change</h1>
+	            <p class="text-dark SFPD-Bold font-size-14">You have just made the following changes.</p>
+				<div class="row mb-4">
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">manager</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">John Doe</h6>
+				        </div>
+					</div>
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">support manager</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">Michelle Renolds</h6>
+				        </div>
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">Reason</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">Maternity Leave</h6>
+				        </div>
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">Notes</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">
+				          	Kindly ask the client to forward the details.
+							<br>Yes, we provide Mauris auctor ullamcorper nisi quis imperdiet.
+							<br>Lorem Epsom door sit amet
+				          </h6>
+				        </div>
+					</div>
+				</div>
+				<div class="custom-control custom-checkbox">
+	              <input type="checkbox" class="form-check-input form-check-dark" checked="" name="customCheck" id="customColorCheck2">
+	              <label class="form-check-label SFPD-Regular font-size-14 text-dark" for="customColorCheck2">Email new re-assignment details to new manager</label>
+	            </div>
+	            <div class="media d-flex mt-3">
+					<button class="btn btn-warning w-100 text-uppercase mr-2">confirm</button>
+					<button class="btn btn-warning w-100 text-uppercase mr-2">confirm all</button>
+					<button type="button" class="btn w-100 btn-light text-uppercase ml-1" data-dismiss="modal" aria-label="Close">cancel</button>
+	            </div>
+	        </div>
+	        
+	        </div>
+	    </div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/tail.select-full.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			console.log('DOM Fully Loaded')
+
+
+			$(document).ready(function(){
+				$('#sidebarCollapse').on('click',function(){
+					$('#sidebar').toggleClass('active');
+				});
+
+				tail.select('#select1', {
+					search: true,
+					multiContainer: '.move-container'
+				});
+			});
+
+		})
+	</script>
+</body>
+</html>

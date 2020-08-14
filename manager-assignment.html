@@ -11,9 +11,9 @@
 	<link rel="stylesheet" href="assets/css/leftMenu.css">
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" href="assets/css/admin.css">
-	<link rel="stylesheet" href="assets/css/choices.min.css">
+	<link rel="stylesheet" href="assets/css/tail.select-default.min.css">
 	<!-- <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon"> -->
-	<title>Managers | Website</title>
+	<title>Managers Assignment | Website</title>
 </head>
 <body class="SFPD-Regular">
 	<header class="navbar navbar-header fixed-top navbar-expand navbar-dark bg-dark">
@@ -84,15 +84,15 @@
 		<div class="container">
 				
 			<!-- Profile Section Form -->
-			<section class="mx-lg-5 mt-5 mx-4">
+			<section class="mx-lg-5 mt-5 mb-4 mx-4">
 				<h1 class="text-dark DinE letter-spacing-2 text-uppercase">Managers</h1>
 				
 				<div class="row mt-4 align-items-center">
 					<div class="col-md-3 mb-md-3">
-						<a href="#" class="text-decoration-none"><h3 class="text-dark SFPD-Heavy text-uppercase border-bottom-orange text-nowrap font-size-20">broker listing</h3></a>
+						<a href="managers.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">broker listing</h3></a>
 					</div>
 					<div class="col-md-3 mb-md-3">
-						<a href="manager-assignment.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">account manager assignment</h3></a>
+						<a href="manager-assignment.html" class="text-decoration-none"><h3 class="text-dark SFPD-Heavy border-bottom-orange text-uppercase text-wrap font-size-20">account manager assignment</h3></a>
 					</div>
 					<div class="col-md-3 mb-md-3">
 						<a href="support-manager-assignment.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">support manager assignment</h3></a>
@@ -103,21 +103,73 @@
 				</div>
 
 				<div class="row my-4">
+					<div class="col-md-3">
+						<div class="form-group">
+							<span class="text-silver-dark DinM text-uppercase">CURRENT MANAGER</span>
+							<input type="text" class="form-control mt-1" id="basicInput" placeholder="Enter Manager Name*">
+						</div>
+					</div>
+				</div>
+
+				<div class="row-my-4 d-flex">
+					<div class="col-md-3">
+						<!-- <select multiple name="" id="select1">
+							<option value="">John Doe</option>
+							<option value="">Michelle Renolds</option>
+							<option value="">Nic Stauber</option>
+						</select> -->
+						<div class="form-group position-relative has-icon-right">
+							<span class="text-silver-dark DinM text-uppercase">add customer</span><span class="float-right"><a href="#" class="text-warning DinM">Add All</a></span>
+		                    <input type="text" class="form-control" placeholder="Enter Customer Name">
+		                    <div class="form-control-icon mt-2">
+		                        <img src="assets/img/icon/add.png" width="14px">
+		                    </div>
+		                </div>
+					</div>
+					<div class="col-md">
+						<span class="badge bg-badge mt-4 ml-3 p-2">John Doe <a href="#" class="ml-3 text-decoration-none text-silver-dark">X</a></span>
+						<span class="badge bg-badge mt-4 ml-3 p-2">Michael scott <a href="#" class="ml-3 text-decoration-none text-silver-dark">X</a></span>
+					</div>
+				</div>
+
+				<div class="row my-4">
+					<div class="col-md-3">
+						<div class="form-group">
+							<span class="text-silver-dark DinM text-uppercase">new MANAGER</span>
+							<input type="text" class="form-control mt-1" id="basicInput" placeholder="Enter Manager Name*">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="form-group">
+							<span class="text-silver-dark DinM text-uppercase">reason</span>
+							<input type="text" class="form-control mt-1" id="basicInput" placeholder="Enter Reason*">
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="form-group">
+							<span class="text-silver-dark DinM text-uppercase">Notes</span>
+							<input type="text" class="form-control mt-1" id="basicInput" placeholder="Enter Notes*">
+						</div>
+					</div>
+					<div class="col-md-2">
+						<button type="button"  data-toggle="modal" data-target="#makeChanges" class="btn btn-warning DinM text-uppercase mt-4">make changes</button>
+					</div>
+				</div>
+
+				<div class="row my-4">
+
+					<div class="col-md-2">
+						<span class="font-size-20 SFPD-Heavy text-dark text-uppercase">history</span>
+					</div>
 			     
-			     <div class="col-md-3">
-		            <div class="form-group position-relative has-icon-left">
-	                    <input type="text" class="form-control" placeholder="Search...">
-	                    <div class="form-control-icon">
-	                        <img src="assets/img/icon/search-dark.svg" width="14px">
-	                    </div>
-	                </div>
-		          </div>
-
-		          <div class="col-md-6 clearfix"></div>
-
-		          <div class="col-md-3">
-		            <button class="btn btn-warning text-uppercase float-right" type="button" data-toggle="modal" data-target="#addManager">+ add manager</button>
-		          </div>
+				     <div class="col-md-3">
+			            <div class="form-group position-relative has-icon-left">
+		                    <input type="text" class="form-control" placeholder="Search...">
+		                    <div class="form-control-icon">
+		                        <img src="assets/img/icon/search-dark.svg" width="14px">
+		                    </div>
+		                </div>
+			          </div>
 
 			    </div>
 				
@@ -190,56 +242,6 @@
 
 	</div>
 
-	<!--Detail Manager popup -->
-    <div class="modal fade text-left modal-borderless" id="detailManager" tabindex="-1" role="dialog"
-    aria-labelledby="myModalLabel1" aria-hidden="true">
-	    <div class="modal-dialog  modal-dialog-scrollable" role="document">
-	        <div class="modal-content">
-	        <div class="modal-header">
-	            <h5 class="modal-title invisible">TITLE</h5>
-	            <button type="button" class="close rounded-pill" data-dismiss="modal" aria-label="Close">
-	            x
-	            </button>
-	        </div>
-	        <div class="modal-body">
-	            <h1 class="mb-3 text-dark text-uppercase DinE">details manager</h1>
-			    
-			    <div class="mt-4">
-		          <span class="label text-uppercase">role</span>
-		          <h6 class="text-dark SFPD-Light pt-2">Broker Manager</h6>
-		        </div>
-
-		        <div class="mt-4">
-		          <span class="label text-uppercase">Email</span>
-		          <h6 class="text-dark SFPD-Light pt-2">mrenolds@gmail.com</h6>
-		        </div>
-
-		        <div class="mt-4">
-		          <span class="label text-uppercase">phone</span>
-		          <h6 class="text-dark SFPD-Light pt-2">+1 (416) 200 2100</h6>
-		        </div>
-
-		        <div class="mt-4">
-		          <span class="label text-uppercase">mximum amount</span>
-		          <h6 class="text-dark SFPD-Light pt-2">$100,000</h6>
-		        </div>
-
-		        <div class="mt-4">
-		          <span class="label text-uppercase">Notes</span>
-		          <p class="text-dark SFPD-Light pt-2">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Quisque fringilla erat felis, sit amet lobortis dui placerat at.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Quisque fringilla erat felis, sit amet lobortis dui placerat at. 
-		          </p>
-		        </div>
-
-		        <button class="btn btn-warning float-left text-uppercase mr-1 w-50" data-toggle="modal" data-target="#editManager" type="button">edit</button>
-	        </div>
-	        
-	        </div>
-	    </div>
-	</div>
 
 	<!--Cancel Booking popup -->
     <div class="modal fade text-left modal-borderless" id="cancelBooking" tabindex="-1" role="dialog"
@@ -266,8 +268,8 @@ Canceling cannot be undone and the users who booked this will be informed.</p>
 	    </div>
 	</div>
 
-	<!--Add Companion popup -->
-    <div class="modal fade text-left modal-borderless" id="addManager" tabindex="-1" role="dialog"
+	<!--Make Changes popup -->
+    <div class="modal fade text-left modal-borderless" id="makeChanges" tabindex="-1" role="dialog"
     aria-labelledby="myModalLabel1" aria-hidden="true">
 	    <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-scrollable" role="document">
 	        <div class="modal-content">
@@ -277,134 +279,58 @@ Canceling cannot be undone and the users who booked this will be informed.</p>
 	            x
 	            </button>
 	        </div>
-	        <div class="modal-body mx-auto">
-	            <h1 class="mb-3 text-dark text-uppercase DinE font-size-36">Add Manager</h1>
-				<form action="" class="mb-4">
-					<div class="d-flex align-items-center">
-						<div class="form-group my-3 mr-2">
-							<span class="label text-uppercase">name</span>
-							<input type="text" class="form-control mt-1" id="basicInput" placeholder="First name*">
-						</div>
-						<div class="form-group my-3">
-							<!-- <span class="label text-uppercase">email address</span> -->
-							<input type="text" class="form-control mt-4" id="basicInput" placeholder="Last name*">
-						</div>
+	        <div class="modal-body">
+	            <h1 class="mb-3 text-dark text-center text-uppercase DinE font-size-36">confirm change</h1>
+	            <p class="text-dark SFPD-Bold font-size-14">You have just made the following changes.</p>
+				<div class="row mb-4">
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">Client</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">John Doe</h6>
+				        </div>
 					</div>
-
-					<div class="d-flex align-items-center">
-						<div class="form-group my-3 mr-2">
-							<span class="label text-uppercase">Email Address</span>
-							<input type="text" class="form-control mt-2" id="basicInput" placeholder="Email Address*">
-						</div>
-						<div class="form-group my-3">
-							<span class="label text-uppercase">password</span>
-							<input type="password" class="form-control mt-2" id="basicInput" placeholder="Enter Password*">
-						</div>
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">current manager</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">Michelle Renolds</h6>
+				        </div>
 					</div>
-					<div class="align-items-center">
-						<div class="form-group w-75 my-3 mr-2">
-							<span class="label text-uppercase">phone number</span>
-							<input type="text" class="form-control mt-1" id="basicInput" placeholder="phone number*">
-						</div>
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">New Manager</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">Charlies Miner</h6>
+				        </div>
 					</div>
-					<div class="align-items-center">
-						<div class="form-group w-75 my-3 mr-2">
-							<span class="label text-uppercase">maximum amount</span>
-							<input type="text" class="form-control mt-1" id="basicInput" placeholder="maximum amount*">
-						</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">Reason</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">Maternity Leave</h6>
+				        </div>
 					</div>
-					<div class="align-items-center">
-						<div class="form-group w-75 my-3 mr-2">
-							<span class="label text-uppercase">role</span>
-							<select class="form-select form-border-silver mr-3 text-dark" id="basicSelect">
-								<option>Broker Admin</option>
-								<option>Broker Manager</option>
-								<option>Support Manager</option>
-							</select>
-						</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">Notes</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">
+				          	Kindly ask the client to forward the details.
+							<br>Yes, we provide Mauris auctor ullamcorper nisi quis imperdiet.
+							<br>Lorem Epsom door sit amet
+				          </h6>
+				        </div>
 					</div>
-					<div class="align-items-center">
-						<div class="form-group w-75 my-3 mr-2">
-							<span class="label text-uppercase">Notes</span>
-							<input type="text" class="form-control mt-1" id="basicInput" placeholder="Enter Notes here*">
-						</div>
-					</div>
-					<button class="btn btn-warning float-left text-uppercase mr-1">add manager</button>
-				</form>
-	        </div>
-	        
-	        </div>
-	    </div>
-	</div>
-
-	<!--Edit Companion popup -->
-    <div class="modal fade text-left modal-borderless" id="editManager" tabindex="-1" role="dialog"
-    aria-labelledby="myModalLabel1" aria-hidden="true">
-	    <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-scrollable" role="document">
-	        <div class="modal-content">
-	        <div class="modal-header">
-	            <h5 class="modal-title invisible">TITLE</h5>
-	            <button type="button" class="close rounded-pill" data-dismiss="modal" aria-label="Close">
-	            x
-	            </button>
-	        </div>
-	        <div class="modal-body mx-auto">
-	            <h1 class="mb-3 text-dark text-uppercase DinE font-size-36">Edit Manager</h1>
-				<form action="" class="mb-4">
-					<div class="d-flex align-items-center">
-						<div class="form-group my-3 mr-2">
-							<span class="label text-uppercase">name</span>
-							<input type="text" class="form-control mt-1" id="basicInput" placeholder="First name*" value="Michelle">
-						</div>
-						<div class="form-group my-3">
-							<!-- <span class="label text-uppercase">email address</span> -->
-							<input type="text" class="form-control mt-4" id="basicInput" placeholder="Last name*" value="Renolds">
-						</div>
-					</div>
-
-					<div class="d-flex align-items-center">
-						<div class="form-group my-3 mr-2">
-							<span class="label text-uppercase">Email Address</span>
-							<input type="text" class="form-control mt-2" id="basicInput" placeholder="Email Address*" value="mrenolds@gmail.com">
-						</div>
-						<div class="form-group my-3">
-							<span class="label text-uppercase">password</span>
-							<input type="password" class="form-control mt-2" id="basicInput" placeholder="Enter Password*">
-						</div>
-					</div>
-					<div class="align-items-center">
-						<div class="form-group w-75 my-3 mr-2">
-							<span class="label text-uppercase">phone number</span>
-							<input type="text" class="form-control mt-1" id="basicInput" placeholder="phone number*" value="+1 (416) 200 2100">
-						</div>
-					</div>
-					<div class="align-items-center">
-						<div class="form-group w-75 my-3 mr-2">
-							<span class="label text-uppercase">maximum amount</span>
-							<input type="text" class="form-control mt-1" id="basicInput" placeholder="maximum amount*" value="$100.000">
-						</div>
-					</div>
-					<div class="align-items-center">
-						<div class="form-group w-75 my-3 mr-2">
-							<span class="label text-uppercase">role</span>
-							<select class="form-select form-border-silver mr-3 text-dark" id="basicSelect">
-								<option>Broker Admin</option>
-								<option selected="">Broker Manager</option>
-								<option>Support Manager</option>
-							</select>
-						</div>
-					</div>
-					<div class="align-items-center">
-						<div class="form-group w-75 my-3 mr-2">
-							<span class="label text-uppercase">Notes</span>
-							<input type="text" class="form-control mt-1" id="basicInput" placeholder="Enter Notes here*" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Quisque fringilla erat felis, sit amet lobortis dui placerat at.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Quisque fringilla erat felis, sit amet lobortis dui placerat at. ">
-						</div>
-					</div>
-					<button class="btn btn-warning float-left text-uppercase mr-1">save changes</button>
-				</form>
+				</div>
+				<div class="custom-control custom-checkbox">
+	              <input type="checkbox" class="form-check-input form-check-dark" checked="" name="customCheck" id="customColorCheck2">
+	              <label class="form-check-label SFPD-Regular font-size-14 text-dark" for="customColorCheck2">Email new re-assignment details to new manager</label>
+	            </div>
+	            <div class="media d-flex mt-3">
+					<button class="btn btn-warning w-100 text-uppercase mr-2">confirm</button>
+					<button class="btn btn-warning w-100 text-uppercase mr-2">confirm all</button>
+					<button type="button" class="btn w-100 btn-light text-uppercase ml-1" data-dismiss="modal" aria-label="Close">cancel</button>
+	            </div>
 	        </div>
 	        
 	        </div>
@@ -417,6 +343,7 @@ Quisque fringilla erat felis, sit amet lobortis dui placerat at. ">
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/tail.select-full.min.js"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -426,6 +353,11 @@ Quisque fringilla erat felis, sit amet lobortis dui placerat at. ">
 			$(document).ready(function(){
 				$('#sidebarCollapse').on('click',function(){
 					$('#sidebar').toggleClass('active');
+				});
+
+				tail.select('#select1', {
+					search: true,
+					multiContainer: '.move-container'
 				});
 			});
 

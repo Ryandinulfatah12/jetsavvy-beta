@@ -11,9 +11,9 @@
 	<link rel="stylesheet" href="assets/css/leftMenu.css">
 	<link rel="stylesheet" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" href="assets/css/admin.css">
-	<link rel="stylesheet" href="assets/css/choices.min.css">
+	<link rel="stylesheet" href="assets/css/tail.select-default.min.css">
 	<!-- <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon"> -->
-	<title>Customers | Website</title>
+	<title>Managers Assignment | Website</title>
 </head>
 <body class="SFPD-Regular">
 	<header class="navbar navbar-header fixed-top navbar-expand navbar-dark bg-dark">
@@ -58,10 +58,10 @@
 	            <div class="Menu">
 	              <a href="message.html"><div class="icons" id="messageIcon">&nbsp;<span class="side-link text-uppercase">message</span></div><span class="badge bg-warning float-left">4</span></a>
 	            </div>
-	            <div class="Menu">
+	            <div class="Menu menu-active">
 	              <a href="managers.html"><div class="icons" id="proxyUsersIcon">&nbsp;<span class="side-link text-uppercase">proxy users</span></div></a>
 	            </div>
-	            <div class="Menu menu-active">
+	            <div class="Menu">
 	              <a href="customers.html"><div class="icons" id="companionsIcon">&nbsp;<span class="side-link text-uppercase">companions</span></div></a>
 	            </div>
 	            <div class="Menu">
@@ -84,37 +84,79 @@
 		<div class="container">
 				
 			<!-- Profile Section Form -->
-			<section class="mx-lg-5 mt-5 mx-4">
-				<h1 class="text-dark DinE letter-spacing-2 text-uppercase">Customers</h1>
+			<section class="mx-lg-5 mt-5 mb-4 mx-4">
+				<h1 class="text-dark DinE letter-spacing-2 text-uppercase">Managers</h1>
 				
 				<div class="row mt-4 align-items-center">
 					<div class="col-md-3 mb-md-3">
-						<a href="customers.html" class="text-decoration-none"><h3 class="text-dark SFPD-Heavy text-uppercase border-bottom-orange text-nowrap font-size-20">customer listing</h3></a>
+						<a href="managers.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">broker listing</h3></a>
 					</div>
 					<div class="col-md-3 mb-md-3">
-						<a href="customers-activity.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">customer activity</h3></a>
+						<a href="manager-assignment.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">account manager assignment</h3></a>
+					</div>
+					<div class="col-md-3 mb-md-3">
+						<a href="support-manager-assignment.html" class="text-decoration-none"><h3 class="text-dark border-bottom-orange SFPD-Heavy text-uppercase text-wrap font-size-20">support manager assignment</h3></a>
+					</div>
+					<div class="col-md-3 mb-md-3">
+						<a href="commision-configuration.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">Commission configuration</h3></a>
 					</div>
 				</div>
 
 				<div class="row my-4">
+					<div class="col-md-3">
+						<div class="form-group">
+							<span class="text-silver-dark DinM text-uppercase">support MANAGER</span>
+							<input type="text" class="form-control mt-1" id="basicInput" placeholder="Enter Manager Name*">
+						</div>
+					</div>
+				</div>
+
+				<div class="row-my-4 d-flex">
+					<div class="col-md-3">
+						<!-- <select multiple name="" id="select1">
+							<option value="">John Doe</option>
+							<option value="">Michelle Renolds</option>
+							<option value="">Nic Stauber</option>
+						</select> -->
+						<div class="form-group position-relative has-icon-right">
+							<span class="text-silver-dark DinM text-uppercase">add broker</span><span class="float-right"><a href="#" class="text-warning DinM">Add All</a></span>
+		                    <input type="text" class="form-control" placeholder="Enter Customer Name">
+		                    <div class="form-control-icon mt-2">
+		                        <img src="assets/img/icon/add.png" width="14px">
+		                    </div>
+		                </div>
+					</div>
+					<div class="col-md">
+						<span class="badge bg-badge mt-4 ml-3 p-2">John Doe <a href="#" class="ml-3 text-decoration-none text-silver-dark">X</a></span>
+					</div>
+				</div>
+
+				<div class="row my-4">
+					<div class="col-md-3">
+						<div class="form-group">
+							<span class="text-silver-dark DinM text-uppercase">Notes</span>
+							<input type="text" class="form-control mt-1" id="basicInput" placeholder="Enter Notes*">
+						</div>
+					</div>
+					<div class="col-md-2">
+						<button type="button"  data-toggle="modal" data-target="#makeChanges" class="btn btn-warning DinM text-uppercase mt-4">make changes</button>
+					</div>
+				</div>
+
+				<div class="row my-4">
+
+					<div class="col-md-2">
+						<span class="font-size-20 SFPD-Heavy text-dark text-uppercase">history</span>
+					</div>
 			     
-			     <div class="col-md-3">
-		            <div class="form-group position-relative has-icon-left">
-	                    <input type="text" class="form-control" placeholder="Search...">
-	                    <div class="form-control-icon">
-	                        <img src="assets/img/icon/search-dark.svg" width="14px">
-	                    </div>
-	                </div>
-		          </div>
-
-		          <div class="col-md-5 clearfix"></div>
-
-		          <div class="col-md-3">
-		          	<div class="d-flex">
-		          		<button class="btn btn-dark text-uppercase text-nowrap mr-3">download csv</button>
-			            <button class="btn btn-warning text-uppercase text-nowrap" type="button" data-toggle="modal" data-target="#addManager">+ add client</button>
-		          	</div>
-		          </div>
+				     <div class="col-md-3">
+			            <div class="form-group position-relative has-icon-left">
+		                    <input type="text" class="form-control" placeholder="Search...">
+		                    <div class="form-control-icon">
+		                        <img src="assets/img/icon/search-dark.svg" width="14px">
+		                    </div>
+		                </div>
+			          </div>
 
 			    </div>
 				
@@ -135,7 +177,7 @@
 			    			phone numbers <img src="assets/img/icon/down-silver.svg" alt="">
 			    		</div>
 			    		<div class="col-2">
-			    			broker <img src="assets/img/icon/down-silver.svg" alt="">
+			    			customers <img src="assets/img/icon/down-silver.svg" alt="">
 			    		</div>
 			    		<div class="col-2">
 			    			notes
@@ -161,15 +203,10 @@
 			    			+1 (416) 200 2100
 			    		</div>
 			    		<div class="col-2">
-			    			<div class="dropdown">
-				                <a href="#" class="dropdown-toggle text-decoration-none text-dark" id="broker" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe <img src="assets/img/icon/down-silver.svg"></a>
-				                <div class="dropdown-menu" aria-labelledby="broker">
-				                      <a class="dropdown-item" href="#">Reassign Broker</a>
-				                </div>
-				              </div>
+			    			John Doe <img src="assets/img/icon/down-silver.svg">
 			    		</div>
 			    		<div class="col-2">
-			    			lorem ipsum dolor sit amet <a href="#" data-toggle="modal" data-target="#moreNotes" class="text-decoration-none text-decoration-warning text-warning DinM">more</a>
+			    			lorem ipsum dolor sit amet <a href="#" class="text-decoration-none text-decoration-warning text-warning DinM">more</a>
 			    		</div>
 			    		<div class="col-1">
 			    			<div class="dropdown float-right">
@@ -192,49 +229,11 @@
 
 	</div>
 
-	<!--show notes popup -->
-    <div class="modal fade text-left modal-borderless" id="moreNotes" tabindex="-1" role="dialog"
-    aria-labelledby="myModalLabel1" aria-hidden="true">
-	    <div class="modal-dialog  modal-dialog-scrollable" role="document">
-	        <div class="modal-content">
-	        <div class="modal-header">
-	            <h5 class="modal-title invisible">TITLE</h5>
-	            <button type="button" class="close rounded-pill" data-dismiss="modal" aria-label="Close">
-	            x
-	            </button>
-	        </div>
-	        <div class="modal-body mx-auto">
-	            <h1 class="mb-3 text-dark text-uppercase DinE text-center">notes</h1>
-			    
-			    <div class="mt-4">
-		          	<h6 class="DinE font-size-14 text-uppercase text-dark">personal notes</h6>
-					<p class="SFPD-Light font-size-14">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla erat felis, sit amet lobortis dui placerat at. 
-					</p>
-		        </div>
-		        <div class="mt-4">
-		          	<h6 class="DinE font-size-14 text-uppercase text-dark">DIETARY NOTES</h6>
-					<p class="SFPD-Light font-size-14">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla erat felis, sit amet lobortis dui placerat at. 
-					</p>
-		        </div>
-		        <div class="mt-4">
-		          	<h6 class="DinE font-size-14 text-uppercase text-dark">FAVOURITE VACATION SPOTS</h6>
-					<p class="SFPD-Light font-size-14">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla erat felis, sit amet lobortis dui placerat at. 
-					</p>
-		        </div>
-		        <a href="#" data-toggle="modal" data-target="#editNotes" class="text-warning DinM text-uppercase">edit notes</a>
-	        </div>
-	        
-	        </div>
-	    </div>
-	</div>
 
-	<!--Edit notes popup -->
-    <div class="modal fade text-left modal-borderless" id="editNotes" tabindex="-1" role="dialog"
+	<!--Cancel Booking popup -->
+    <div class="modal fade text-left modal-borderless" id="cancelBooking" tabindex="-1" role="dialog"
     aria-labelledby="myModalLabel1" aria-hidden="true">
-	    <div class="modal-dialog  modal-dialog-scrollable" role="document">
+	    <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-scrollable" role="document">
 	        <div class="modal-content">
 	        <div class="modal-header">
 	            <h5 class="modal-title invisible">TITLE</h5>
@@ -243,31 +242,76 @@
 	            </button>
 	        </div>
 	        <div class="modal-body">
-	            <h1 class="mb-3 text-dark text-uppercase DinE text-center">Edit notes</h1>
+	            <h1 class="mb-3 text-dark text-uppercase DinE font-size-36">cancel booking?</h1>
+	            <p class="SFPD-Light font-size-14">Are you sure you’d like to cancel this booking?
+Canceling cannot be undone and the users who booked this will be informed.</p>
+				<form action="" class="media d-flex">
+					<button class="btn btn-warning w-100 text-uppercase mr-1">cancel</button>
+					<button type="button" class="btn w-100 btn-light text-uppercase ml-1" data-dismiss="modal" aria-label="Close">do not cancel</button>
+				</form>
+	        </div>
+	        
+	        </div>
+	    </div>
+	</div>
 
-	            <form action="">
-	            	<div class="form-group my-3">
-						<span class="text-dark DinE font-size-14 text-uppercase" for="basicInput">personal notes</span>
-						<textarea class="form-control mt-2 SFPD-Light">Nunc euismod augue in odio lacinia, non dictum nibh cursus. Duis diam dui, posuere eu aliquam sed, viverra et est at.</textarea>
+	<!--Make Changes popup -->
+    <div class="modal fade text-left modal-borderless" id="makeChanges" tabindex="-1" role="dialog"
+    aria-labelledby="myModalLabel1" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-scrollable" role="document">
+	        <div class="modal-content">
+	        <div class="modal-header">
+	            <h5 class="modal-title invisible">TITLE</h5>
+	            <button type="button" class="close rounded-pill" data-dismiss="modal" aria-label="Close">
+	            x
+	            </button>
+	        </div>
+	        <div class="modal-body">
+	            <h1 class="mb-3 text-dark text-center text-uppercase DinE font-size-36">confirm change</h1>
+	            <p class="text-dark SFPD-Bold font-size-14">You have just made the following changes.</p>
+				<div class="row mb-4">
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">manager</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">John Doe</h6>
+				        </div>
 					</div>
-					<div class="form-group my-3">
-						<span class="text-dark DinE font-size-14 text-uppercase" for="basicInput">DIETARY NOTES</span>
-						<textarea class="form-control mt-2 SFPD-Light">Nunc euismod augue in odio lacinia, non dictum nibh cursus. Duis diam dui, posuere eu aliquam sed, viverra et est at.</textarea>
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">support manager</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">Michelle Renolds</h6>
+				        </div>
 					</div>
-					<div class="form-group my-3">
-						<span class="text-dark DinE font-size-14 text-uppercase" for="basicInput">FAVOURITE VACATION SPOTS</span>
-						<textarea class="form-control mt-2 SFPD-Light">Nunc euismod augue in odio lacinia, non dictum nibh cursus. Duis diam dui, posuere eu aliquam sed, viverra et est at.</textarea>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">Reason</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">Maternity Leave</h6>
+				        </div>
 					</div>
-	            </form>
-		        <div class="media d-flex align-items-center">
-		        	<div class="mr-2">
-		        		<a href="#" class="text-warning DinM text-uppercase mr-2">save</a>
-		        	</div>
-		        	<div class="flex-grow-1">
-		        		<a href="#" class="text-light DinM text-uppercase">cancel</a>
-		        	</div>
-	        		<a href="#" class="text-warning DinM text-uppercase">+ Add category</a>
-		        </div>
+				</div>
+				<div class="row mb-4">
+					<div class="col-md-4">
+						<div class="mr-2">
+				          <span class="DinM text-silver-dark text-uppercase">Notes</span>
+				          <h6 class="text-dark pt-2 font-weight-normal text-nowrap">
+				          	Kindly ask the client to forward the details.
+							<br>Yes, we provide Mauris auctor ullamcorper nisi quis imperdiet.
+							<br>Lorem Epsom door sit amet
+				          </h6>
+				        </div>
+					</div>
+				</div>
+				<div class="custom-control custom-checkbox">
+	              <input type="checkbox" class="form-check-input form-check-dark" checked="" name="customCheck" id="customColorCheck2">
+	              <label class="form-check-label SFPD-Regular font-size-14 text-dark" for="customColorCheck2">Email new re-assignment details to new manager</label>
+	            </div>
+	            <div class="media d-flex mt-3">
+					<button class="btn btn-warning w-100 text-uppercase mr-2">confirm</button>
+					<button class="btn btn-warning w-100 text-uppercase mr-2">confirm all</button>
+					<button type="button" class="btn w-100 btn-light text-uppercase ml-1" data-dismiss="modal" aria-label="Close">cancel</button>
+	            </div>
 	        </div>
 	        
 	        </div>
@@ -280,6 +324,7 @@
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/tail.select-full.min.js"></script>
 
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -289,6 +334,11 @@
 			$(document).ready(function(){
 				$('#sidebarCollapse').on('click',function(){
 					$('#sidebar').toggleClass('active');
+				});
+
+				tail.select('#select1', {
+					search: true,
+					multiContainer: '.move-container'
 				});
 			});
 

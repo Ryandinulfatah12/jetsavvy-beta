@@ -227,6 +227,29 @@ option {
 	white-space: nowrap;
 }
 
+.form-check-input:checked[type=radio] {
+	background-image: url(../img/icon/orange-rectangle.png);
+	background-size: 10px;
+}
+
+.form-check.form-check-warning .form-check-input {
+    background-color: #fff;
+    border-color: #a2a2a2;
+}
+
+// When Menu is Active
+.menuArea > .menu-active {
+    background-color: $dark-color !important;
+    .icons {
+        filter: invert(100%);
+    }
+}
+ .Menu:hover a {
+    .icons {
+        filter: invert(0%);
+    }
+}
+
 @media screen and (max-width: 568px){
 	.arrow-right {
 		margin-top: -44px;
@@ -239,9 +262,12 @@ option {
 	.btnSearch {
 		padding: 10px;
 	}
+	
+}
+
+@media screen and (max-width: 845px) {
 	.custom-table > .row {
 		width: 170vh;
-		// white-space: nowrap;
 	}
 }
 

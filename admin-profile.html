@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/app.css">
+	<link rel="stylesheet" href="assets/css/fonts.css">
+	<link rel="stylesheet" href="assets/css/leftMenu.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/admin.css">
+	<link rel="stylesheet" href="assets/css/choices.min.css">
+	<!-- <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon"> -->
+	<title>Company Profile | Website</title>
+</head>
+<body class="SFPD-Regular">
+	<header class="navbar navbar-header fixed-top navbar-expand navbar-dark bg-dark">
+		<div class="container">
+			<div class="menu-toggle">
+				<input type="checkbox">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<img src="assets/img/logo.png" class="ml-lg-5 ml-3 mr-3 pl-lg-5">
+			<div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+				<ul class="navbar-nav d-flex align-items-center navbar-light ml-auto">
+					<li class="dropdown">
+						<a href="profile.html"class="nav-link nav-link-lg nav-link-user">
+							<div class="float-left mr-3">
+								<img src="assets/img/profile.png" alt="avatar">
+							</div>
+							<div class="d-none d-md-block d-lg-inline-block text-white text-left">John Doe <br><span class="text-muted DinM">BROKER ADMIN</span></div>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right">
+							<button class="dropdown-item"><i data-feather="log-out"></i> Logout</button>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="d-flex">
+		<!-- Sidebar Holder add class active to reduce-->
+		<nav id="sidebar">
+	        <div class="leftMenu">
+	          <div class="menuArea">
+	            <!-- Add class menu-active to shcange colour side icon -->
+	            <div class="Menu">
+	              <a href="req-quote.html"><div class="icons" id="searchIcon">&nbsp;<span class="side-link text-uppercase">Search</span></div></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="booking-history.html"><div class="icons" id="bookingsIcon">&nbsp;<span class="side-link text-uppercase">Bookings</span></div><span class="badge bg-warning float-left">3</span></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="message.html"><div class="icons" id="messageIcon">&nbsp;<span class="side-link text-uppercase">message</span></div><span class="badge bg-warning float-left">4</span></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="managers.html"><div class="icons" id="proxyUsersIcon">&nbsp;<span class="side-link text-uppercase">proxy users</span></div></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="customers.html"><div class="icons" id="companionsIcon">&nbsp;<span class="side-link text-uppercase">companions</span></div></a>
+	            </div>
+	            <div class="Menu menu-active">
+	              <a href="company-profile.html"><div class="icons" id="profileIcon">&nbsp;<span class="side-link text-uppercase">profile</span></div></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="business-insight.html"><div class="icons" id="graphIcon">&nbsp;<span class="side-link text-uppercase">graph</span></div></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="#"><div class="icons" id="conciergeIcon">&nbsp;<span class="side-link text-uppercase">concierge</span></div></a>
+	            </div>
+	            <div class="Menu">
+	              <a href="login.html"><div class="icons" id="logOutIcon">&nbsp;<span class="side-link text-uppercase">logout</span></div></a>
+	            </div>
+	          </div>
+	        </div>
+	    </nav>
+
+		<!-- Page Content Holder -->
+		<div class="container">
+				
+			<!-- Company Profile Section Form -->
+			<section class="mx-lg-5 mt-5 mx-4 mb-5">
+				<h1 class="text-dark DinE letter-spacing-2 text-uppercase">nic stauber</h1>
+
+				<div class="row mt-4 align-items-center">
+					<div class="col-md-3 mb-md-3">
+						<a href="company-profile.html" class="text-decoration-none"><h3 class="text-dark SFPD-Regular text-uppercase text-wrap font-size-20">Company profile</h3></a>
+					</div>
+					<div class="col-md-3 mb-md-3">
+						<a href="admin-profile.html" class="text-decoration-none"><h3 class="text-dark border-bottom-orange  SFPD-Heavy text-uppercase text-nowrap font-size-20">Admin Profile</h3></a>
+					</div>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col-lg-3 col-md-3 border-right-custom">
+						<a href="">
+							<img src="assets/img/avatar.png" alt="avatar" class="avatar img-thumbnail">
+						</a>
+
+						<div class="form-group py-2">
+							<label class="label-silver-dark text-uppercase" for="basicInput">Phone</label>
+							<input type="text" class="form-control no-border" id="basicInput" value="+1(416)200 2000" readonly="readonly">
+						</div>
+						<div class="form-group py-2">
+							<label class="label-silver-dark text-uppercase" for="basicInput">Email</label>
+							<input type="text" class="form-control no-border" id="basicInput" value="contact@jetsavvy@com" readonly="readonly">
+						</div>
+						<a href="admin-profile-edit.html" class="btn btn-outline-light mb-5 DinM text-uppercase">edit</a>
+					</div>
+					<div class="col-md-9">
+						<div class="row mb-4">
+							<div class="col-md-3 border-right-custom">
+								<div class="mr-2">
+						          <span class="DinM text-silver-light text-uppercase">location</span>
+						          <h6 class="text-dark pt-2 font-weight-normal text-nowrap"><img src="assets/img/icon/map-pin-dark.svg" width="19px" alt=""> Toronto Pearson Airport, T3</h6>
+						        </div>
+							</div>
+							<div class="col-md-3 border-right-custom">
+								<div class="mr-2">
+						          <span class="DinM text-silver-light text-uppercase">active from</span>
+						          <h6 class="text-dark pt-2 font-weight-normal text-nowrap"><img src="assets/icons/bookingsBlack.svg" width="19px" alt=""> February 2019</h6>
+						        </div>
+							</div>
+							<div class="col-md-2 mt-3">
+								<div class="mr-2">
+						          <span class="DinM text-silver-light text-uppercase">broker</span>
+					          		<h6 class="text-dark pt-2 font-weight-normal text-nowrap"><img src="assets/icons/proxyUsersBlack.svg" width="19px"> 29</h6>
+						        </div>
+							</div>
+							<div class="col-md-2 mt-3">
+								<div class="mr-2">
+						          <span class="DinM text-silver-light text-uppercase">customer</span>
+					         	  <h6 class="text-dark pt-2 font-weight-normal text-nowrap"><img src="assets/icons/companionsBlack.svg" width="19px"> 127</h6>
+						        </div>
+							</div>
+						</div>
+						
+						<span class="SFPD-Heavy text-dark text-uppercase">overview</span>
+						<p class="text-dark SFPD-Light mt-3 mb-5">
+							The all-new Gulfstream G500 stretches the limits of high-speed travel. The advanced airframe design and powerful Pratt & Whitney Canada engines give the aircraft a range of 5,200 nautical miles/9,630 kilometers at Mach 0.85. The G500’s nonstop reach connects distant cities such as Istanbul to Cape Town, South Africa; Los Angeles to London; and San Francisco to Tokyo.
+							<br>
+							Phasellus vitae nunc enim. Suspendisse laoreet pulvinar aliquam. Sed pulvinar, odio ut pellentesque pellentesque, elit justo imperdiet metus, sed auctor arcu tortor sed mauris. Aenean ultricies iaculis ullamcorper. Nunc laoreet, libero eu pulvinar feugiat, ligula nisl mollis eros, eu finibus enim lectus et velit.
+							
+						</p>
+						<a href="#" class="text-warning float-right text-decoration-none">Read more ></a>
+					</div>
+				</div>
+
+			</section>
+
+		</div>
+
+	</div>
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/choices.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			console.log('DOM Fully Loaded')
+
+
+			$(document).ready(function(){
+				$('#sidebarCollapse').on('click',function(){
+					$('#sidebar').toggleClass('active');
+				});
+			});
+
+		})
+	</script>
+</body>
+</html>
